@@ -1,0 +1,13 @@
+{
+ "hour": "2026-06-07T14",
+ "run_utc": "2026-10-16T12:50:26+00:00",
+ "errors": [
+  "Traceback (most recent call last):\n  File \"/home/runner/work/polymarket-btc-backtest/polymarket-btc-backtest/scripts/backtest.py\", line 328, in main\n    tbl, out[\"file_rows\"] = read_tokens(tmp, [t for w in usable for t in w[\"tokens\"]])\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/polymarket-btc-backtest/polymarket-btc-backtest/scripts/backtest.py\", line 274, in read_tokens\n    pf = pq.ParquetFile(path)\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pyarrow/parquet/core.py\", line 336, in __init__\n    self.reader.open(\n  File \"pyarrow/_parquet.pyx\", line 1685, in pyarrow._parquet.ParquetReader.open\n  File \"pyarrow/error.pxi\", line 92, in pyarrow.lib.check_status\npyarrow.lib.ArrowInvalid: Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.\n"
+ ],
+ "windows_on_gamma": 12,
+ "windows_with_winner": 12,
+ "download_mb": 260.1,
+ "download_seconds": 2420.2,
+ "seconds_total": 2420.4,
+ "peak_mem_mb": 89.5
+}
