@@ -160,7 +160,7 @@ hour,file,mb,windows_on_gamma,windows_in_file,distinct_assets,seconds,note
 2026-06-28T14,yes,211.7,12,0,30144,8.5,
 2026-06-28T15,yes,210.7,12,0,29876,9.7,
 2026-06-28T16,yes,209.4,12,0,29902,5.5,
-2026-06-28T17,yes,185.6,,,,3.5,ERR Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2026-06-28T17,yes,224.5,12,0,30212,6.9,
 2026-06-28T18,yes,219.2,12,0,31391,5.3,
 2026-06-28T19,yes,211.9,12,0,29644,4.4,
 2026-06-28T20,yes,211.1,12,0,29656,4.4,
@@ -255,7 +255,7 @@ hour,file,mb,windows_on_gamma,windows_in_file,distinct_assets,seconds,note
 2026-07-02T13,yes,580.9,12,12,80753,11.2,
 2026-07-02T14,yes,565.8,12,12,84450,11.3,
 2026-07-02T15,yes,558.3,12,12,81558,10.0,
-2026-07-02T16,yes,33.5,,,,214.8,ERR Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2026-07-02T16,yes,553.5,12,12,83555,13.5,
 2026-07-02T17,yes,542.2,12,12,84330,24.1,
 2026-07-02T18,yes,530.2,12,12,82359,10.2,
 2026-07-02T19,yes,532.6,12,12,87558,9.9,
@@ -476,7 +476,7 @@ hour,file,mb,windows_on_gamma,windows_in_file,distinct_assets,seconds,note
 2026-07-11T18,yes,318.0,12,0,56180,30.3,
 2026-07-11T19,yes,315.1,12,0,57288,22.0,
 2026-07-11T20,yes,332.0,12,0,55927,7.7,
-2026-07-11T21,yes,27.7,,,,11.3,ERR Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.
+2026-07-11T21,yes,365.2,12,0,55328,9.7,
 2026-07-11T22,yes,370.2,12,0,55492,27.7,
 2026-07-11T23,yes,345.8,12,0,53303,7.3,
 2026-07-12T00,yes,352.0,12,0,52305,10.1,
