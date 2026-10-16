@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: validate
+  group: validation
   cancel-in-progress: false
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
       - run: pip install pyarrow
       - name: Backtest this hour
         timeout-minutes: 50
-        run: python scripts/backtest.py ${{ matrix.hour }} results/validate
+        run: python scripts/backtest.py ${{ matrix.hour }} results/validation
       - name: Commit results (also after a failure)
         if: always()
         run: |
@@ -59,7 +59,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Pool the hours
-        run: python scripts/summarize.py results/validate | tee /tmp/msg.txt
+        run: python scripts/summarize.py results/validation | tee /tmp/msg.txt
       - name: Commit summary
         run: |
           git config user.name "backtest bot"

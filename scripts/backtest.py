@@ -56,18 +56,31 @@ def snap_compare(mine, snap, v, tag):
     v[tag + "phantom"] += sum(1 for p in mine if p not in snap)
 
 
-def run_token(r, T, won):
+def _set(d, keys, p, s):
+    if p not in d:
+        bisect.insort(keys, p)
+    d[p] = s
+
+
+def _del(d, keys, p):
+    if p in d:
+        del d[p]
+        del keys[bisect.bisect_left(keys, p)]
+
+
+def run_token(r, T, won, deadline=None):
     """r: dict of equal-length lists sorted by (ts, file position): ts, et, side, price, size, bb, ba, bids, asks.
     Returns (validation Counter, list of order cells, {P: tape Counter})."""
     v, cells, tape = Counter(), [], {P: Counter() for P in PS}
     raw_b, raw_a = {}, {}                       # unanchored book (validation only)
     bids, asks, bt, at = {}, {}, {}, {}         # anchored book: price -> size (None = unknown), last-set times
+    bk, ak = [], []                             # anchored book prices, kept sorted ascending
     seen, since, started = False, 0, False
     w0, w1 = T * 1000, (T + 300) * 1000
     trig, pend = {}, []                         # pend: sorted (fill_ms, P, L, trig_ms)
 
     def resolve(fill_ms, P, L, trig_ms):
-        levels = sorted((q, s) for q, s in asks.items() if q <= P + EPS)
+        levels = [(q, asks[q]) for q in ak[:bisect.bisect_right(ak, P + EPS)]]
         for S in SS:
             spend, sh, cost, fee, unknown, supported, used = S, 0.0, 0.0, 0.0, 0, True, []
             for q, s in levels:
@@ -93,6 +106,8 @@ def run_token(r, T, won):
 
     n = len(r["ts"])
     for i in range(n):
+        if deadline and i % 100_000 == 0 and time.time() > deadline:
+            raise RuntimeError(f"processing time limit hit inside a token at row {i} of {n}")
         t = r["ts"][i]
         while pend and pend[0][0] < t:
             resolve(*pend.pop(0))
@@ -114,6 +129,7 @@ def run_token(r, T, won):
                 snap_compare(bids, nb, v, "rep_")
                 snap_compare(asks, na, v, "rep_")
             raw_b, raw_a, bids, asks = dict(nb), dict(na), dict(nb), dict(na)
+            bk, ak = sorted(bids), sorted(asks)
             bt, at = {p: t for p in bids}, {p: t for p in asks}
             seen, since = True, 0
         elif e == "price_change":
@@ -125,36 +141,40 @@ def run_token(r, T, won):
             v["pc_events"] += 1
             is_bid = r["side"][i] == "BUY"
             rb = raw_b if is_bid else raw_a
-            bk, tm = (bids, bt) if is_bid else (asks, at)
+            book, keys, tm = (bids, bk, bt) if is_bid else (asks, ak, at)
             if s <= 0:
                 rb.pop(p, None)
-                bk.pop(p, None)
+                _del(book, keys, p)
                 tm.pop(p, None)
             else:
                 rb[p] = s
-                bk[p] = s
+                _set(book, keys, p, s)
                 tm[p] = t
             fixed = False
             x, y = r["ba"][i], r["bb"][i]
             if x is not None and 0 < x < 1:
-                if asks and min(asks) < x - EPS:
-                    for q in [q for q in asks if q < x - EPS]:
+                j = bisect.bisect_left(ak, x - EPS)        # asks priced below the exchange's best ask are stale
+                if j:
+                    for q in ak[:j]:
                         del asks[q]
                         at.pop(q, None)
+                    del ak[:j]
                     fixed = True
                 if x not in asks:
-                    asks[x] = None
+                    _set(asks, ak, x, None)
                     fixed = True
             else:
                 v["ba_missing_or_out_of_range"] += 1
             if y is not None and 0 < y < 1:
-                if bids and max(bids) > y + EPS:
-                    for q in [q for q in bids if q > y + EPS]:
+                j = bisect.bisect_right(bk, y + EPS)       # bids priced above the exchange's best bid are stale
+                if j < len(bk):
+                    for q in bk[j:]:
                         del bids[q]
                         bt.pop(q, None)
+                    del bk[j:]
                     fixed = True
                 if y not in bids:
-                    bids[y] = None
+                    _set(bids, bk, y, None)
                     fixed = True
             v["pc_repaired"] += fixed
             if w0 <= t < w1 and x is not None and 0 < x < 1:
@@ -244,16 +264,24 @@ def window_info(ts):
         return {"slug": slug, "start": ts, "gamma": "error", "error": str(e)[:120]}
 
 
-def download(hour, path):
+def download(hour, path, progress=lambda **kw: None, limit_s=900):
     url = f"https://r2v2.pmxt.dev/polymarket_orderbook_{hour}.parquet"
-    last = ""
+    last, t0 = "", time.time()
     for i in range(3):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=180) as r, \
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r, \
                     open(path, "wb") as f:
+                got = 0
                 while chunk := r.read(1 << 20):
                     f.write(chunk)
+                    got += len(chunk)
+                    if got % (64 << 20) < (1 << 20):
+                        progress(stage="downloading", mb=round(got / 1e6))
+                    if time.time() - t0 > limit_s:
+                        raise RuntimeError(f"download too slow: {round(got / 1e6)} MB in {limit_s} s")
             return round(os.path.getsize(path) / 1e6, 1)
+        except RuntimeError:
+            raise
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 raise RuntimeError(f"no archive file for {hour} (HTTP 404)")
@@ -311,7 +339,15 @@ def main():
     tmp = os.path.join(os.environ.get("RUNNER_TEMP", "/tmp"), f"bt_{hour}.parquet")
     out = {"hour": hour, "run_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "errors": []}
     entries, t0 = [], time.time()
+    prog_path = os.path.join(outdir, f"progress_{hour}.json")
+
+    def progress(**kw):        # survives a killed step: the workflow commits it with `if: always()`
+        with open(prog_path, "w") as f:
+            json.dump({"hour": hour, "elapsed_s": round(time.time() - t0, 1), **kw}, f)
+
+    deadline = t0 + 35 * 60    # never let one hour stall a batch
     try:
+        progress(stage="gamma")
         start = int(dt.datetime.strptime(hour, "%Y-%m-%dT%H").replace(tzinfo=dt.timezone.utc).timestamp())
         with ThreadPoolExecutor(6) as ex:
             wins = list(ex.map(window_info, [start + k * 300 for k in range(12)]))
@@ -323,10 +359,13 @@ def main():
                 usable.append(w)
         out["windows_on_gamma"] = sum(w["gamma"] == "ok" for w in wins)
         out["windows_with_winner"] = len(usable)
-        out["download_mb"] = download(hour, tmp)
+        progress(stage="download")
+        out["download_mb"] = download(hour, tmp, progress)
         out["download_seconds"] = round(time.time() - t0, 1)
+        progress(stage="reading")
         tbl, out["file_rows"] = read_tokens(tmp, [t for w in usable for t in w["tokens"]])
         out["rows_for_tokens"] = 0 if tbl is None else tbl.num_rows
+        out["read_done_seconds"] = round(time.time() - t0, 1)
         val, tape, fee_bps, cells_all = Counter(), {f"P{P}": Counter() for P in PS}, Counter(), []
         windows_in_file = 0
         for w in usable:
@@ -334,13 +373,18 @@ def main():
             for k, (tok, outc) in enumerate(zip(w["tokens"], w["outcomes"])):
                 if tbl is None:
                     continue
+                if time.time() > deadline:
+                    raise RuntimeError(f"processing time limit hit before {w['slug']} {outc}")
                 r = token_rows(tbl, tok)
                 if not r["ts"]:
                     continue
                 had = True
+                progress(stage="tokens", slug=w["slug"], outcome=outc, rows=len(r["ts"]))
                 fee_bps.update(str(f) for e, f in zip(r["et"], r["fee"]) if e == "last_trade_price")
                 won = k == w["winner_index"]
-                v, cells, tp = run_token(r, w["start"], won)
+                v, cells, tp = run_token(r, w["start"], won, deadline)
+                out.setdefault("token_rows_max", 0)
+                out["token_rows_max"] = max(out["token_rows_max"], len(r["ts"]))
                 val.update(v)
                 for P in PS:
                     tape[f"P{P}"].update(tp[P])
@@ -359,6 +403,8 @@ def main():
     finally:
         if os.path.exists(tmp):
             os.remove(tmp)
+    if not out["errors"] and os.path.exists(prog_path):
+        os.remove(prog_path)
     out["seconds_total"] = round(time.time() - t0, 1)
     out["peak_mem_mb"] = round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024, 1)
     with open(os.path.join(outdir, f"hour_{hour}.json"), "w") as f:
