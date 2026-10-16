@@ -1,6 +1,6 @@
 # Results: results/full
 
-Hours: 1472 (with errors: 0), windows in archive: 17546
+Hours: 2222 (with errors: 0), windows in archive: 26501
 
 ## Per hour
 
@@ -39,6 +39,7 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-04-15T03: windows 12, rows 4051316, 27.7 s, 2129.1 MB, errors: 0
 - 2026-04-15T04: windows 12, rows 4175025, 22.1 s, 2140.9 MB, errors: 0
 - 2026-04-15T05: windows 12, rows 3797275, 20.7 s, 2015.5 MB, errors: 0
+- 2026-04-15T06: windows 12, rows 3950623, 14.2 s, 2085.5 MB, errors: 0
 - 2026-04-15T07: windows 12, rows 3965762, 23.5 s, 2081.5 MB, errors: 0
 - 2026-04-15T08: windows 12, rows 4144299, 24.8 s, 2105.2 MB, errors: 0
 - 2026-04-15T09: windows 12, rows 4128166, 25.4 s, 2105.2 MB, errors: 0
@@ -56,6 +57,8 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-04-15T21: windows 12, rows 3823583, 21.9 s, 2068.3 MB, errors: 0
 - 2026-04-15T22: windows 12, rows 3905665, 36.4 s, 2074.2 MB, errors: 0
 - 2026-04-15T23: windows 12, rows 3593739, 25.2 s, 2053.8 MB, errors: 0
+- 2026-04-16T00: windows 12, rows 3762780, 14.4 s, 2230.0 MB, errors: 0
+- 2026-04-16T01: windows 12, rows 3645877, 23.7 s, 2119.4 MB, errors: 0
 - 2026-04-16T02: windows 12, rows 3725408, 24.0 s, 2060.5 MB, errors: 0
 - 2026-04-16T03: windows 12, rows 4366511, 37.0 s, 2076.3 MB, errors: 0
 - 2026-04-16T04: windows 12, rows 4140807, 26.4 s, 2059.9 MB, errors: 0
@@ -79,6 +82,7 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-04-16T22: windows 11, rows 2641620, 21.4 s, 1857.7 MB, errors: 0
 - 2026-04-16T23: windows 11, rows 2789607, 21.1 s, 1864.4 MB, errors: 0
 - 2026-04-17T00: windows 12, rows 3444137, 38.2 s, 2104.6 MB, errors: 0
+- 2026-04-17T01: windows 12, rows 3370991, 18.5 s, 1979.9 MB, errors: 0
 - 2026-04-17T02: windows 12, rows 3406079, 24.3 s, 2061.8 MB, errors: 0
 - 2026-04-17T03: windows 12, rows 2736731, 21.7 s, 1875.5 MB, errors: 0
 - 2026-04-17T04: windows 12, rows 3028583, 19.8 s, 1927.6 MB, errors: 0
@@ -87,6 +91,9 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-04-17T07: windows 12, rows 3460535, 30.7 s, 2024.3 MB, errors: 0
 - 2026-04-17T08: windows 12, rows 3347717, 23.5 s, 1888.5 MB, errors: 0
 - 2026-04-17T09: windows 12, rows 3522817, 38.1 s, 2082.9 MB, errors: 0
+- 2026-04-17T10: windows 12, rows 4299252, 17.9 s, 2135.8 MB, errors: 0
+- 2026-04-17T11: windows 12, rows 3554227, 16.0 s, 2088.2 MB, errors: 0
+- 2026-04-17T12: windows 12, rows 4065588, 26.5 s, 2169.8 MB, errors: 0
 - 2026-04-17T13: windows 12, rows 3470296, 33.8 s, 1982.4 MB, errors: 0
 - 2026-04-17T14: windows 12, rows 4032068, 28.2 s, 2003.5 MB, errors: 0
 - 2026-04-17T15: windows 12, rows 3815418, 28.5 s, 2164.2 MB, errors: 0
@@ -113,7 +120,9 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-04-18T12: windows 12, rows 4450286, 26.9 s, 2128.8 MB, errors: 0
 - 2026-04-18T13: windows 12, rows 4244199, 32.4 s, 2111.6 MB, errors: 0
 - 2026-04-18T14: windows 12, rows 4327185, 26.7 s, 2134.7 MB, errors: 0
+- 2026-04-18T15: windows 12, rows 4312148, 19.8 s, 2181.8 MB, errors: 0
 - 2026-04-18T16: windows 12, rows 3858515, 24.1 s, 2031.2 MB, errors: 0
+- 2026-04-18T17: windows 12, rows 4481974, 15.7 s, 2386.2 MB, errors: 0
 - 2026-04-18T18: windows 12, rows 4147677, 35.4 s, 2203.7 MB, errors: 0
 - 2026-04-18T19: windows 12, rows 4011658, 41.2 s, 2153.3 MB, errors: 0
 - 2026-04-18T20: windows 12, rows 4151121, 29.6 s, 2175.6 MB, errors: 0
@@ -342,6 +351,743 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-04-28T03: windows 12, rows 3486488, 18.2 s, 1998.1 MB, errors: 0
 - 2026-04-28T04: windows 12, rows 3642781, 19.1 s, 2067.5 MB, errors: 0
 - 2026-04-28T05: windows 12, rows 3267119, 16.7 s, 1904.6 MB, errors: 0
+- 2026-04-28T06: windows 12, rows 3094315, 20.0 s, 1894.4 MB, errors: 0
+- 2026-04-28T07: windows 12, rows 3427713, 22.2 s, 1943.9 MB, errors: 0
+- 2026-04-28T08: windows 12, rows 3358563, 20.3 s, 1996.4 MB, errors: 0
+- 2026-04-28T09: windows 12, rows 3209848, 19.2 s, 1937.4 MB, errors: 0
+- 2026-04-28T10: windows 12, rows 2953140, 16.3 s, 1787.4 MB, errors: 0
+- 2026-04-28T11: windows 12, rows 49314, 1.7 s, 635.1 MB, errors: 0
+- 2026-04-28T12: windows 12, rows 1056454, 6.9 s, 1225.3 MB, errors: 0
+- 2026-04-28T13: windows 12, rows 3084770, 17.4 s, 1992.2 MB, errors: 0
+- 2026-04-28T14: windows 12, rows 3898869, 19.4 s, 1957.0 MB, errors: 0
+- 2026-04-28T15: windows 12, rows 3493425, 19.7 s, 1889.9 MB, errors: 0
+- 2026-04-28T16: windows 12, rows 4170962, 21.7 s, 2104.4 MB, errors: 0
+- 2026-04-28T17: windows 12, rows 3459108, 19.8 s, 1998.8 MB, errors: 0
+- 2026-04-28T18: windows 12, rows 2838466, 23.3 s, 1958.9 MB, errors: 0
+- 2026-04-28T19: windows 12, rows 2654356, 18.8 s, 1905.9 MB, errors: 0
+- 2026-04-28T20: windows 12, rows 2440925, 18.5 s, 1799.9 MB, errors: 0
+- 2026-04-28T21: windows 12, rows 2057166, 20.1 s, 1710.6 MB, errors: 0
+- 2026-04-28T22: windows 12, rows 2450598, 18.7 s, 1797.2 MB, errors: 0
+- 2026-04-28T23: windows 12, rows 2252510, 18.7 s, 1747.5 MB, errors: 0
+- 2026-04-29T00: windows 12, rows 2303157, 18.6 s, 1836.1 MB, errors: 0
+- 2026-04-29T01: windows 12, rows 2626319, 18.2 s, 1931.3 MB, errors: 0
+- 2026-04-29T02: windows 12, rows 2978308, 19.6 s, 1968.0 MB, errors: 0
+- 2026-04-29T03: windows 12, rows 2814186, 14.0 s, 1842.7 MB, errors: 0
+- 2026-04-29T04: windows 12, rows 3211363, 19.5 s, 1974.6 MB, errors: 0
+- 2026-04-29T05: windows 12, rows 3187204, 17.8 s, 1991.4 MB, errors: 0
+- 2026-04-29T06: windows 12, rows 3167417, 19.5 s, 2008.2 MB, errors: 0
+- 2026-04-29T07: windows 12, rows 3184337, 17.6 s, 1857.8 MB, errors: 0
+- 2026-04-29T08: windows 12, rows 3131816, 15.2 s, 1952.7 MB, errors: 0
+- 2026-04-29T09: windows 12, rows 2925497, 19.7 s, 1857.3 MB, errors: 0
+- 2026-04-29T10: windows 12, rows 2751204, 17.1 s, 1875.5 MB, errors: 0
+- 2026-04-29T11: windows 12, rows 2204053, 18.7 s, 1929.0 MB, errors: 0
+- 2026-04-29T12: windows 12, rows 2576528, 18.4 s, 1845.9 MB, errors: 0
+- 2026-04-29T13: windows 12, rows 3067829, 19.3 s, 1984.2 MB, errors: 0
+- 2026-04-29T14: windows 12, rows 3404164, 16.5 s, 1962.3 MB, errors: 0
+- 2026-04-29T15: windows 12, rows 4002036, 23.0 s, 2001.8 MB, errors: 0
+- 2026-04-29T16: windows 12, rows 3940416, 20.2 s, 2112.7 MB, errors: 0
+- 2026-04-29T17: windows 12, rows 3314705, 16.0 s, 1972.8 MB, errors: 0
+- 2026-04-29T18: windows 12, rows 2482583, 19.4 s, 1937.5 MB, errors: 0
+- 2026-04-29T19: windows 12, rows 2353728, 21.0 s, 2003.0 MB, errors: 0
+- 2026-04-29T20: windows 12, rows 2501898, 16.9 s, 1962.7 MB, errors: 0
+- 2026-04-29T21: windows 12, rows 2693023, 17.8 s, 1910.1 MB, errors: 0
+- 2026-04-29T22: windows 12, rows 3181489, 15.7 s, 1944.6 MB, errors: 0
+- 2026-04-29T23: windows 12, rows 2732772, 20.5 s, 1932.2 MB, errors: 0
+- 2026-04-30T00: windows 12, rows 2767920, 20.5 s, 2018.9 MB, errors: 0
+- 2026-04-30T01: windows 12, rows 2933402, 21.3 s, 1992.9 MB, errors: 0
+- 2026-04-30T02: windows 12, rows 2947118, 20.1 s, 2009.1 MB, errors: 0
+- 2026-04-30T03: windows 12, rows 3253381, 20.5 s, 2027.0 MB, errors: 0
+- 2026-04-30T04: windows 12, rows 3085406, 17.9 s, 2054.4 MB, errors: 0
+- 2026-04-30T05: windows 12, rows 2772349, 21.1 s, 2006.8 MB, errors: 0
+- 2026-04-30T06: windows 12, rows 3130586, 20.6 s, 1943.6 MB, errors: 0
+- 2026-04-30T07: windows 12, rows 3552225, 18.6 s, 2134.6 MB, errors: 0
+- 2026-04-30T08: windows 12, rows 3059342, 15.1 s, 1917.4 MB, errors: 0
+- 2026-04-30T09: windows 12, rows 3034107, 21.4 s, 1951.2 MB, errors: 0
+- 2026-04-30T10: windows 12, rows 2980670, 16.1 s, 1945.1 MB, errors: 0
+- 2026-04-30T11: windows 12, rows 2383389, 21.0 s, 1966.2 MB, errors: 0
+- 2026-04-30T12: windows 12, rows 3274376, 19.6 s, 2019.7 MB, errors: 0
+- 2026-04-30T13: windows 12, rows 3400435, 17.6 s, 2088.2 MB, errors: 0
+- 2026-04-30T14: windows 12, rows 3117005, 23.1 s, 1995.7 MB, errors: 0
+- 2026-04-30T15: windows 12, rows 3371441, 17.5 s, 2018.9 MB, errors: 0
+- 2026-04-30T16: windows 12, rows 2206094, 19.8 s, 1953.2 MB, errors: 0
+- 2026-04-30T17: windows 12, rows 2364967, 20.5 s, 1927.2 MB, errors: 0
+- 2026-04-30T18: windows 12, rows 2435863, 20.1 s, 1858.4 MB, errors: 0
+- 2026-04-30T19: windows 12, rows 2829787, 16.2 s, 2069.6 MB, errors: 0
+- 2026-04-30T20: windows 12, rows 2766223, 20.2 s, 1952.6 MB, errors: 0
+- 2026-04-30T21: windows 12, rows 2326405, 19.7 s, 1858.8 MB, errors: 0
+- 2026-04-30T22: windows 12, rows 2335874, 14.1 s, 1767.8 MB, errors: 0
+- 2026-04-30T23: windows 12, rows 2220177, 15.9 s, 1766.8 MB, errors: 0
+- 2026-05-01T00: windows 12, rows 2267556, 14.5 s, 1845.9 MB, errors: 0
+- 2026-05-01T01: windows 12, rows 2691057, 19.9 s, 1959.1 MB, errors: 0
+- 2026-05-01T02: windows 12, rows 2926046, 15.0 s, 1986.8 MB, errors: 0
+- 2026-05-01T03: windows 12, rows 3449268, 24.2 s, 2070.7 MB, errors: 0
+- 2026-05-01T04: windows 12, rows 3399669, 24.2 s, 2003.1 MB, errors: 0
+- 2026-05-01T05: windows 12, rows 2584932, 21.7 s, 1890.1 MB, errors: 0
+- 2026-05-01T06: windows 12, rows 2719608, 21.6 s, 1920.9 MB, errors: 0
+- 2026-05-01T07: windows 12, rows 2522081, 28.7 s, 1973.2 MB, errors: 0
+- 2026-05-01T08: windows 12, rows 2518285, 19.3 s, 1962.5 MB, errors: 0
+- 2026-05-01T09: windows 12, rows 2315315, 21.8 s, 1861.5 MB, errors: 0
+- 2026-05-01T10: windows 12, rows 2197548, 21.9 s, 1805.4 MB, errors: 0
+- 2026-05-01T11: windows 12, rows 2436426, 17.3 s, 1966.4 MB, errors: 0
+- 2026-05-01T12: windows 12, rows 3627283, 21.5 s, 2063.2 MB, errors: 0
+- 2026-05-01T13: windows 12, rows 3345965, 19.4 s, 2023.1 MB, errors: 0
+- 2026-05-01T14: windows 12, rows 3160367, 27.7 s, 2050.7 MB, errors: 0
+- 2026-05-01T15: windows 12, rows 3188617, 19.3 s, 2054.6 MB, errors: 0
+- 2026-05-01T16: windows 12, rows 3124251, 20.5 s, 2035.7 MB, errors: 0
+- 2026-05-01T17: windows 12, rows 3138532, 21.3 s, 1941.6 MB, errors: 0
+- 2026-05-01T18: windows 12, rows 2679002, 22.3 s, 1931.2 MB, errors: 0
+- 2026-05-01T19: windows 12, rows 1330987, 14.4 s, 1532.2 MB, errors: 0
+- 2026-05-01T20: windows 12, rows 1543448, 16.1 s, 1629.4 MB, errors: 0
+- 2026-05-01T21: windows 12, rows 2263876, 20.3 s, 1850.5 MB, errors: 0
+- 2026-05-01T22: windows 12, rows 2328811, 21.6 s, 1973.3 MB, errors: 0
+- 2026-05-01T23: windows 12, rows 1966957, 18.6 s, 1958.1 MB, errors: 0
+- 2026-05-02T00: windows 12, rows 1452563, 27.5 s, 1785.4 MB, errors: 0
+- 2026-05-02T01: windows 12, rows 1873869, 17.5 s, 1883.9 MB, errors: 0
+- 2026-05-02T02: windows 12, rows 1798945, 18.0 s, 1843.7 MB, errors: 0
+- 2026-05-02T03: windows 12, rows 1615962, 19.9 s, 1708.0 MB, errors: 0
+- 2026-05-02T04: windows 12, rows 1964394, 22.9 s, 1904.2 MB, errors: 0
+- 2026-05-02T05: windows 12, rows 1814132, 18.6 s, 1734.6 MB, errors: 0
+- 2026-05-02T06: windows 12, rows 1749759, 21.0 s, 1816.7 MB, errors: 0
+- 2026-05-02T07: windows 12, rows 1744635, 21.6 s, 1760.2 MB, errors: 0
+- 2026-05-02T08: windows 12, rows 1735369, 16.2 s, 1773.1 MB, errors: 0
+- 2026-05-02T09: windows 12, rows 1945648, 28.9 s, 1834.4 MB, errors: 0
+- 2026-05-02T10: windows 12, rows 1770963, 17.6 s, 1741.2 MB, errors: 0
+- 2026-05-02T11: windows 12, rows 1724494, 17.9 s, 1724.6 MB, errors: 0
+- 2026-05-02T12: windows 12, rows 1334613, 16.9 s, 1791.0 MB, errors: 0
+- 2026-05-02T13: windows 12, rows 1594511, 15.2 s, 1815.1 MB, errors: 0
+- 2026-05-02T14: windows 12, rows 1631608, 18.9 s, 1740.3 MB, errors: 0
+- 2026-05-02T15: windows 12, rows 1773092, 15.9 s, 1828.1 MB, errors: 0
+- 2026-05-02T16: windows 12, rows 1761352, 16.9 s, 1809.8 MB, errors: 0
+- 2026-05-02T17: windows 12, rows 1804801, 16.7 s, 1784.5 MB, errors: 0
+- 2026-05-02T18: windows 12, rows 1501627, 18.8 s, 1826.5 MB, errors: 0
+- 2026-05-02T19: windows 12, rows 1450776, 24.0 s, 1725.4 MB, errors: 0
+- 2026-05-02T20: windows 12, rows 1391049, 36.8 s, 1760.0 MB, errors: 0
+- 2026-05-02T21: windows 12, rows 1606575, 18.1 s, 1735.6 MB, errors: 0
+- 2026-05-02T22: windows 12, rows 1832831, 19.8 s, 1816.5 MB, errors: 0
+- 2026-05-02T23: windows 12, rows 1829266, 16.5 s, 1681.3 MB, errors: 0
+- 2026-05-03T00: windows 12, rows 1672271, 16.1 s, 1728.2 MB, errors: 0
+- 2026-05-03T01: windows 12, rows 2031211, 19.4 s, 1871.5 MB, errors: 0
+- 2026-05-03T02: windows 12, rows 2136647, 16.8 s, 1800.3 MB, errors: 0
+- 2026-05-03T03: windows 12, rows 2146179, 22.9 s, 1785.1 MB, errors: 0
+- 2026-05-03T04: windows 12, rows 1960112, 14.9 s, 1817.3 MB, errors: 0
+- 2026-05-03T05: windows 12, rows 2075517, 19.7 s, 1727.0 MB, errors: 0
+- 2026-05-03T06: windows 12, rows 1720221, 16.9 s, 1679.4 MB, errors: 0
+- 2026-05-03T07: windows 12, rows 1996124, 18.5 s, 1745.1 MB, errors: 0
+- 2026-05-03T08: windows 12, rows 1528759, 20.4 s, 1667.4 MB, errors: 0
+- 2026-05-03T09: windows 12, rows 1601288, 15.0 s, 1709.4 MB, errors: 0
+- 2026-05-03T10: windows 12, rows 1768004, 15.8 s, 1704.7 MB, errors: 0
+- 2026-05-03T11: windows 12, rows 1721387, 14.7 s, 1781.5 MB, errors: 0
+- 2026-05-03T12: windows 12, rows 1647360, 16.9 s, 1769.2 MB, errors: 0
+- 2026-05-03T13: windows 12, rows 1671244, 18.5 s, 1823.9 MB, errors: 0
+- 2026-05-03T14: windows 12, rows 1741059, 18.5 s, 1853.0 MB, errors: 0
+- 2026-05-03T15: windows 12, rows 1492789, 18.3 s, 1866.3 MB, errors: 0
+- 2026-05-03T16: windows 12, rows 1607822, 20.1 s, 1887.3 MB, errors: 0
+- 2026-05-03T17: windows 12, rows 1632657, 19.0 s, 1906.3 MB, errors: 0
+- 2026-05-03T18: windows 12, rows 1634697, 17.3 s, 1892.6 MB, errors: 0
+- 2026-05-03T19: windows 12, rows 1938853, 20.4 s, 1984.9 MB, errors: 0
+- 2026-05-03T20: windows 12, rows 1619422, 19.2 s, 2026.6 MB, errors: 0
+- 2026-05-03T21: windows 12, rows 1708465, 21.2 s, 1964.7 MB, errors: 0
+- 2026-05-03T22: windows 12, rows 1968158, 20.9 s, 1885.3 MB, errors: 0
+- 2026-05-03T23: windows 12, rows 2222362, 21.9 s, 1997.8 MB, errors: 0
+- 2026-05-04T00: windows 12, rows 2331427, 15.7 s, 2034.1 MB, errors: 0
+- 2026-05-04T01: windows 12, rows 2169073, 17.4 s, 1937.8 MB, errors: 0
+- 2026-05-04T02: windows 12, rows 2787443, 16.1 s, 2077.1 MB, errors: 0
+- 2026-05-04T03: windows 12, rows 2250015, 14.0 s, 1961.2 MB, errors: 0
+- 2026-05-04T04: windows 12, rows 2166879, 15.2 s, 1902.1 MB, errors: 0
+- 2026-05-04T05: windows 12, rows 1610199, 15.9 s, 1869.7 MB, errors: 0
+- 2026-05-04T06: windows 12, rows 1780159, 17.3 s, 1842.6 MB, errors: 0
+- 2026-05-04T07: windows 12, rows 1872598, 17.8 s, 1781.7 MB, errors: 0
+- 2026-05-04T08: windows 12, rows 1964673, 20.1 s, 1737.7 MB, errors: 0
+- 2026-05-04T09: windows 12, rows 1884547, 14.6 s, 1748.7 MB, errors: 0
+- 2026-05-04T10: windows 12, rows 2944816, 21.4 s, 1942.6 MB, errors: 0
+- 2026-05-04T11: windows 12, rows 2256484, 13.6 s, 1832.9 MB, errors: 0
+- 2026-05-04T12: windows 12, rows 1858133, 11.4 s, 1638.8 MB, errors: 0
+- 2026-05-04T13: windows 12, rows 2459266, 17.1 s, 1809.2 MB, errors: 0
+- 2026-05-04T14: windows 12, rows 2672176, 16.6 s, 1987.0 MB, errors: 0
+- 2026-05-04T15: windows 12, rows 3033822, 17.7 s, 1973.9 MB, errors: 0
+- 2026-05-04T16: windows 12, rows 2490905, 17.0 s, 1887.2 MB, errors: 0
+- 2026-05-04T17: windows 12, rows 2478950, 16.0 s, 1905.3 MB, errors: 0
+- 2026-05-04T18: windows 12, rows 1782747, 20.8 s, 1785.5 MB, errors: 0
+- 2026-05-04T19: windows 12, rows 1860991, 19.0 s, 1842.3 MB, errors: 0
+- 2026-05-04T20: windows 12, rows 2398120, 16.8 s, 1869.7 MB, errors: 0
+- 2026-05-04T21: windows 12, rows 2548150, 20.8 s, 1883.6 MB, errors: 0
+- 2026-05-04T22: windows 12, rows 2601171, 22.4 s, 1920.1 MB, errors: 0
+- 2026-05-04T23: windows 12, rows 2495788, 20.7 s, 1891.3 MB, errors: 0
+- 2026-05-05T00: windows 12, rows 2474712, 18.5 s, 2015.4 MB, errors: 0
+- 2026-05-05T01: windows 12, rows 2423254, 23.7 s, 1908.1 MB, errors: 0
+- 2026-05-05T02: windows 12, rows 2730855, 18.0 s, 1964.1 MB, errors: 0
+- 2026-05-05T03: windows 12, rows 2563506, 25.4 s, 1886.5 MB, errors: 0
+- 2026-05-05T04: windows 12, rows 2743585, 26.6 s, 1972.5 MB, errors: 0
+- 2026-05-05T05: windows 12, rows 2304963, 20.3 s, 1961.8 MB, errors: 0
+- 2026-05-05T06: windows 12, rows 2824052, 18.6 s, 2003.3 MB, errors: 0
+- 2026-05-05T07: windows 12, rows 2708876, 19.5 s, 1901.4 MB, errors: 0
+- 2026-05-05T08: windows 12, rows 2789186, 18.9 s, 1929.2 MB, errors: 0
+- 2026-05-05T09: windows 12, rows 2916621, 17.8 s, 2047.5 MB, errors: 0
+- 2026-05-05T10: windows 12, rows 2696320, 25.0 s, 1890.0 MB, errors: 0
+- 2026-05-05T11: windows 12, rows 2642379, 19.6 s, 1819.1 MB, errors: 0
+- 2026-05-05T12: windows 12, rows 2436556, 19.8 s, 1974.0 MB, errors: 0
+- 2026-05-05T13: windows 12, rows 2653133, 21.6 s, 1975.3 MB, errors: 0
+- 2026-05-05T14: windows 12, rows 2825516, 18.9 s, 2061.2 MB, errors: 0
+- 2026-05-05T15: windows 12, rows 3334237, 20.2 s, 2027.2 MB, errors: 0
+- 2026-05-05T16: windows 12, rows 3341577, 22.7 s, 2012.8 MB, errors: 0
+- 2026-05-05T17: windows 12, rows 3380193, 19.8 s, 1992.8 MB, errors: 0
+- 2026-05-05T18: windows 12, rows 3146973, 18.2 s, 2044.3 MB, errors: 0
+- 2026-05-05T19: windows 12, rows 3185183, 26.5 s, 1943.8 MB, errors: 0
+- 2026-05-05T20: windows 12, rows 2933600, 21.7 s, 2034.6 MB, errors: 0
+- 2026-05-05T21: windows 12, rows 2838591, 16.2 s, 1924.2 MB, errors: 0
+- 2026-05-05T22: windows 12, rows 2739786, 19.3 s, 1970.4 MB, errors: 0
+- 2026-05-05T23: windows 12, rows 2376199, 18.3 s, 2002.3 MB, errors: 0
+- 2026-05-06T00: windows 12, rows 2741009, 23.8 s, 1944.6 MB, errors: 0
+- 2026-05-06T01: windows 12, rows 2835612, 25.8 s, 1953.7 MB, errors: 0
+- 2026-05-06T02: windows 12, rows 2884066, 30.2 s, 1966.5 MB, errors: 0
+- 2026-05-06T03: windows 12, rows 3412268, 22.8 s, 1891.1 MB, errors: 0
+- 2026-05-06T04: windows 12, rows 3348346, 24.5 s, 1925.3 MB, errors: 0
+- 2026-05-06T05: windows 12, rows 2715403, 24.4 s, 1947.6 MB, errors: 0
+- 2026-05-06T06: windows 12, rows 2613800, 27.9 s, 1935.2 MB, errors: 0
+- 2026-05-06T07: windows 12, rows 3027954, 23.8 s, 1931.5 MB, errors: 0
+- 2026-05-06T08: windows 12, rows 2250928, 58.6 s, 1962.2 MB, errors: 0
+- 2026-05-06T09: windows 12, rows 2002054, 19.7 s, 1739.6 MB, errors: 0
+- 2026-05-06T10: windows 12, rows 2078337, 19.9 s, 1767.1 MB, errors: 0
+- 2026-05-06T11: windows 12, rows 2123901, 23.5 s, 1956.4 MB, errors: 0
+- 2026-05-06T12: windows 12, rows 2061880, 26.5 s, 1878.2 MB, errors: 0
+- 2026-05-06T13: windows 12, rows 1903859, 22.2 s, 1832.8 MB, errors: 0
+- 2026-05-06T14: windows 12, rows 1934472, 24.3 s, 1820.3 MB, errors: 0
+- 2026-05-06T15: windows 12, rows 2404871, 23.8 s, 1834.9 MB, errors: 0
+- 2026-05-06T16: windows 12, rows 2435938, 25.0 s, 1899.7 MB, errors: 0
+- 2026-05-06T17: windows 12, rows 2528849, 21.5 s, 1827.3 MB, errors: 0
+- 2026-05-06T18: windows 12, rows 2402443, 21.7 s, 1894.2 MB, errors: 0
+- 2026-05-06T19: windows 12, rows 2412107, 21.9 s, 1809.1 MB, errors: 0
+- 2026-05-06T20: windows 12, rows 1476577, 12.2 s, 1543.2 MB, errors: 0
+- 2026-05-06T21: windows 12, rows 1812561, 12.4 s, 1564.1 MB, errors: 0
+- 2026-05-06T22: windows 12, rows 3527584, 22.1 s, 1971.3 MB, errors: 0
+- 2026-05-06T23: windows 12, rows 3152562, 23.2 s, 2009.1 MB, errors: 0
+- 2026-05-07T00: windows 12, rows 3376700, 33.1 s, 1928.4 MB, errors: 0
+- 2026-05-07T01: windows 12, rows 3514949, 23.3 s, 2117.0 MB, errors: 0
+- 2026-05-07T02: windows 12, rows 3720159, 37.5 s, 1938.4 MB, errors: 0
+- 2026-05-07T03: windows 12, rows 3272447, 34.5 s, 1991.9 MB, errors: 0
+- 2026-05-07T04: windows 12, rows 3608215, 37.7 s, 1892.3 MB, errors: 0
+- 2026-05-07T05: windows 12, rows 3613319, 28.1 s, 1952.7 MB, errors: 0
+- 2026-05-07T06: windows 12, rows 3031771, 21.2 s, 1875.4 MB, errors: 0
+- 2026-05-07T07: windows 12, rows 3440223, 42.5 s, 1987.6 MB, errors: 0
+- 2026-05-07T08: windows 12, rows 3478920, 23.5 s, 1936.8 MB, errors: 0
+- 2026-05-07T09: windows 12, rows 3691763, 32.5 s, 1984.5 MB, errors: 0
+- 2026-05-07T10: windows 12, rows 3417335, 21.3 s, 2011.1 MB, errors: 0
+- 2026-05-07T11: windows 12, rows 3390755, 22.1 s, 1965.6 MB, errors: 0
+- 2026-05-07T12: windows 12, rows 3346130, 35.0 s, 1974.0 MB, errors: 0
+- 2026-05-07T13: windows 12, rows 2933942, 21.4 s, 1955.6 MB, errors: 0
+- 2026-05-07T14: windows 12, rows 3382908, 21.7 s, 2021.8 MB, errors: 0
+- 2026-05-07T15: windows 12, rows 3846389, 23.3 s, 2035.7 MB, errors: 0
+- 2026-05-07T16: windows 12, rows 3501636, 26.1 s, 2013.8 MB, errors: 0
+- 2026-05-07T17: windows 12, rows 3512476, 26.2 s, 1991.9 MB, errors: 0
+- 2026-05-07T18: windows 12, rows 3556617, 24.9 s, 2018.0 MB, errors: 0
+- 2026-05-07T19: windows 12, rows 3219446, 22.6 s, 2042.2 MB, errors: 0
+- 2026-05-07T20: windows 12, rows 3080694, 21.9 s, 1969.2 MB, errors: 0
+- 2026-05-07T21: windows 12, rows 3139520, 22.0 s, 2001.6 MB, errors: 0
+- 2026-05-07T22: windows 12, rows 3279415, 22.3 s, 1926.8 MB, errors: 0
+- 2026-05-07T23: windows 12, rows 3057246, 20.7 s, 1949.7 MB, errors: 0
+- 2026-05-08T00: windows 12, rows 3137999, 25.1 s, 2013.1 MB, errors: 0
+- 2026-05-08T01: windows 12, rows 3181766, 21.3 s, 2032.3 MB, errors: 0
+- 2026-05-08T02: windows 12, rows 3287280, 26.0 s, 1878.6 MB, errors: 0
+- 2026-05-08T03: windows 12, rows 3424318, 26.0 s, 1965.0 MB, errors: 0
+- 2026-05-08T04: windows 12, rows 2916291, 20.7 s, 1917.5 MB, errors: 0
+- 2026-05-08T05: windows 12, rows 3039188, 28.7 s, 1902.9 MB, errors: 0
+- 2026-05-08T06: windows 12, rows 3150588, 24.6 s, 1838.5 MB, errors: 0
+- 2026-05-08T07: windows 12, rows 2843227, 20.9 s, 1905.6 MB, errors: 0
+- 2026-05-08T08: windows 12, rows 3187443, 26.5 s, 1976.1 MB, errors: 0
+- 2026-05-08T09: windows 12, rows 3258780, 25.8 s, 1881.8 MB, errors: 0
+- 2026-05-08T10: windows 12, rows 3198384, 38.5 s, 1979.3 MB, errors: 0
+- 2026-05-08T11: windows 12, rows 3117945, 21.6 s, 1990.7 MB, errors: 0
+- 2026-05-08T12: windows 12, rows 3665202, 24.7 s, 2010.3 MB, errors: 0
+- 2026-05-08T13: windows 12, rows 3409392, 22.3 s, 2039.4 MB, errors: 0
+- 2026-05-08T14: windows 12, rows 3207241, 32.0 s, 1955.1 MB, errors: 0
+- 2026-05-08T15: windows 12, rows 3278730, 30.5 s, 1972.8 MB, errors: 0
+- 2026-05-08T16: windows 12, rows 3149466, 23.1 s, 2003.0 MB, errors: 0
+- 2026-05-08T17: windows 12, rows 2341121, 19.0 s, 1874.6 MB, errors: 0
+- 2026-05-08T18: windows 12, rows 2381274, 26.7 s, 1906.9 MB, errors: 0
+- 2026-05-08T19: windows 12, rows 2048806, 40.6 s, 1858.2 MB, errors: 0
+- 2026-05-08T20: windows 12, rows 1695042, 19.0 s, 1746.0 MB, errors: 0
+- 2026-05-08T21: windows 12, rows 1881081, 18.6 s, 1713.5 MB, errors: 0
+- 2026-05-08T22: windows 12, rows 1905160, 19.3 s, 1721.6 MB, errors: 0
+- 2026-05-08T23: windows 12, rows 1620562, 19.7 s, 1773.5 MB, errors: 0
+- 2026-05-09T00: windows 12, rows 1990180, 46.8 s, 1839.7 MB, errors: 0
+- 2026-05-09T01: windows 12, rows 2787824, 30.3 s, 1877.7 MB, errors: 0
+- 2026-05-09T02: windows 12, rows 3483348, 40.6 s, 2039.0 MB, errors: 0
+- 2026-05-09T03: windows 12, rows 3513774, 25.1 s, 2030.4 MB, errors: 0
+- 2026-05-09T04: windows 12, rows 3223551, 27.1 s, 2040.5 MB, errors: 0
+- 2026-05-09T05: windows 12, rows 1971520, 36.9 s, 1801.6 MB, errors: 0
+- 2026-05-09T06: windows 12, rows 1723865, 18.3 s, 1859.9 MB, errors: 0
+- 2026-05-09T07: windows 12, rows 2206354, 20.8 s, 1830.3 MB, errors: 0
+- 2026-05-09T08: windows 12, rows 2075977, 33.6 s, 1865.2 MB, errors: 0
+- 2026-05-09T09: windows 12, rows 2126996, 24.3 s, 1826.4 MB, errors: 0
+- 2026-05-09T10: windows 12, rows 2158656, 25.2 s, 1760.9 MB, errors: 0
+- 2026-05-09T11: windows 12, rows 1942085, 30.0 s, 1824.8 MB, errors: 0
+- 2026-05-09T12: windows 12, rows 1874487, 24.9 s, 1830.9 MB, errors: 0
+- 2026-05-09T13: windows 12, rows 2057955, 22.1 s, 1854.6 MB, errors: 0
+- 2026-05-09T14: windows 12, rows 1724290, 22.8 s, 1816.9 MB, errors: 0
+- 2026-05-09T15: windows 12, rows 1899374, 22.8 s, 1878.4 MB, errors: 0
+- 2026-05-09T16: windows 12, rows 1945166, 34.6 s, 1813.1 MB, errors: 0
+- 2026-05-09T17: windows 12, rows 2036284, 27.8 s, 1876.1 MB, errors: 0
+- 2026-05-09T18: windows 12, rows 1806277, 50.0 s, 1849.2 MB, errors: 0
+- 2026-05-09T19: windows 12, rows 2078002, 21.8 s, 1925.7 MB, errors: 0
+- 2026-05-09T20: windows 12, rows 1677349, 22.8 s, 1774.2 MB, errors: 0
+- 2026-05-09T21: windows 12, rows 1639814, 23.2 s, 1660.9 MB, errors: 0
+- 2026-05-09T22: windows 12, rows 2052812, 30.8 s, 1751.3 MB, errors: 0
+- 2026-05-09T23: windows 12, rows 2798571, 21.6 s, 1905.2 MB, errors: 0
+- 2026-05-10T00: windows 12, rows 2482212, 25.9 s, 1881.6 MB, errors: 0
+- 2026-05-10T01: windows 12, rows 2442574, 23.1 s, 1888.2 MB, errors: 0
+- 2026-05-10T02: windows 12, rows 2598721, 28.0 s, 1918.5 MB, errors: 0
+- 2026-05-10T03: windows 12, rows 2350911, 21.4 s, 1824.3 MB, errors: 0
+- 2026-05-10T04: windows 12, rows 3415800, 29.2 s, 1934.9 MB, errors: 0
+- 2026-05-10T05: windows 12, rows 2990361, 23.2 s, 1981.1 MB, errors: 0
+- 2026-05-10T06: windows 12, rows 2923203, 25.2 s, 1913.8 MB, errors: 0
+- 2026-05-10T07: windows 12, rows 3228038, 23.7 s, 2057.5 MB, errors: 0
+- 2026-05-10T08: windows 12, rows 2941419, 23.6 s, 2012.8 MB, errors: 0
+- 2026-05-10T09: windows 12, rows 2854292, 27.5 s, 1985.7 MB, errors: 0
+- 2026-05-10T10: windows 12, rows 2700544, 26.0 s, 1962.7 MB, errors: 0
+- 2026-05-10T11: windows 12, rows 2596703, 22.9 s, 1884.8 MB, errors: 0
+- 2026-05-10T12: windows 12, rows 2824630, 24.2 s, 1983.9 MB, errors: 0
+- 2026-05-10T13: windows 12, rows 2102695, 27.3 s, 1905.5 MB, errors: 0
+- 2026-05-10T14: windows 12, rows 1999761, 21.1 s, 1823.5 MB, errors: 0
+- 2026-05-10T15: windows 12, rows 2088695, 22.7 s, 1817.9 MB, errors: 0
+- 2026-05-10T16: windows 12, rows 1873653, 23.1 s, 1821.7 MB, errors: 0
+- 2026-05-10T17: windows 12, rows 2364836, 29.2 s, 1942.0 MB, errors: 0
+- 2026-05-10T18: windows 12, rows 2083795, 29.2 s, 1880.4 MB, errors: 0
+- 2026-05-10T19: windows 12, rows 1543180, 24.2 s, 1790.7 MB, errors: 0
+- 2026-05-10T20: windows 12, rows 1723176, 25.9 s, 1836.0 MB, errors: 0
+- 2026-05-10T21: windows 12, rows 2549979, 23.4 s, 1869.1 MB, errors: 0
+- 2026-05-10T22: windows 12, rows 2738249, 30.4 s, 2018.1 MB, errors: 0
+- 2026-05-10T23: windows 12, rows 2473229, 28.3 s, 1942.4 MB, errors: 0
+- 2026-05-11T00: windows 12, rows 2823933, 22.6 s, 1985.5 MB, errors: 0
+- 2026-05-11T01: windows 12, rows 3185674, 28.2 s, 1881.6 MB, errors: 0
+- 2026-05-11T02: windows 12, rows 3649746, 33.0 s, 2055.6 MB, errors: 0
+- 2026-05-11T03: windows 12, rows 3654201, 24.6 s, 2019.1 MB, errors: 0
+- 2026-05-11T04: windows 12, rows 3199615, 21.2 s, 2038.7 MB, errors: 0
+- 2026-05-11T05: windows 12, rows 3205741, 29.3 s, 2006.0 MB, errors: 0
+- 2026-05-11T06: windows 12, rows 3373128, 22.7 s, 2088.5 MB, errors: 0
+- 2026-05-11T07: windows 12, rows 3320311, 21.8 s, 1988.3 MB, errors: 0
+- 2026-05-11T08: windows 12, rows 2581767, 22.3 s, 1892.2 MB, errors: 0
+- 2026-05-11T09: windows 12, rows 3547919, 23.2 s, 2000.0 MB, errors: 0
+- 2026-05-11T10: windows 12, rows 3473282, 29.8 s, 1936.6 MB, errors: 0
+- 2026-05-11T11: windows 12, rows 3560324, 43.4 s, 2037.2 MB, errors: 0
+- 2026-05-11T12: windows 12, rows 3407461, 22.1 s, 1877.2 MB, errors: 0
+- 2026-05-11T13: windows 12, rows 2416521, 23.3 s, 1917.1 MB, errors: 0
+- 2026-05-11T14: windows 12, rows 3015534, 22.7 s, 1954.6 MB, errors: 0
+- 2026-05-11T15: windows 12, rows 3286761, 22.7 s, 1970.6 MB, errors: 0
+- 2026-05-11T16: windows 12, rows 2367308, 21.5 s, 1883.2 MB, errors: 0
+- 2026-05-11T17: windows 12, rows 3221911, 20.4 s, 1975.4 MB, errors: 0
+- 2026-05-11T18: windows 12, rows 2901329, 23.1 s, 1897.0 MB, errors: 0
+- 2026-05-11T19: windows 12, rows 3046451, 20.3 s, 1949.3 MB, errors: 0
+- 2026-05-11T20: windows 12, rows 3163606, 24.1 s, 2006.9 MB, errors: 0
+- 2026-05-11T21: windows 12, rows 3750718, 23.6 s, 2017.9 MB, errors: 0
+- 2026-05-11T22: windows 12, rows 2787006, 30.5 s, 1832.7 MB, errors: 0
+- 2026-05-11T23: windows 12, rows 2459842, 32.3 s, 1828.9 MB, errors: 0
+- 2026-05-12T00: windows 12, rows 2642834, 38.5 s, 1900.4 MB, errors: 0
+- 2026-05-12T01: windows 12, rows 2958327, 24.8 s, 1983.1 MB, errors: 0
+- 2026-05-12T02: windows 12, rows 3658896, 23.9 s, 2054.5 MB, errors: 0
+- 2026-05-12T03: windows 12, rows 4149697, 24.9 s, 2193.8 MB, errors: 0
+- 2026-05-12T04: windows 12, rows 3809528, 23.1 s, 2099.2 MB, errors: 0
+- 2026-05-12T05: windows 12, rows 2178984, 29.4 s, 1742.8 MB, errors: 0
+- 2026-05-12T06: windows 12, rows 2222357, 34.2 s, 1849.2 MB, errors: 0
+- 2026-05-12T07: windows 12, rows 1672189, 24.0 s, 1604.0 MB, errors: 0
+- 2026-05-12T08: windows 12, rows 2081744, 21.8 s, 1755.8 MB, errors: 0
+- 2026-05-12T09: windows 12, rows 2121812, 35.4 s, 1839.2 MB, errors: 0
+- 2026-05-12T10: windows 12, rows 1766185, 20.3 s, 1756.1 MB, errors: 0
+- 2026-05-12T11: windows 12, rows 2561456, 35.5 s, 1941.2 MB, errors: 0
+- 2026-05-12T12: windows 12, rows 2358820, 22.0 s, 1880.6 MB, errors: 0
+- 2026-05-12T13: windows 12, rows 2032681, 23.0 s, 1771.9 MB, errors: 0
+- 2026-05-12T14: windows 12, rows 1811301, 33.0 s, 1880.1 MB, errors: 0
+- 2026-05-12T15: windows 12, rows 1957732, 21.5 s, 1845.3 MB, errors: 0
+- 2026-05-12T16: windows 12, rows 2118146, 26.7 s, 1857.8 MB, errors: 0
+- 2026-05-12T17: windows 12, rows 1330418, 27.0 s, 1756.3 MB, errors: 0
+- 2026-05-12T18: windows 12, rows 1573102, 21.8 s, 1821.8 MB, errors: 0
+- 2026-05-12T19: windows 12, rows 1696595, 22.9 s, 1728.1 MB, errors: 0
+- 2026-05-12T20: windows 12, rows 1675405, 21.1 s, 1871.4 MB, errors: 0
+- 2026-05-12T21: windows 12, rows 2128680, 38.1 s, 1834.6 MB, errors: 0
+- 2026-05-12T22: windows 12, rows 2087673, 30.6 s, 1926.1 MB, errors: 0
+- 2026-05-12T23: windows 12, rows 1770721, 32.5 s, 1851.2 MB, errors: 0
+- 2026-05-13T00: windows 12, rows 1555946, 23.9 s, 1762.5 MB, errors: 0
+- 2026-05-13T01: windows 12, rows 1478699, 26.7 s, 1815.1 MB, errors: 0
+- 2026-05-13T02: windows 12, rows 1696710, 30.3 s, 1804.0 MB, errors: 0
+- 2026-05-13T03: windows 12, rows 2404542, 28.2 s, 2010.4 MB, errors: 0
+- 2026-05-13T04: windows 12, rows 2972050, 22.1 s, 1954.0 MB, errors: 0
+- 2026-05-13T05: windows 12, rows 2284601, 24.1 s, 1865.0 MB, errors: 0
+- 2026-05-13T06: windows 12, rows 1785648, 23.0 s, 1895.7 MB, errors: 0
+- 2026-05-13T07: windows 12, rows 1900825, 21.7 s, 1696.9 MB, errors: 0
+- 2026-05-13T08: windows 12, rows 1736201, 31.8 s, 1794.2 MB, errors: 0
+- 2026-05-13T09: windows 12, rows 1634213, 20.4 s, 1752.6 MB, errors: 0
+- 2026-05-13T10: windows 12, rows 1616848, 21.7 s, 1868.3 MB, errors: 0
+- 2026-05-13T11: windows 12, rows 2254702, 24.0 s, 1836.4 MB, errors: 0
+- 2026-05-13T12: windows 12, rows 1622282, 20.0 s, 1747.5 MB, errors: 0
+- 2026-05-13T13: windows 12, rows 1716179, 28.0 s, 1823.0 MB, errors: 0
+- 2026-05-13T14: windows 12, rows 1590824, 36.0 s, 1763.9 MB, errors: 0
+- 2026-05-13T15: windows 12, rows 1665157, 37.8 s, 1819.9 MB, errors: 0
+- 2026-05-13T16: windows 12, rows 1717927, 29.7 s, 1724.0 MB, errors: 0
+- 2026-05-13T17: windows 12, rows 2066867, 21.1 s, 1804.2 MB, errors: 0
+- 2026-05-13T18: windows 12, rows 1860359, 28.8 s, 1831.1 MB, errors: 0
+- 2026-05-13T19: windows 12, rows 2058129, 21.2 s, 1820.1 MB, errors: 0
+- 2026-05-13T20: windows 12, rows 2100830, 21.3 s, 1870.7 MB, errors: 0
+- 2026-05-13T21: windows 12, rows 2098426, 21.6 s, 1844.7 MB, errors: 0
+- 2026-05-13T22: windows 12, rows 1830959, 21.4 s, 1779.7 MB, errors: 0
+- 2026-05-13T23: windows 12, rows 1539770, 22.2 s, 1869.9 MB, errors: 0
+- 2026-05-14T00: windows 12, rows 1269107, 21.4 s, 1771.2 MB, errors: 0
+- 2026-05-14T01: windows 12, rows 1251682, 21.2 s, 1734.8 MB, errors: 0
+- 2026-05-14T02: windows 12, rows 1906479, 23.5 s, 1862.2 MB, errors: 0
+- 2026-05-14T03: windows 12, rows 2356703, 22.7 s, 1847.3 MB, errors: 0
+- 2026-05-14T04: windows 12, rows 3341578, 32.1 s, 1999.2 MB, errors: 0
+- 2026-05-14T05: windows 12, rows 3024634, 30.6 s, 1972.8 MB, errors: 0
+- 2026-05-14T06: windows 12, rows 2233963, 29.3 s, 1774.2 MB, errors: 0
+- 2026-05-14T07: windows 12, rows 3052118, 23.3 s, 1998.1 MB, errors: 0
+- 2026-05-14T08: windows 12, rows 3234291, 27.7 s, 1981.4 MB, errors: 0
+- 2026-05-14T09: windows 12, rows 2347566, 22.9 s, 1840.0 MB, errors: 0
+- 2026-05-14T10: windows 12, rows 2071160, 33.3 s, 1854.3 MB, errors: 0
+- 2026-05-14T11: windows 12, rows 2457639, 28.6 s, 1874.1 MB, errors: 0
+- 2026-05-14T12: windows 12, rows 2912548, 33.6 s, 1927.0 MB, errors: 0
+- 2026-05-14T13: windows 12, rows 2880924, 40.5 s, 1984.7 MB, errors: 0
+- 2026-05-14T14: windows 12, rows 2788409, 28.4 s, 1910.4 MB, errors: 0
+- 2026-05-14T15: windows 12, rows 3053862, 27.8 s, 1968.0 MB, errors: 0
+- 2026-05-14T16: windows 12, rows 2452381, 24.1 s, 1888.3 MB, errors: 0
+- 2026-05-14T17: windows 12, rows 2177171, 37.8 s, 1825.6 MB, errors: 0
+- 2026-05-14T18: windows 12, rows 1608565, 23.1 s, 1732.9 MB, errors: 0
+- 2026-05-14T19: windows 12, rows 1718293, 35.5 s, 1857.1 MB, errors: 0
+- 2026-05-14T20: windows 12, rows 2222164, 27.2 s, 1821.3 MB, errors: 0
+- 2026-05-14T21: windows 12, rows 2443600, 32.1 s, 1942.4 MB, errors: 0
+- 2026-05-14T22: windows 12, rows 1910192, 25.9 s, 1810.3 MB, errors: 0
+- 2026-05-14T23: windows 12, rows 1501763, 22.3 s, 1747.4 MB, errors: 0
+- 2026-05-15T00: windows 12, rows 1558121, 26.0 s, 1746.2 MB, errors: 0
+- 2026-05-15T01: windows 12, rows 1638505, 36.6 s, 1766.0 MB, errors: 0
+- 2026-05-15T02: windows 12, rows 2179637, 23.0 s, 1826.9 MB, errors: 0
+- 2026-05-15T03: windows 12, rows 2824866, 25.6 s, 2022.0 MB, errors: 0
+- 2026-05-15T04: windows 12, rows 2170478, 24.1 s, 1880.6 MB, errors: 0
+- 2026-05-15T05: windows 12, rows 1636535, 32.1 s, 1705.3 MB, errors: 0
+- 2026-05-15T06: windows 12, rows 2436319, 39.7 s, 1809.9 MB, errors: 0
+- 2026-05-15T07: windows 12, rows 2215360, 40.0 s, 1885.8 MB, errors: 0
+- 2026-05-15T08: windows 12, rows 2413343, 24.9 s, 1870.5 MB, errors: 0
+- 2026-05-15T09: windows 12, rows 2364017, 37.7 s, 1954.5 MB, errors: 0
+- 2026-05-15T10: windows 12, rows 1940785, 42.6 s, 1831.3 MB, errors: 0
+- 2026-05-15T11: windows 12, rows 2469160, 25.5 s, 1976.5 MB, errors: 0
+- 2026-05-15T12: windows 12, rows 2038847, 17.9 s, 1760.6 MB, errors: 0
+- 2026-05-15T13: windows 12, rows 1115636, 34.1 s, 1656.8 MB, errors: 0
+- 2026-05-15T14: windows 12, rows 1061844, 24.2 s, 1749.7 MB, errors: 0
+- 2026-05-15T15: windows 12, rows 1493111, 37.4 s, 1674.9 MB, errors: 0
+- 2026-05-15T16: windows 12, rows 1483462, 16.3 s, 1607.6 MB, errors: 0
+- 2026-05-15T17: windows 12, rows 2105958, 21.0 s, 1753.3 MB, errors: 0
+- 2026-05-15T18: windows 12, rows 1784546, 22.2 s, 1765.4 MB, errors: 0
+- 2026-05-15T19: windows 12, rows 1832638, 42.0 s, 1770.4 MB, errors: 0
+- 2026-05-15T20: windows 12, rows 1928229, 37.4 s, 1789.3 MB, errors: 0
+- 2026-05-15T21: windows 12, rows 2244218, 22.7 s, 1786.7 MB, errors: 0
+- 2026-05-15T22: windows 12, rows 1966480, 26.9 s, 1871.1 MB, errors: 0
+- 2026-05-15T23: windows 12, rows 1630596, 38.6 s, 1734.0 MB, errors: 0
+- 2026-05-16T00: windows 12, rows 1147397, 18.0 s, 1617.2 MB, errors: 0
+- 2026-05-16T01: windows 12, rows 1411106, 19.6 s, 1682.2 MB, errors: 0
+- 2026-05-16T02: windows 12, rows 1305161, 31.3 s, 1606.7 MB, errors: 0
+- 2026-05-16T03: windows 11, rows 1158258, 27.3 s, 1655.0 MB, errors: 0
+- 2026-05-16T04: windows 12, rows 1463318, 20.9 s, 1667.5 MB, errors: 0
+- 2026-05-16T05: windows 12, rows 2220713, 28.9 s, 1791.3 MB, errors: 0
+- 2026-05-16T06: windows 12, rows 1904034, 26.5 s, 1769.1 MB, errors: 0
+- 2026-05-16T07: windows 12, rows 1752973, 22.1 s, 1865.6 MB, errors: 0
+- 2026-05-16T08: windows 12, rows 1904516, 24.6 s, 1816.2 MB, errors: 0
+- 2026-05-16T09: windows 12, rows 1846137, 31.8 s, 1864.9 MB, errors: 0
+- 2026-05-16T10: windows 11, rows 1695387, 36.6 s, 1709.4 MB, errors: 0
+- 2026-05-16T11: windows 12, rows 1722645, 22.3 s, 1697.8 MB, errors: 0
+- 2026-05-16T12: windows 12, rows 1775455, 41.8 s, 1776.4 MB, errors: 0
+- 2026-05-16T13: windows 12, rows 1714746, 39.0 s, 1739.8 MB, errors: 0
+- 2026-05-16T14: windows 12, rows 1460465, 22.7 s, 1746.7 MB, errors: 0
+- 2026-05-16T15: windows 12, rows 1636826, 36.3 s, 1742.1 MB, errors: 0
+- 2026-05-16T16: windows 12, rows 2070743, 35.4 s, 1843.5 MB, errors: 0
+- 2026-05-16T17: windows 11, rows 2081082, 22.3 s, 1828.0 MB, errors: 0
+- 2026-05-16T18: windows 12, rows 1920958, 31.8 s, 1844.6 MB, errors: 0
+- 2026-05-16T19: windows 12, rows 1998038, 22.3 s, 1827.1 MB, errors: 0
+- 2026-05-16T20: windows 12, rows 1536125, 35.2 s, 1795.5 MB, errors: 0
+- 2026-05-16T21: windows 12, rows 1253378, 34.3 s, 1607.3 MB, errors: 0
+- 2026-05-16T22: windows 12, rows 1249369, 23.3 s, 1645.9 MB, errors: 0
+- 2026-05-16T23: windows 12, rows 1246157, 23.7 s, 1652.7 MB, errors: 0
+- 2026-05-17T00: windows 12, rows 1002613, 22.2 s, 1621.7 MB, errors: 0
+- 2026-05-17T01: windows 11, rows 1129041, 23.3 s, 1665.0 MB, errors: 0
+- 2026-05-17T02: windows 12, rows 1342637, 19.7 s, 1736.3 MB, errors: 0
+- 2026-05-17T03: windows 11, rows 1097747, 20.3 s, 1637.4 MB, errors: 0
+- 2026-05-17T04: windows 12, rows 1107878, 27.5 s, 1556.3 MB, errors: 0
+- 2026-05-17T05: windows 12, rows 1109799, 25.5 s, 1571.0 MB, errors: 0
+- 2026-05-17T06: windows 12, rows 1518809, 24.2 s, 1761.9 MB, errors: 0
+- 2026-05-17T07: windows 12, rows 1517300, 22.5 s, 1681.6 MB, errors: 0
+- 2026-05-17T08: windows 12, rows 1703539, 21.2 s, 1702.5 MB, errors: 0
+- 2026-05-17T09: windows 12, rows 1364795, 26.0 s, 1673.7 MB, errors: 0
+- 2026-05-17T10: windows 12, rows 1159633, 30.7 s, 1575.9 MB, errors: 0
+- 2026-05-17T11: windows 12, rows 1272263, 24.0 s, 1627.0 MB, errors: 0
+- 2026-05-17T12: windows 12, rows 1312150, 28.4 s, 1655.3 MB, errors: 0
+- 2026-05-17T13: windows 12, rows 1297235, 25.0 s, 1659.7 MB, errors: 0
+- 2026-05-17T14: windows 12, rows 1382496, 21.4 s, 1652.9 MB, errors: 0
+- 2026-05-17T15: windows 12, rows 1502170, 19.5 s, 1653.6 MB, errors: 0
+- 2026-05-17T16: windows 12, rows 1632277, 18.5 s, 1708.5 MB, errors: 0
+- 2026-05-17T17: windows 12, rows 1386846, 19.2 s, 1746.3 MB, errors: 0
+- 2026-05-17T18: windows 12, rows 1216685, 26.2 s, 1596.2 MB, errors: 0
+- 2026-05-17T19: windows 12, rows 1289557, 20.3 s, 1633.7 MB, errors: 0
+- 2026-05-17T20: windows 12, rows 1347747, 20.4 s, 1606.1 MB, errors: 0
+- 2026-05-17T21: windows 12, rows 1436451, 21.1 s, 1656.8 MB, errors: 0
+- 2026-05-17T22: windows 12, rows 1546262, 20.0 s, 1661.6 MB, errors: 0
+- 2026-05-17T23: windows 12, rows 1113534, 19.4 s, 1492.8 MB, errors: 0
+- 2026-05-18T00: windows 12, rows 1244357, 25.6 s, 1679.5 MB, errors: 0
+- 2026-05-18T01: windows 12, rows 2071391, 20.1 s, 1688.1 MB, errors: 0
+- 2026-05-18T02: windows 12, rows 3378044, 36.2 s, 2022.6 MB, errors: 0
+- 2026-05-18T03: windows 11, rows 2811204, 20.8 s, 1858.7 MB, errors: 0
+- 2026-05-18T04: windows 12, rows 2353336, 22.7 s, 1742.1 MB, errors: 0
+- 2026-05-18T05: windows 12, rows 2312468, 18.3 s, 1710.5 MB, errors: 0
+- 2026-05-18T06: windows 12, rows 2945920, 24.2 s, 1828.7 MB, errors: 0
+- 2026-05-18T07: windows 12, rows 3332810, 21.5 s, 1968.9 MB, errors: 0
+- 2026-05-18T08: windows 12, rows 2685040, 21.2 s, 1776.4 MB, errors: 0
+- 2026-05-18T09: windows 12, rows 2461774, 30.8 s, 1792.6 MB, errors: 0
+- 2026-05-18T10: windows 12, rows 2665533, 20.8 s, 1766.4 MB, errors: 0
+- 2026-05-18T11: windows 12, rows 2657950, 25.6 s, 1809.8 MB, errors: 0
+- 2026-05-18T12: windows 12, rows 3307872, 28.4 s, 1969.8 MB, errors: 0
+- 2026-05-18T13: windows 12, rows 3435030, 24.1 s, 1954.1 MB, errors: 0
+- 2026-05-18T14: windows 12, rows 3453922, 27.7 s, 2094.8 MB, errors: 0
+- 2026-05-18T15: windows 12, rows 3702903, 24.8 s, 1985.3 MB, errors: 0
+- 2026-05-18T16: windows 12, rows 3395483, 21.8 s, 1994.8 MB, errors: 0
+- 2026-05-18T17: windows 11, rows 3060680, 24.9 s, 1842.7 MB, errors: 0
+- 2026-05-18T18: windows 12, rows 3353323, 32.6 s, 1986.5 MB, errors: 0
+- 2026-05-18T19: windows 12, rows 3412711, 25.4 s, 2000.6 MB, errors: 0
+- 2026-05-18T20: windows 12, rows 2976851, 21.7 s, 1892.8 MB, errors: 0
+- 2026-05-18T21: windows 12, rows 2937078, 22.4 s, 1830.7 MB, errors: 0
+- 2026-05-18T22: windows 12, rows 2994571, 25.3 s, 1928.7 MB, errors: 0
+- 2026-05-18T23: windows 12, rows 2347444, 21.6 s, 1813.4 MB, errors: 0
+- 2026-05-19T00: windows 12, rows 3102277, 44.8 s, 1972.9 MB, errors: 0
+- 2026-05-19T01: windows 12, rows 2955965, 29.0 s, 1977.1 MB, errors: 0
+- 2026-05-19T02: windows 12, rows 2827129, 20.7 s, 1991.9 MB, errors: 0
+- 2026-05-19T03: windows 12, rows 2784200, 20.7 s, 1954.8 MB, errors: 0
+- 2026-05-19T04: windows 12, rows 2920330, 20.7 s, 1809.3 MB, errors: 0
+- 2026-05-19T05: windows 12, rows 3058782, 19.9 s, 1940.2 MB, errors: 0
+- 2026-05-19T06: windows 12, rows 3709787, 25.1 s, 1982.5 MB, errors: 0
+- 2026-05-19T07: windows 12, rows 3610143, 24.1 s, 1919.0 MB, errors: 0
+- 2026-05-19T08: windows 12, rows 3297302, 26.7 s, 1966.0 MB, errors: 0
+- 2026-05-19T09: windows 12, rows 3551579, 24.1 s, 1963.2 MB, errors: 0
+- 2026-05-19T10: windows 12, rows 2875091, 22.1 s, 1856.4 MB, errors: 0
+- 2026-05-19T11: windows 12, rows 3154309, 23.5 s, 1957.5 MB, errors: 0
+- 2026-05-19T12: windows 12, rows 3020855, 51.6 s, 1861.0 MB, errors: 0
+- 2026-05-19T13: windows 12, rows 3068333, 24.2 s, 2024.0 MB, errors: 0
+- 2026-05-19T14: windows 11, rows 2804956, 24.4 s, 1915.9 MB, errors: 0
+- 2026-05-19T15: windows 12, rows 3679410, 23.8 s, 1997.2 MB, errors: 0
+- 2026-05-19T16: windows 12, rows 3404894, 22.2 s, 1925.3 MB, errors: 0
+- 2026-05-19T17: windows 12, rows 3642655, 24.6 s, 2021.9 MB, errors: 0
+- 2026-05-19T18: windows 12, rows 3515203, 22.7 s, 1943.5 MB, errors: 0
+- 2026-05-19T19: windows 11, rows 3007423, 24.0 s, 1914.1 MB, errors: 0
+- 2026-05-19T20: windows 12, rows 2871641, 29.5 s, 1919.2 MB, errors: 0
+- 2026-05-19T21: windows 12, rows 3005214, 26.6 s, 1949.3 MB, errors: 0
+- 2026-05-19T22: windows 12, rows 3104434, 24.0 s, 1987.1 MB, errors: 0
+- 2026-05-19T23: windows 11, rows 2399345, 20.5 s, 1828.8 MB, errors: 0
+- 2026-05-20T00: windows 12, rows 2829829, 41.5 s, 1947.7 MB, errors: 0
+- 2026-05-20T01: windows 12, rows 3190451, 25.0 s, 1989.1 MB, errors: 0
+- 2026-05-20T02: windows 12, rows 3199082, 27.3 s, 1994.0 MB, errors: 0
+- 2026-05-20T03: windows 12, rows 3208536, 21.8 s, 2050.1 MB, errors: 0
+- 2026-05-20T04: windows 11, rows 2736913, 35.7 s, 1878.3 MB, errors: 0
+- 2026-05-20T05: windows 12, rows 2916661, 20.4 s, 1825.1 MB, errors: 0
+- 2026-05-20T06: windows 12, rows 3163870, 42.2 s, 1930.7 MB, errors: 0
+- 2026-05-20T07: windows 12, rows 2728725, 27.8 s, 1840.7 MB, errors: 0
+- 2026-05-20T08: windows 12, rows 2679436, 40.8 s, 1786.9 MB, errors: 0
+- 2026-05-20T09: windows 12, rows 2699263, 22.7 s, 1939.1 MB, errors: 0
+- 2026-05-20T10: windows 12, rows 2568862, 24.3 s, 1788.2 MB, errors: 0
+- 2026-05-20T11: windows 12, rows 2336314, 35.9 s, 1865.2 MB, errors: 0
+- 2026-05-20T12: windows 12, rows 1452342, 15.0 s, 1571.3 MB, errors: 0
+- 2026-05-20T13: windows 12, rows 1543773, 19.6 s, 1697.5 MB, errors: 0
+- 2026-05-20T14: windows 11, rows 1829633, 21.6 s, 1803.9 MB, errors: 0
+- 2026-05-20T15: windows 11, rows 1756356, 24.2 s, 1747.8 MB, errors: 0
+- 2026-05-20T16: windows 12, rows 1935536, 20.9 s, 1766.9 MB, errors: 0
+- 2026-05-20T17: windows 12, rows 1824678, 19.6 s, 1802.1 MB, errors: 0
+- 2026-05-20T18: windows 12, rows 2115015, 31.4 s, 1791.4 MB, errors: 0
+- 2026-05-20T19: windows 11, rows 1875102, 21.4 s, 1870.3 MB, errors: 0
+- 2026-05-20T20: windows 12, rows 1812875, 19.2 s, 1840.6 MB, errors: 0
+- 2026-05-20T21: windows 12, rows 1971525, 17.5 s, 1645.6 MB, errors: 0
+- 2026-05-20T22: windows 12, rows 1466582, 17.6 s, 1754.0 MB, errors: 0
+- 2026-05-20T23: windows 12, rows 1767264, 33.8 s, 1796.3 MB, errors: 0
+- 2026-05-21T00: windows 12, rows 1400118, 38.4 s, 1679.4 MB, errors: 0
+- 2026-05-21T01: windows 12, rows 1317052, 18.4 s, 1755.7 MB, errors: 0
+- 2026-05-21T02: windows 12, rows 1504073, 28.8 s, 1678.8 MB, errors: 0
+- 2026-05-21T03: windows 12, rows 1877387, 37.3 s, 1707.9 MB, errors: 0
+- 2026-05-21T04: windows 12, rows 2148996, 19.2 s, 1800.8 MB, errors: 0
+- 2026-05-21T05: windows 12, rows 2213722, 33.0 s, 1785.3 MB, errors: 0
+- 2026-05-21T06: windows 12, rows 2284355, 18.1 s, 1804.6 MB, errors: 0
+- 2026-05-21T07: windows 12, rows 2461993, 21.4 s, 1781.2 MB, errors: 0
+- 2026-05-21T08: windows 12, rows 2819879, 18.3 s, 1872.2 MB, errors: 0
+- 2026-05-21T09: windows 12, rows 2192637, 19.3 s, 1843.7 MB, errors: 0
+- 2026-05-21T10: windows 12, rows 1700403, 16.7 s, 1678.5 MB, errors: 0
+- 2026-05-21T11: windows 12, rows 1740597, 26.6 s, 1718.0 MB, errors: 0
+- 2026-05-21T12: windows 1, rows 106638, 17.0 s, 1169.8 MB, errors: 0
+- 2026-05-21T13: windows 9, rows 1200756, 35.2 s, 1670.6 MB, errors: 0
+- 2026-05-21T14: windows 12, rows 1698940, 26.0 s, 1710.5 MB, errors: 0
+- 2026-05-21T15: windows 12, rows 1979087, 18.3 s, 1719.8 MB, errors: 0
+- 2026-05-21T16: windows 3, rows 418023, 14.6 s, 1326.4 MB, errors: 0
+- 2026-05-22T16: windows 9, rows 184837, 7.8 s, 1107.1 MB, errors: 0
+- 2026-05-22T19: windows 10, rows 1369861, 15.4 s, 1463.4 MB, errors: 0
+- 2026-05-22T20: windows 12, rows 1550710, 12.0 s, 1476.1 MB, errors: 0
+- 2026-05-22T21: windows 12, rows 1497116, 27.6 s, 1551.7 MB, errors: 0
+- 2026-05-22T22: windows 12, rows 1359671, 13.6 s, 1529.8 MB, errors: 0
+- 2026-05-22T23: windows 12, rows 747188, 9.0 s, 1375.3 MB, errors: 0
+- 2026-05-23T00: windows 11, rows 770027, 8.0 s, 1284.3 MB, errors: 0
+- 2026-05-23T01: windows 12, rows 1072636, 15.0 s, 1364.2 MB, errors: 0
+- 2026-05-23T02: windows 12, rows 1117553, 11.6 s, 1355.0 MB, errors: 0
+- 2026-05-23T03: windows 12, rows 1330219, 11.7 s, 1400.2 MB, errors: 0
+- 2026-05-23T04: windows 12, rows 1753297, 17.7 s, 1575.8 MB, errors: 0
+- 2026-05-23T05: windows 12, rows 1924341, 19.5 s, 1689.3 MB, errors: 0
+- 2026-05-23T06: windows 12, rows 1962157, 20.1 s, 1677.7 MB, errors: 0
+- 2026-05-23T07: windows 12, rows 1947341, 18.6 s, 1700.3 MB, errors: 0
+- 2026-05-23T08: windows 12, rows 2228588, 19.3 s, 1754.2 MB, errors: 0
+- 2026-05-23T09: windows 12, rows 1858876, 14.6 s, 1652.9 MB, errors: 0
+- 2026-05-23T10: windows 12, rows 1892773, 16.2 s, 1732.0 MB, errors: 0
+- 2026-05-23T11: windows 12, rows 1827184, 16.1 s, 1677.8 MB, errors: 0
+- 2026-05-23T12: windows 12, rows 1759746, 22.5 s, 1604.3 MB, errors: 0
+- 2026-05-23T13: windows 12, rows 1976254, 17.8 s, 1595.5 MB, errors: 0
+- 2026-05-23T14: windows 12, rows 1902116, 17.3 s, 1635.3 MB, errors: 0
+- 2026-05-23T15: windows 12, rows 2029157, 17.3 s, 1694.1 MB, errors: 0
+- 2026-05-23T16: windows 12, rows 3493321, 32.1 s, 1786.4 MB, errors: 0
+- 2026-05-23T17: windows 12, rows 3636077, 28.1 s, 2006.7 MB, errors: 0
+- 2026-05-23T18: windows 12, rows 3856529, 41.8 s, 2122.5 MB, errors: 0
+- 2026-05-23T19: windows 12, rows 3501427, 27.0 s, 2053.9 MB, errors: 0
+- 2026-05-23T20: windows 12, rows 3657842, 34.8 s, 2196.1 MB, errors: 0
+- 2026-05-23T21: windows 12, rows 4097874, 39.4 s, 2281.6 MB, errors: 0
+- 2026-05-23T22: windows 12, rows 3694324, 26.4 s, 2032.2 MB, errors: 0
+- 2026-05-23T23: windows 12, rows 3871925, 75.1 s, 2049.9 MB, errors: 0
+- 2026-05-24T00: windows 12, rows 3851170, 29.6 s, 2204.6 MB, errors: 0
+- 2026-05-24T01: windows 12, rows 4164002, 42.7 s, 2226.4 MB, errors: 0
+- 2026-05-24T02: windows 12, rows 3941885, 28.0 s, 2042.5 MB, errors: 0
+- 2026-05-24T03: windows 12, rows 3691178, 27.7 s, 2044.9 MB, errors: 0
+- 2026-05-24T04: windows 12, rows 3520837, 24.2 s, 2004.3 MB, errors: 0
+- 2026-05-24T05: windows 12, rows 3564152, 25.9 s, 2088.4 MB, errors: 0
+- 2026-05-24T06: windows 12, rows 3438274, 35.4 s, 1977.3 MB, errors: 0
+- 2026-05-24T07: windows 12, rows 3651024, 38.8 s, 2005.1 MB, errors: 0
+- 2026-05-24T08: windows 12, rows 3106718, 24.1 s, 2014.6 MB, errors: 0
+- 2026-05-24T09: windows 12, rows 3309657, 23.6 s, 2110.3 MB, errors: 0
+- 2026-05-24T10: windows 12, rows 3627395, 37.3 s, 2122.6 MB, errors: 0
+- 2026-05-24T11: windows 12, rows 4118997, 34.1 s, 2211.3 MB, errors: 0
+- 2026-05-24T12: windows 12, rows 3757511, 31.1 s, 2088.5 MB, errors: 0
+- 2026-05-24T13: windows 12, rows 3800801, 26.4 s, 2137.2 MB, errors: 0
+- 2026-05-24T14: windows 12, rows 3678040, 28.9 s, 2042.9 MB, errors: 0
+- 2026-05-24T15: windows 12, rows 3660929, 43.4 s, 2170.3 MB, errors: 0
+- 2026-05-24T16: windows 12, rows 3477033, 30.5 s, 2030.0 MB, errors: 0
+- 2026-05-24T17: windows 12, rows 3722578, 27.3 s, 2170.5 MB, errors: 0
+- 2026-05-24T18: windows 12, rows 3535385, 35.1 s, 2087.5 MB, errors: 0
+- 2026-05-24T19: windows 12, rows 3322882, 27.4 s, 2037.4 MB, errors: 0
+- 2026-05-24T20: windows 12, rows 3742182, 27.3 s, 2101.5 MB, errors: 0
+- 2026-05-24T21: windows 12, rows 3605295, 24.8 s, 2062.4 MB, errors: 0
+- 2026-05-24T22: windows 12, rows 4019219, 33.3 s, 2183.7 MB, errors: 0
+- 2026-05-24T23: windows 12, rows 4382247, 42.0 s, 2180.5 MB, errors: 0
+- 2026-05-25T00: windows 12, rows 4399382, 28.3 s, 2120.3 MB, errors: 0
+- 2026-05-25T01: windows 12, rows 4193345, 46.6 s, 2250.3 MB, errors: 0
+- 2026-05-25T02: windows 12, rows 3876904, 35.9 s, 2056.4 MB, errors: 0
+- 2026-05-25T03: windows 12, rows 4249292, 27.4 s, 1986.9 MB, errors: 0
+- 2026-05-25T04: windows 12, rows 3452986, 22.6 s, 1976.7 MB, errors: 0
+- 2026-05-25T05: windows 12, rows 3571805, 33.7 s, 2001.9 MB, errors: 0
+- 2026-05-25T06: windows 12, rows 2561388, 19.5 s, 1742.7 MB, errors: 0
+- 2026-05-25T07: windows 12, rows 1888482, 19.7 s, 1625.6 MB, errors: 0
+- 2026-05-25T08: windows 12, rows 2681994, 46.9 s, 2003.2 MB, errors: 0
+- 2026-05-25T09: windows 12, rows 3418762, 43.5 s, 2013.2 MB, errors: 0
+- 2026-05-25T10: windows 12, rows 3134848, 25.3 s, 2013.3 MB, errors: 0
+- 2026-05-25T11: windows 12, rows 2908228, 21.4 s, 1950.2 MB, errors: 0
+- 2026-05-25T12: windows 12, rows 3245718, 28.8 s, 1984.3 MB, errors: 0
+- 2026-05-25T13: windows 12, rows 3398351, 33.4 s, 1933.5 MB, errors: 0
+- 2026-05-25T14: windows 12, rows 4008777, 29.9 s, 2116.9 MB, errors: 0
+- 2026-05-25T15: windows 12, rows 4284214, 41.9 s, 2242.9 MB, errors: 0
+- 2026-05-25T16: windows 12, rows 3750688, 27.8 s, 2059.5 MB, errors: 0
+- 2026-05-25T17: windows 12, rows 3809243, 25.7 s, 2079.2 MB, errors: 0
+- 2026-05-25T18: windows 12, rows 3244196, 36.6 s, 2039.4 MB, errors: 0
+- 2026-05-25T19: windows 12, rows 3519558, 28.2 s, 2015.5 MB, errors: 0
+- 2026-05-25T20: windows 12, rows 3607399, 26.2 s, 2050.3 MB, errors: 0
+- 2026-05-25T21: windows 12, rows 3662634, 26.1 s, 2096.8 MB, errors: 0
+- 2026-05-25T22: windows 12, rows 4046966, 28.0 s, 2122.3 MB, errors: 0
+- 2026-05-25T23: windows 12, rows 4231362, 32.8 s, 2247.3 MB, errors: 0
+- 2026-05-26T00: windows 12, rows 4390247, 26.5 s, 2183.2 MB, errors: 0
+- 2026-05-26T01: windows 12, rows 4281779, 25.9 s, 2115.7 MB, errors: 0
+- 2026-05-26T02: windows 12, rows 4354942, 27.3 s, 2174.5 MB, errors: 0
+- 2026-05-26T03: windows 12, rows 4300350, 26.1 s, 2045.1 MB, errors: 0
+- 2026-05-26T04: windows 12, rows 3923300, 24.2 s, 2108.2 MB, errors: 0
+- 2026-05-26T05: windows 12, rows 3938752, 24.1 s, 2064.2 MB, errors: 0
+- 2026-05-26T06: windows 12, rows 4101523, 25.2 s, 2091.6 MB, errors: 0
+- 2026-05-26T07: windows 12, rows 4806527, 39.9 s, 2460.9 MB, errors: 0
+- 2026-05-26T08: windows 12, rows 4243206, 45.7 s, 2151.3 MB, errors: 0
+- 2026-05-26T09: windows 12, rows 3985887, 53.4 s, 2170.1 MB, errors: 0
+- 2026-05-26T10: windows 12, rows 4744396, 50.5 s, 2405.6 MB, errors: 0
+- 2026-05-26T11: windows 12, rows 4400641, 43.3 s, 2305.9 MB, errors: 0
+- 2026-05-26T12: windows 12, rows 4555490, 45.7 s, 2486.0 MB, errors: 0
+- 2026-05-26T13: windows 12, rows 4928652, 51.7 s, 2535.2 MB, errors: 0
+- 2026-05-26T14: windows 12, rows 5202332, 55.8 s, 2639.3 MB, errors: 0
+- 2026-05-26T15: windows 12, rows 4735668, 57.6 s, 2620.7 MB, errors: 0
+- 2026-05-26T16: windows 12, rows 4803092, 65.8 s, 2546.9 MB, errors: 0
+- 2026-05-26T17: windows 11, rows 4138470, 48.5 s, 2214.3 MB, errors: 0
+- 2026-05-26T18: windows 12, rows 4993033, 52.1 s, 2556.6 MB, errors: 0
+- 2026-05-26T19: windows 12, rows 5301466, 51.7 s, 2626.7 MB, errors: 0
+- 2026-05-26T20: windows 12, rows 4947118, 50.3 s, 2370.8 MB, errors: 0
+- 2026-05-26T21: windows 12, rows 3685451, 42.5 s, 2187.5 MB, errors: 0
+- 2026-05-26T22: windows 12, rows 4822726, 46.7 s, 2269.6 MB, errors: 0
+- 2026-05-26T23: windows 12, rows 4380994, 75.5 s, 2551.3 MB, errors: 0
+- 2026-05-27T00: windows 12, rows 3850251, 32.2 s, 2344.0 MB, errors: 0
+- 2026-05-27T01: windows 12, rows 4357746, 30.5 s, 2439.7 MB, errors: 0
+- 2026-05-27T02: windows 12, rows 4329257, 32.2 s, 2438.3 MB, errors: 0
+- 2026-05-27T03: windows 12, rows 4304988, 31.3 s, 2400.9 MB, errors: 0
+- 2026-05-27T04: windows 12, rows 4268234, 27.5 s, 2273.2 MB, errors: 0
+- 2026-05-27T05: windows 12, rows 4577266, 33.9 s, 2566.5 MB, errors: 0
+- 2026-05-27T06: windows 12, rows 4215408, 28.4 s, 2162.1 MB, errors: 0
+- 2026-05-27T07: windows 12, rows 4374397, 30.8 s, 2321.5 MB, errors: 0
+- 2026-05-27T08: windows 12, rows 4115419, 31.2 s, 2155.9 MB, errors: 0
+- 2026-05-27T09: windows 12, rows 3453498, 25.8 s, 2046.7 MB, errors: 0
+- 2026-05-27T10: windows 12, rows 4044351, 33.0 s, 2326.5 MB, errors: 0
+- 2026-05-27T11: windows 12, rows 3758451, 24.9 s, 2240.3 MB, errors: 0
+- 2026-05-27T12: windows 12, rows 4418412, 29.6 s, 2244.5 MB, errors: 0
+- 2026-05-27T13: windows 12, rows 4536165, 34.5 s, 2625.7 MB, errors: 0
+- 2026-05-27T14: windows 12, rows 4097201, 37.0 s, 2426.6 MB, errors: 0
+- 2026-05-27T15: windows 12, rows 4286282, 42.3 s, 2518.8 MB, errors: 0
+- 2026-05-27T16: windows 12, rows 3996850, 42.0 s, 2395.6 MB, errors: 0
+- 2026-05-27T17: windows 12, rows 3975305, 34.0 s, 2545.3 MB, errors: 0
+- 2026-05-27T18: windows 12, rows 4099455, 32.6 s, 2407.4 MB, errors: 0
+- 2026-05-27T19: windows 12, rows 3913946, 38.5 s, 2326.4 MB, errors: 0
+- 2026-05-27T20: windows 12, rows 3544322, 37.1 s, 2202.3 MB, errors: 0
+- 2026-05-27T21: windows 12, rows 3666437, 40.6 s, 2284.9 MB, errors: 0
+- 2026-05-27T22: windows 12, rows 3740339, 39.3 s, 2344.9 MB, errors: 0
+- 2026-05-27T23: windows 12, rows 3619235, 29.9 s, 2299.3 MB, errors: 0
+- 2026-05-28T00: windows 12, rows 3936536, 37.3 s, 2534.4 MB, errors: 0
+- 2026-05-28T01: windows 12, rows 4180469, 32.3 s, 2493.9 MB, errors: 0
+- 2026-05-28T02: windows 12, rows 4181231, 28.5 s, 2329.5 MB, errors: 0
+- 2026-05-28T03: windows 12, rows 4398729, 35.6 s, 2443.5 MB, errors: 0
+- 2026-05-28T04: windows 12, rows 4233609, 26.7 s, 2377.4 MB, errors: 0
+- 2026-05-28T05: windows 12, rows 4106252, 30.0 s, 2286.8 MB, errors: 0
+- 2026-05-28T06: windows 12, rows 3875412, 34.9 s, 2302.6 MB, errors: 0
+- 2026-05-28T07: windows 12, rows 4007307, 32.2 s, 2270.1 MB, errors: 0
+- 2026-05-28T08: windows 12, rows 3921604, 26.5 s, 2359.6 MB, errors: 0
+- 2026-05-28T09: windows 12, rows 3978075, 37.5 s, 2320.3 MB, errors: 0
+- 2026-05-28T10: windows 12, rows 3484502, 26.2 s, 2228.4 MB, errors: 0
+- 2026-05-28T11: windows 12, rows 3642583, 30.2 s, 2240.6 MB, errors: 0
+- 2026-05-28T12: windows 12, rows 3357045, 36.9 s, 2260.5 MB, errors: 0
+- 2026-05-28T13: windows 12, rows 3739488, 33.9 s, 2327.7 MB, errors: 0
+- 2026-05-28T14: windows 12, rows 3660369, 36.6 s, 2436.6 MB, errors: 0
+- 2026-05-28T15: windows 12, rows 3881211, 33.3 s, 2481.0 MB, errors: 0
+- 2026-05-28T16: windows 12, rows 3781250, 34.3 s, 2476.4 MB, errors: 0
+- 2026-05-28T17: windows 12, rows 3762010, 35.9 s, 2458.0 MB, errors: 0
+- 2026-05-28T18: windows 12, rows 3646967, 30.1 s, 2393.9 MB, errors: 0
+- 2026-05-28T19: windows 12, rows 3601206, 31.0 s, 2229.7 MB, errors: 0
+- 2026-05-28T20: windows 12, rows 3513205, 27.3 s, 2224.4 MB, errors: 0
+- 2026-05-28T21: windows 12, rows 3438424, 28.3 s, 2206.2 MB, errors: 0
+- 2026-05-28T22: windows 12, rows 3518318, 35.5 s, 2273.6 MB, errors: 0
+- 2026-05-28T23: windows 12, rows 3496811, 25.1 s, 2171.5 MB, errors: 0
+- 2026-05-29T00: windows 12, rows 3766258, 35.3 s, 2205.3 MB, errors: 0
+- 2026-05-29T01: windows 12, rows 3240105, 33.9 s, 2271.1 MB, errors: 0
+- 2026-05-29T02: windows 12, rows 3517531, 31.0 s, 2309.3 MB, errors: 0
+- 2026-05-29T03: windows 12, rows 3705287, 27.0 s, 2272.7 MB, errors: 0
+- 2026-05-29T04: windows 12, rows 3806101, 28.3 s, 2282.7 MB, errors: 0
+- 2026-05-29T05: windows 12, rows 3327573, 27.8 s, 2252.3 MB, errors: 0
+- 2026-05-29T06: windows 12, rows 3438507, 24.3 s, 2254.6 MB, errors: 0
+- 2026-05-29T07: windows 12, rows 3383732, 30.3 s, 2133.4 MB, errors: 0
+- 2026-05-29T08: windows 12, rows 3505236, 29.6 s, 2198.1 MB, errors: 0
+- 2026-05-29T09: windows 12, rows 3300299, 33.1 s, 2272.2 MB, errors: 0
+- 2026-05-29T10: windows 12, rows 3135212, 26.0 s, 2182.8 MB, errors: 0
+- 2026-05-29T11: windows 12, rows 3029772, 36.0 s, 2191.0 MB, errors: 0
+- 2026-05-29T12: windows 12, rows 874281, 8.2 s, 1343.3 MB, errors: 0
+- 2026-05-29T13: windows 11, rows 1378918, 16.5 s, 1660.7 MB, errors: 0
+- 2026-05-29T14: windows 12, rows 3048241, 32.8 s, 2336.9 MB, errors: 0
+- 2026-05-29T15: windows 12, rows 3119158, 35.0 s, 2311.1 MB, errors: 0
+- 2026-05-29T16: windows 12, rows 3291790, 33.0 s, 2356.5 MB, errors: 0
+- 2026-05-29T17: windows 12, rows 2938184, 32.7 s, 2252.7 MB, errors: 0
+- 2026-05-29T18: windows 12, rows 3234637, 36.6 s, 2222.6 MB, errors: 0
+- 2026-05-29T19: windows 12, rows 3388769, 31.7 s, 2188.3 MB, errors: 0
+- 2026-05-29T20: windows 12, rows 3385912, 36.1 s, 2192.3 MB, errors: 0
+- 2026-05-29T21: windows 12, rows 2959909, 27.6 s, 2063.7 MB, errors: 0
+- 2026-05-29T22: windows 12, rows 2947348, 23.3 s, 2026.4 MB, errors: 0
+- 2026-05-29T23: windows 12, rows 2931202, 36.1 s, 2189.9 MB, errors: 0
 - 2026-05-30T00: windows 12, rows 3073190, 39.0 s, 2179.6 MB, errors: 0
 - 2026-05-30T01: windows 12, rows 3667108, 33.6 s, 2202.7 MB, errors: 0
 - 2026-05-30T02: windows 12, rows 3425805, 38.7 s, 2175.9 MB, errors: 0
@@ -442,11 +1188,13 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-06-03T01: windows 12, rows 3709174, 63.4 s, 2380.5 MB, errors: 0
 - 2026-06-03T02: windows 12, rows 3797175, 47.4 s, 2284.0 MB, errors: 0
 - 2026-06-03T03: windows 12, rows 4034368, 59.1 s, 2346.1 MB, errors: 0
+- 2026-06-03T04: windows 12, rows 3939502, 48.5 s, 2342.5 MB, errors: 0
 - 2026-06-03T05: windows 12, rows 4533881, 48.5 s, 2497.2 MB, errors: 0
 - 2026-06-03T06: windows 12, rows 4966425, 48.0 s, 2646.5 MB, errors: 0
 - 2026-06-03T07: windows 12, rows 4183828, 44.4 s, 2512.3 MB, errors: 0
 - 2026-06-03T08: windows 12, rows 3501753, 44.0 s, 2202.3 MB, errors: 0
 - 2026-06-03T09: windows 12, rows 3301776, 45.3 s, 2198.9 MB, errors: 0
+- 2026-06-03T10: windows 12, rows 2715343, 38.2 s, 2087.5 MB, errors: 0
 - 2026-06-03T11: windows 12, rows 2728796, 50.1 s, 2015.6 MB, errors: 0
 - 2026-06-03T12: windows 12, rows 839486, 11.5 s, 1311.3 MB, errors: 0
 - 2026-06-03T13: windows 12, rows 3378325, 45.1 s, 2170.1 MB, errors: 0
@@ -463,6 +1211,7 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-06-04T00: windows 12, rows 2656662, 39.1 s, 2122.4 MB, errors: 0
 - 2026-06-04T01: windows 12, rows 2346108, 40.6 s, 2008.9 MB, errors: 0
 - 2026-06-04T02: windows 12, rows 2730183, 49.2 s, 2173.4 MB, errors: 0
+- 2026-06-04T03: windows 12, rows 4047833, 45.3 s, 2462.1 MB, errors: 0
 - 2026-06-04T04: windows 12, rows 3593489, 43.4 s, 2315.1 MB, errors: 0
 - 2026-06-04T05: windows 12, rows 3740618, 48.6 s, 2287.4 MB, errors: 0
 - 2026-06-04T06: windows 12, rows 3800610, 51.6 s, 2426.5 MB, errors: 0
@@ -486,6 +1235,7 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 - 2026-06-05T00: windows 12, rows 3429039, 51.8 s, 2252.1 MB, errors: 0
 - 2026-06-05T01: windows 12, rows 3155993, 41.7 s, 2124.7 MB, errors: 0
 - 2026-06-05T02: windows 12, rows 2093980, 37.7 s, 1954.5 MB, errors: 0
+- 2026-06-05T03: windows 12, rows 2537964, 34.5 s, 2008.5 MB, errors: 0
 - 2026-06-05T04: windows 12, rows 2446670, 37.3 s, 1995.6 MB, errors: 0
 - 2026-06-05T05: windows 12, rows 2366379, 42.5 s, 1888.1 MB, errors: 0
 - 2026-06-05T06: windows 12, rows 1848202, 40.7 s, 1775.6 MB, errors: 0
@@ -1481,15 +2231,15 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 
 ```
 {
- "snapshot_pairs": 60752721,
+ "snapshot_pairs": 68321460,
  "level_agreement_pct_unanchored": 93.9,
  "level_agreement_pct_anchored": 93.9,
- "phantom_levels_unanchored": 327319704,
- "phantom_levels_anchored": 329722757,
- "price_change_events": 4859488860,
- "pct_events_needing_repair": 0.8,
- "rows_with_bad_best_ask": 74436252,
- "windows_with_snapshot_before_start": 26466
+ "phantom_levels_unanchored": 367083659,
+ "phantom_levels_anchored": 368275485,
+ "price_change_events": 6844138203,
+ "pct_events_needing_repair": 0.7,
+ "rows_with_bad_best_ask": 101330055,
+ "windows_with_snapshot_before_start": 32872
 }
 ```
 
@@ -1498,34 +2248,34 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 ```
 {
  "P0.01": {
-  "trades": 316610,
-  "pairs": 16432,
-  "wins": 329,
-  "win_rate_pct": 2.0,
+  "trades": 520707,
+  "pairs": 25106,
+  "wins": 793,
+  "win_rate_pct": 3.2,
   "win_rate_95pct_ci": [
-   1.8,
-   2.23
+   2.95,
+   3.38
   ],
-  "cost": 719386.6,
-  "payout": 1907018.25,
-  "roi_gross_pct": 165.1,
-  "roi_with_fee_pct": 147.9,
-  "pct_shares_in_last_60s": 78.1
+  "cost": 1210479.94,
+  "payout": 3308953.87,
+  "roi_gross_pct": 173.4,
+  "roi_with_fee_pct": 155.6,
+  "pct_shares_in_last_60s": 79.3
  },
  "P0.02": {
-  "trades": 526566,
-  "pairs": 16917,
-  "wins": 458,
-  "win_rate_pct": 2.7,
+  "trades": 885375,
+  "pairs": 25782,
+  "wins": 1005,
+  "win_rate_pct": 3.9,
   "win_rate_95pct_ci": [
-   2.47,
-   2.96
+   3.67,
+   4.14
   ],
-  "cost": 1144363.04,
-  "payout": 2560085.25,
-  "roi_gross_pct": 123.7,
-  "roi_with_fee_pct": 109.3,
-  "pct_shares_in_last_60s": 73.5
+  "cost": 1996464.36,
+  "payout": 4277390.35,
+  "roi_gross_pct": 114.2,
+  "roi_with_fee_pct": 100.4,
+  "pct_shares_in_last_60s": 74.1
  }
 }
 ```
@@ -1535,1606 +2285,1606 @@ Hours: 1472 (with errors: 0), windows in archive: 17546
 ```
 {
  "P0.01_S100_L0": {
-  "entries": 16417,
-  "filled": 16035,
-  "unknown_size": 23,
-  "no_asks": 359,
+  "entries": 25062,
+  "filled": 24587,
+  "unknown_size": 25,
+  "no_asks": 450,
   "too_late": 0,
-  "wins": 229,
+  "wins": 643,
   "win_rate_95pct_ci": [
-   1.26,
-   1.62
+   2.42,
+   2.82
   ],
-  "cost": 220858.81,
-  "payout": 700209.91,
-  "pnl_gross": 479351.1,
-  "pnl_with_fee": 464045.57,
-  "roi_gross_pct": 217.0,
-  "supported_filled": 16035,
-  "supported_wins": 229,
-  "supported_pnl_with_fee": 464045.57
+  "cost": 323829.39,
+  "payout": 1234583.98,
+  "pnl_gross": 910754.59,
+  "pnl_with_fee": 888313.18,
+  "roi_gross_pct": 281.2,
+  "supported_filled": 24587,
+  "supported_wins": 643,
+  "supported_pnl_with_fee": 888313.18
  },
  "P0.01_S100_L0.25": {
-  "entries": 16417,
-  "filled": 16003,
-  "unknown_size": 2,
-  "no_asks": 238,
-  "too_late": 174,
-  "wins": 170,
+  "entries": 25062,
+  "filled": 23949,
+  "unknown_size": 4,
+  "no_asks": 863,
+  "too_late": 246,
+  "wins": 328,
   "win_rate_95pct_ci": [
-   0.91,
-   1.23
+   1.23,
+   1.52
   ],
-  "cost": 805873.06,
-  "payout": 833447.96,
-  "pnl_gross": 27574.9,
-  "pnl_with_fee": -28272.15,
-  "roi_gross_pct": 3.4,
-  "supported_filled": 16003,
-  "supported_wins": 170,
-  "supported_pnl_with_fee": -28272.15
+  "cost": 1080317.19,
+  "payout": 1181061.52,
+  "pnl_gross": 100744.33,
+  "pnl_with_fee": 25878.28,
+  "roi_gross_pct": 9.3,
+  "supported_filled": 23949,
+  "supported_wins": 328,
+  "supported_pnl_with_fee": 25878.28
  },
  "P0.01_S100_L0.25|early(<240s)": {
-  "entries": 2754,
-  "filled": 2736,
+  "entries": 4194,
+  "filled": 4155,
   "unknown_size": 0,
-  "no_asks": 18,
+  "no_asks": 39,
   "too_late": 0,
-  "wins": 17,
+  "wins": 25,
   "win_rate_95pct_ci": [
-   0.39,
-   0.99
+   0.41,
+   0.89
   ],
-  "cost": 125826.43,
-  "payout": 68381.17,
-  "pnl_gross": -57445.26,
-  "pnl_with_fee": -66165.03,
-  "roi_gross_pct": -45.7,
-  "supported_filled": 2736,
-  "supported_wins": 17,
-  "supported_pnl_with_fee": -66165.03
+  "cost": 172838.99,
+  "payout": 94307.58,
+  "pnl_gross": -78531.41,
+  "pnl_with_fee": -90509.16,
+  "roi_gross_pct": -45.4,
+  "supported_filled": 4155,
+  "supported_wins": 25,
+  "supported_pnl_with_fee": -90509.16
  },
  "P0.01_S100_L0.25|last15s": {
-  "entries": 8085,
-  "filled": 7721,
-  "unknown_size": 2,
-  "no_asks": 188,
-  "too_late": 174,
-  "wins": 102,
+  "entries": 12413,
+  "filled": 11418,
+  "unknown_size": 4,
+  "no_asks": 745,
+  "too_late": 246,
+  "wins": 238,
   "win_rate_95pct_ci": [
-   1.09,
-   1.6
+   1.84,
+   2.36
   ],
-  "cost": 426148.77,
-  "payout": 530370.9,
-  "pnl_gross": 104222.13,
-  "pnl_with_fee": 74690.0,
-  "roi_gross_pct": 24.5,
-  "supported_filled": 7721,
-  "supported_wins": 102,
-  "supported_pnl_with_fee": 74690.0
+  "cost": 567021.6,
+  "payout": 813735.36,
+  "pnl_gross": 246713.76,
+  "pnl_with_fee": 207419.14,
+  "roi_gross_pct": 43.5,
+  "supported_filled": 11418,
+  "supported_wins": 238,
+  "supported_pnl_with_fee": 207419.14
  },
  "P0.01_S100_L0.25|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5546,
+  "entries": 8455,
+  "filled": 8376,
   "unknown_size": 0,
-  "no_asks": 32,
+  "no_asks": 79,
   "too_late": 0,
-  "wins": 51,
+  "wins": 65,
   "win_rate_95pct_ci": [
-   0.7,
-   1.21
-  ],
-  "cost": 253897.87,
-  "payout": 234695.89,
-  "pnl_gross": -19201.98,
-  "pnl_with_fee": -36797.12,
-  "roi_gross_pct": -7.6,
-  "supported_filled": 5546,
-  "supported_wins": 51,
-  "supported_pnl_with_fee": -36797.12
- },
- "P0.01_S100_L0.5": {
-  "entries": 16417,
-  "filled": 15417,
-  "unknown_size": 2,
-  "no_asks": 590,
-  "too_late": 408,
-  "wins": 133,
-  "win_rate_95pct_ci": [
-   0.73,
-   1.02
-  ],
-  "cost": 836592.51,
-  "payout": 620816.84,
-  "pnl_gross": -215775.67,
-  "pnl_with_fee": -273751.6,
-  "roi_gross_pct": -25.8,
-  "supported_filled": 15417,
-  "supported_wins": 133,
-  "supported_pnl_with_fee": -273751.6
- },
- "P0.01_S100_L0.5|early(<240s)": {
-  "entries": 2754,
-  "filled": 2713,
-  "unknown_size": 1,
-  "no_asks": 40,
-  "too_late": 0,
-  "wins": 18,
-  "win_rate_95pct_ci": [
-   0.42,
-   1.05
-  ],
-  "cost": 136887.67,
-  "payout": 70839.23,
-  "pnl_gross": -66048.44,
-  "pnl_with_fee": -75534.76,
-  "roi_gross_pct": -48.3,
-  "supported_filled": 2713,
-  "supported_wins": 18,
-  "supported_pnl_with_fee": -75534.76
- },
- "P0.01_S100_L0.5|last15s": {
-  "entries": 8085,
-  "filled": 7260,
-  "unknown_size": 1,
-  "no_asks": 416,
-  "too_late": 408,
-  "wins": 66,
-  "win_rate_95pct_ci": [
-   0.72,
-   1.15
-  ],
-  "cost": 438297.55,
-  "payout": 323163.11,
-  "pnl_gross": -115134.44,
-  "pnl_with_fee": -145508.5,
-  "roi_gross_pct": -26.3,
-  "supported_filled": 7260,
-  "supported_wins": 66,
-  "supported_pnl_with_fee": -145508.5
- },
- "P0.01_S100_L0.5|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5444,
-  "unknown_size": 0,
-  "no_asks": 134,
-  "too_late": 0,
-  "wins": 49,
-  "win_rate_95pct_ci": [
-   0.68,
-   1.19
-  ],
-  "cost": 261407.3,
-  "payout": 226814.5,
-  "pnl_gross": -34592.8,
-  "pnl_with_fee": -52708.34,
-  "roi_gross_pct": -13.2,
-  "supported_filled": 5444,
-  "supported_wins": 49,
-  "supported_pnl_with_fee": -52708.34
- },
- "P0.01_S100_L0|early(<240s)": {
-  "entries": 2754,
-  "filled": 2695,
-  "unknown_size": 7,
-  "no_asks": 52,
-  "too_late": 0,
-  "wins": 19,
-  "win_rate_95pct_ci": [
-   0.45,
-   1.1
-  ],
-  "cost": 43039.3,
-  "payout": 32791.0,
-  "pnl_gross": -10248.3,
-  "pnl_with_fee": -13230.92,
-  "roi_gross_pct": -23.8,
-  "supported_filled": 2695,
-  "supported_wins": 19,
-  "supported_pnl_with_fee": -13230.92
- },
- "P0.01_S100_L0|last15s": {
-  "entries": 8085,
-  "filled": 7897,
-  "unknown_size": 9,
-  "no_asks": 179,
-  "too_late": 0,
-  "wins": 157,
-  "win_rate_95pct_ci": [
-   1.7,
-   2.32
-  ],
-  "cost": 103048.28,
-  "payout": 600836.55,
-  "pnl_gross": 497788.27,
-  "pnl_with_fee": 490647.02,
-  "roi_gross_pct": 483.1,
-  "supported_filled": 7897,
-  "supported_wins": 157,
-  "supported_pnl_with_fee": 490647.02
- },
- "P0.01_S100_L0|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5443,
-  "unknown_size": 7,
-  "no_asks": 128,
-  "too_late": 0,
-  "wins": 53,
-  "win_rate_95pct_ci": [
-   0.75,
-   1.27
-  ],
-  "cost": 74771.23,
-  "payout": 66582.36,
-  "pnl_gross": -8188.87,
-  "pnl_with_fee": -13370.52,
-  "roi_gross_pct": -11.0,
-  "supported_filled": 5443,
-  "supported_wins": 53,
-  "supported_pnl_with_fee": -13370.52
- },
- "P0.01_S100_L1": {
-  "entries": 16417,
-  "filled": 14404,
-  "unknown_size": 0,
-  "no_asks": 685,
-  "too_late": 1328,
-  "wins": 96,
-  "win_rate_95pct_ci": [
-   0.55,
-   0.81
-  ],
-  "cost": 829700.57,
-  "payout": 441319.85,
-  "pnl_gross": -388380.72,
-  "pnl_with_fee": -445879.15,
-  "roi_gross_pct": -46.8,
-  "supported_filled": 14404,
-  "supported_wins": 96,
-  "supported_pnl_with_fee": -445879.15
- },
- "P0.01_S100_L1|early(<240s)": {
-  "entries": 2754,
-  "filled": 2700,
-  "unknown_size": 0,
-  "no_asks": 54,
-  "too_late": 0,
-  "wins": 18,
-  "win_rate_95pct_ci": [
-   0.42,
-   1.05
-  ],
-  "cost": 149068.76,
-  "payout": 70146.4,
-  "pnl_gross": -78922.36,
-  "pnl_with_fee": -89252.83,
-  "roi_gross_pct": -52.9,
-  "supported_filled": 2700,
-  "supported_wins": 18,
-  "supported_pnl_with_fee": -89252.83
- },
- "P0.01_S100_L1|last15s": {
-  "entries": 8085,
-  "filled": 6344,
-  "unknown_size": 0,
-  "no_asks": 413,
-  "too_late": 1328,
-  "wins": 35,
-  "win_rate_95pct_ci": [
-   0.4,
-   0.77
-  ],
-  "cost": 411333.28,
-  "payout": 154425.17,
-  "pnl_gross": -256908.11,
-  "pnl_with_fee": -285413.65,
-  "roi_gross_pct": -62.5,
-  "supported_filled": 6344,
-  "supported_wins": 35,
-  "supported_pnl_with_fee": -285413.65
- },
- "P0.01_S100_L1|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5360,
-  "unknown_size": 0,
-  "no_asks": 218,
-  "too_late": 0,
-  "wins": 43,
-  "win_rate_95pct_ci": [
-   0.6,
-   1.08
-  ],
-  "cost": 269298.54,
-  "payout": 216748.28,
-  "pnl_gross": -52550.26,
-  "pnl_with_fee": -71212.67,
-  "roi_gross_pct": -19.5,
-  "supported_filled": 5360,
-  "supported_wins": 43,
-  "supported_pnl_with_fee": -71212.67
- },
- "P0.01_S100_L3": {
-  "entries": 16417,
-  "filled": 12136,
-  "unknown_size": 2,
-  "no_asks": 800,
-  "too_late": 3479,
-  "wins": 68,
-  "win_rate_95pct_ci": [
-   0.44,
-   0.71
-  ],
-  "cost": 765197.3,
-  "payout": 332917.22,
-  "pnl_gross": -432280.08,
-  "pnl_with_fee": -485308.46,
-  "roi_gross_pct": -56.5,
-  "supported_filled": 12136,
-  "supported_wins": 68,
-  "supported_pnl_with_fee": -485308.46
- },
- "P0.01_S100_L3|early(<240s)": {
-  "entries": 2754,
-  "filled": 2633,
-  "unknown_size": 0,
-  "no_asks": 121,
-  "too_late": 0,
-  "wins": 14,
-  "win_rate_95pct_ci": [
-   0.32,
-   0.89
-  ],
-  "cost": 159726.72,
-  "payout": 62596.43,
-  "pnl_gross": -97130.29,
-  "pnl_with_fee": -108199.38,
-  "roi_gross_pct": -60.8,
-  "supported_filled": 2633,
-  "supported_wins": 14,
-  "supported_pnl_with_fee": -108199.38
- },
- "P0.01_S100_L3|last15s": {
-  "entries": 8085,
-  "filled": 4239,
-  "unknown_size": 2,
-  "no_asks": 365,
-  "too_late": 3479,
-  "wins": 14,
-  "win_rate_95pct_ci": [
-   0.2,
-   0.55
-  ],
-  "cost": 313587.63,
-  "payout": 81298.11,
-  "pnl_gross": -232289.52,
-  "pnl_with_fee": -254021.28,
-  "roi_gross_pct": -74.1,
-  "supported_filled": 4239,
-  "supported_wins": 14,
-  "supported_pnl_with_fee": -254021.28
- },
- "P0.01_S100_L3|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5264,
-  "unknown_size": 0,
-  "no_asks": 314,
-  "too_late": 0,
-  "wins": 40,
-  "win_rate_95pct_ci": [
-   0.56,
-   1.03
-  ],
-  "cost": 291882.94,
-  "payout": 189022.68,
-  "pnl_gross": -102860.26,
-  "pnl_with_fee": -123087.8,
-  "roi_gross_pct": -35.2,
-  "supported_filled": 5264,
-  "supported_wins": 40,
-  "supported_pnl_with_fee": -123087.8
- },
- "P0.01_S25_L0": {
-  "entries": 16417,
-  "filled": 16035,
-  "unknown_size": 23,
-  "no_asks": 359,
-  "too_late": 0,
-  "wins": 229,
-  "win_rate_95pct_ci": [
-   1.26,
-   1.62
-  ],
-  "cost": 149743.05,
-  "payout": 313383.75,
-  "pnl_gross": 163640.7,
-  "pnl_with_fee": 153263.5,
-  "roi_gross_pct": 109.3,
-  "supported_filled": 16035,
-  "supported_wins": 229,
-  "supported_pnl_with_fee": 153263.5
- },
- "P0.01_S25_L0.25": {
-  "entries": 16417,
-  "filled": 16003,
-  "unknown_size": 2,
-  "no_asks": 238,
-  "too_late": 174,
-  "wins": 170,
-  "win_rate_95pct_ci": [
-   0.91,
-   1.23
-  ],
-  "cost": 331150.07,
-  "payout": 344747.67,
-  "pnl_gross": 13597.6,
-  "pnl_with_fee": -9351.14,
-  "roi_gross_pct": 4.1,
-  "supported_filled": 16003,
-  "supported_wins": 170,
-  "supported_pnl_with_fee": -9351.14
- },
- "P0.01_S25_L0.25|early(<240s)": {
-  "entries": 2754,
-  "filled": 2736,
-  "unknown_size": 0,
-  "no_asks": 18,
-  "too_late": 0,
-  "wins": 17,
-  "win_rate_95pct_ci": [
-   0.39,
+   0.61,
    0.99
   ],
-  "cost": 55595.38,
-  "payout": 32278.22,
-  "pnl_gross": -23317.16,
-  "pnl_with_fee": -27169.92,
-  "roi_gross_pct": -41.9,
-  "supported_filled": 2736,
-  "supported_wins": 17,
-  "supported_pnl_with_fee": -27169.92
+  "cost": 340456.6,
+  "payout": 273018.58,
+  "pnl_gross": -67438.02,
+  "pnl_with_fee": -91031.7,
+  "roi_gross_pct": -19.8,
+  "supported_filled": 8376,
+  "supported_wins": 65,
+  "supported_pnl_with_fee": -91031.7
  },
- "P0.01_S25_L0.25|last15s": {
-  "entries": 8085,
-  "filled": 7721,
+ "P0.01_S100_L0.5": {
+  "entries": 25062,
+  "filled": 22915,
   "unknown_size": 2,
-  "no_asks": 188,
-  "too_late": 174,
-  "wins": 102,
+  "no_asks": 1587,
+  "too_late": 558,
+  "wins": 225,
   "win_rate_95pct_ci": [
-   1.09,
-   1.6
+   0.86,
+   1.12
   ],
-  "cost": 164681.34,
-  "payout": 211587.38,
-  "pnl_gross": 46906.04,
-  "pnl_with_fee": 35493.61,
-  "roi_gross_pct": 28.5,
-  "supported_filled": 7721,
-  "supported_wins": 102,
-  "supported_pnl_with_fee": 35493.61
+  "cost": 1134723.45,
+  "payout": 857401.0,
+  "pnl_gross": -277322.45,
+  "pnl_with_fee": -355958.87,
+  "roi_gross_pct": -24.4,
+  "supported_filled": 22915,
+  "supported_wins": 225,
+  "supported_pnl_with_fee": -355958.87
  },
- "P0.01_S25_L0.25|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5546,
-  "unknown_size": 0,
-  "no_asks": 32,
-  "too_late": 0,
-  "wins": 51,
-  "win_rate_95pct_ci": [
-   0.7,
-   1.21
-  ],
-  "cost": 110873.35,
-  "payout": 100882.07,
-  "pnl_gross": -9991.28,
-  "pnl_with_fee": -17674.82,
-  "roi_gross_pct": -9.0,
-  "supported_filled": 5546,
-  "supported_wins": 51,
-  "supported_pnl_with_fee": -17674.82
- },
- "P0.01_S25_L0.5": {
-  "entries": 16417,
-  "filled": 15417,
-  "unknown_size": 2,
-  "no_asks": 590,
-  "too_late": 408,
-  "wins": 133,
-  "win_rate_95pct_ci": [
-   0.73,
-   1.02
-  ],
-  "cost": 327768.11,
-  "payout": 258009.73,
-  "pnl_gross": -69758.38,
-  "pnl_with_fee": -92472.77,
-  "roi_gross_pct": -21.3,
-  "supported_filled": 15417,
-  "supported_wins": 133,
-  "supported_pnl_with_fee": -92472.77
- },
- "P0.01_S25_L0.5|early(<240s)": {
-  "entries": 2754,
-  "filled": 2713,
+ "P0.01_S100_L0.5|early(<240s)": {
+  "entries": 4194,
+  "filled": 4100,
   "unknown_size": 1,
-  "no_asks": 40,
+  "no_asks": 93,
   "too_late": 0,
-  "wins": 18,
+  "wins": 24,
   "win_rate_95pct_ci": [
-   0.42,
-   1.05
+   0.39,
+   0.87
   ],
-  "cost": 57495.5,
-  "payout": 34240.32,
-  "pnl_gross": -23255.18,
-  "pnl_with_fee": -27239.63,
-  "roi_gross_pct": -40.4,
-  "supported_filled": 2713,
-  "supported_wins": 18,
-  "supported_pnl_with_fee": -27239.63
+  "cost": 189693.56,
+  "payout": 93976.54,
+  "pnl_gross": -95717.02,
+  "pnl_with_fee": -108862.8,
+  "roi_gross_pct": -50.5,
+  "supported_filled": 4100,
+  "supported_wins": 24,
+  "supported_pnl_with_fee": -108862.8
  },
- "P0.01_S25_L0.5|last15s": {
-  "entries": 8085,
-  "filled": 7260,
+ "P0.01_S100_L0.5|last15s": {
+  "entries": 12413,
+  "filled": 10622,
   "unknown_size": 1,
-  "no_asks": 416,
-  "too_late": 408,
-  "wins": 66,
+  "no_asks": 1232,
+  "too_late": 558,
+  "wins": 139,
   "win_rate_95pct_ci": [
-   0.72,
-   1.15
+   1.11,
+   1.54
   ],
-  "cost": 158210.25,
-  "payout": 128174.54,
-  "pnl_gross": -30035.71,
-  "pnl_with_fee": -40999.71,
-  "roi_gross_pct": -19.0,
-  "supported_filled": 7260,
-  "supported_wins": 66,
-  "supported_pnl_with_fee": -40999.71
+  "cost": 592031.08,
+  "payout": 495925.57,
+  "pnl_gross": -96105.51,
+  "pnl_with_fee": -137133.31,
+  "roi_gross_pct": -16.2,
+  "supported_filled": 10622,
+  "supported_wins": 139,
+  "supported_pnl_with_fee": -137133.31
  },
- "P0.01_S25_L0.5|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5444,
+ "P0.01_S100_L0.5|late(240-285s)": {
+  "entries": 8455,
+  "filled": 8193,
   "unknown_size": 0,
-  "no_asks": 134,
+  "no_asks": 262,
   "too_late": 0,
-  "wins": 49,
+  "wins": 62,
   "win_rate_95pct_ci": [
-   0.68,
-   1.19
+   0.59,
+   0.97
   ],
-  "cost": 112062.36,
-  "payout": 95594.87,
-  "pnl_gross": -16467.49,
-  "pnl_with_fee": -24233.43,
-  "roi_gross_pct": -14.7,
-  "supported_filled": 5444,
-  "supported_wins": 49,
-  "supported_pnl_with_fee": -24233.43
+  "cost": 352998.8,
+  "payout": 267498.89,
+  "pnl_gross": -85499.91,
+  "pnl_with_fee": -109962.77,
+  "roi_gross_pct": -24.2,
+  "supported_filled": 8193,
+  "supported_wins": 62,
+  "supported_pnl_with_fee": -109962.77
  },
- "P0.01_S25_L0|early(<240s)": {
-  "entries": 2754,
-  "filled": 2695,
+ "P0.01_S100_L0|early(<240s)": {
+  "entries": 4194,
+  "filled": 4127,
   "unknown_size": 7,
-  "no_asks": 52,
+  "no_asks": 60,
   "too_late": 0,
-  "wins": 19,
+  "wins": 27,
   "win_rate_95pct_ci": [
    0.45,
-   1.1
+   0.95
   ],
-  "cost": 29505.96,
-  "payout": 22956.95,
-  "pnl_gross": -6549.01,
-  "pnl_with_fee": -8593.77,
-  "roi_gross_pct": -22.2,
-  "supported_filled": 2695,
-  "supported_wins": 19,
-  "supported_pnl_with_fee": -8593.77
+  "cost": 62824.9,
+  "payout": 50736.18,
+  "pnl_gross": -12088.72,
+  "pnl_with_fee": -16442.49,
+  "roi_gross_pct": -19.2,
+  "supported_filled": 4127,
+  "supported_wins": 27,
+  "supported_pnl_with_fee": -16442.49
  },
- "P0.01_S25_L0|last15s": {
-  "entries": 8085,
-  "filled": 7897,
+ "P0.01_S100_L0|last15s": {
+  "entries": 12413,
+  "filled": 12167,
   "unknown_size": 9,
-  "no_asks": 179,
+  "no_asks": 237,
   "too_late": 0,
-  "wins": 157,
+  "wins": 548,
   "win_rate_95pct_ci": [
-   1.7,
-   2.32
+   4.15,
+   4.89
   ],
-  "cost": 66392.89,
-  "payout": 239618.19,
-  "pnl_gross": 173225.3,
-  "pnl_with_fee": 168624.27,
-  "roi_gross_pct": 260.9,
-  "supported_filled": 7897,
-  "supported_wins": 157,
-  "supported_pnl_with_fee": 168624.27
+  "cost": 151247.95,
+  "payout": 1100706.73,
+  "pnl_gross": 949458.78,
+  "pnl_with_fee": 938977.28,
+  "roi_gross_pct": 627.7,
+  "supported_filled": 12167,
+  "supported_wins": 548,
+  "supported_pnl_with_fee": 938977.28
  },
- "P0.01_S25_L0|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5443,
-  "unknown_size": 7,
-  "no_asks": 128,
+ "P0.01_S100_L0|late(240-285s)": {
+  "entries": 8455,
+  "filled": 8293,
+  "unknown_size": 9,
+  "no_asks": 153,
+  "too_late": 0,
+  "wins": 68,
+  "win_rate_95pct_ci": [
+   0.65,
+   1.04
+  ],
+  "cost": 109756.54,
+  "payout": 83141.07,
+  "pnl_gross": -26615.47,
+  "pnl_with_fee": -34221.61,
+  "roi_gross_pct": -24.2,
+  "supported_filled": 8293,
+  "supported_wins": 68,
+  "supported_pnl_with_fee": -34221.61
+ },
+ "P0.01_S100_L1": {
+  "entries": 25062,
+  "filled": 21444,
+  "unknown_size": 1,
+  "no_asks": 1752,
+  "too_late": 1865,
+  "wins": 161,
+  "win_rate_95pct_ci": [
+   0.64,
+   0.88
+  ],
+  "cost": 1146983.1,
+  "payout": 647737.09,
+  "pnl_gross": -499246.01,
+  "pnl_with_fee": -578732.15,
+  "roi_gross_pct": -43.5,
+  "supported_filled": 21444,
+  "supported_wins": 161,
+  "supported_pnl_with_fee": -578732.15
+ },
+ "P0.01_S100_L1|early(<240s)": {
+  "entries": 4194,
+  "filled": 4069,
+  "unknown_size": 0,
+  "no_asks": 125,
+  "too_late": 0,
+  "wins": 25,
+  "win_rate_95pct_ci": [
+   0.42,
+   0.91
+  ],
+  "cost": 207074.65,
+  "payout": 94926.75,
+  "pnl_gross": -112147.9,
+  "pnl_with_fee": -126498.19,
+  "roi_gross_pct": -54.2,
+  "supported_filled": 4069,
+  "supported_wins": 25,
+  "supported_pnl_with_fee": -126498.19
+ },
+ "P0.01_S100_L1|last15s": {
+  "entries": 12413,
+  "filled": 9328,
+  "unknown_size": 1,
+  "no_asks": 1219,
+  "too_late": 1865,
+  "wins": 79,
+  "win_rate_95pct_ci": [
+   0.68,
+   1.05
+  ],
+  "cost": 574623.83,
+  "payout": 289891.5,
+  "pnl_gross": -284732.33,
+  "pnl_with_fee": -324553.92,
+  "roi_gross_pct": -49.6,
+  "supported_filled": 9328,
+  "supported_wins": 79,
+  "supported_pnl_with_fee": -324553.92
+ },
+ "P0.01_S100_L1|late(240-285s)": {
+  "entries": 8455,
+  "filled": 8047,
+  "unknown_size": 0,
+  "no_asks": 408,
+  "too_late": 0,
+  "wins": 57,
+  "win_rate_95pct_ci": [
+   0.55,
+   0.92
+  ],
+  "cost": 365284.62,
+  "payout": 262918.84,
+  "pnl_gross": -102365.78,
+  "pnl_with_fee": -127680.04,
+  "roi_gross_pct": -28.0,
+  "supported_filled": 8047,
+  "supported_wins": 57,
+  "supported_pnl_with_fee": -127680.04
+ },
+ "P0.01_S100_L3": {
+  "entries": 25062,
+  "filled": 18047,
+  "unknown_size": 3,
+  "no_asks": 1878,
+  "too_late": 5134,
+  "wins": 98,
+  "win_rate_95pct_ci": [
+   0.45,
+   0.66
+  ],
+  "cost": 1065192.62,
+  "payout": 434919.71,
+  "pnl_gross": -630272.91,
+  "pnl_with_fee": -704091.01,
+  "roi_gross_pct": -59.2,
+  "supported_filled": 18047,
+  "supported_wins": 98,
+  "supported_pnl_with_fee": -704091.01
+ },
+ "P0.01_S100_L3|early(<240s)": {
+  "entries": 4194,
+  "filled": 3938,
+  "unknown_size": 0,
+  "no_asks": 256,
+  "too_late": 0,
+  "wins": 20,
+  "win_rate_95pct_ci": [
+   0.33,
+   0.78
+  ],
+  "cost": 227065.68,
+  "payout": 92741.4,
+  "pnl_gross": -134324.28,
+  "pnl_with_fee": -150059.96,
+  "roi_gross_pct": -59.2,
+  "supported_filled": 3938,
+  "supported_wins": 20,
+  "supported_pnl_with_fee": -150059.96
+ },
+ "P0.01_S100_L3|last15s": {
+  "entries": 12413,
+  "filled": 6174,
+  "unknown_size": 3,
+  "no_asks": 1102,
+  "too_late": 5134,
+  "wins": 25,
+  "win_rate_95pct_ci": [
+   0.27,
+   0.6
+  ],
+  "cost": 434986.8,
+  "payout": 106884.82,
+  "pnl_gross": -328101.98,
+  "pnl_with_fee": -358246.72,
+  "roi_gross_pct": -75.4,
+  "supported_filled": 6174,
+  "supported_wins": 25,
+  "supported_pnl_with_fee": -358246.72
+ },
+ "P0.01_S100_L3|late(240-285s)": {
+  "entries": 8455,
+  "filled": 7935,
+  "unknown_size": 0,
+  "no_asks": 520,
   "too_late": 0,
   "wins": 53,
   "win_rate_95pct_ci": [
-   0.75,
-   1.27
+   0.51,
+   0.87
   ],
-  "cost": 53844.2,
-  "payout": 50808.61,
-  "pnl_gross": -3035.59,
-  "pnl_with_fee": -6767.0,
-  "roi_gross_pct": -5.6,
-  "supported_filled": 5443,
+  "cost": 403140.14,
+  "payout": 235293.49,
+  "pnl_gross": -167846.65,
+  "pnl_with_fee": -195784.33,
+  "roi_gross_pct": -41.6,
+  "supported_filled": 7935,
   "supported_wins": 53,
-  "supported_pnl_with_fee": -6767.0
+  "supported_pnl_with_fee": -195784.33
  },
- "P0.01_S25_L1": {
-  "entries": 16417,
-  "filled": 14404,
-  "unknown_size": 0,
-  "no_asks": 685,
-  "too_late": 1328,
-  "wins": 96,
-  "win_rate_95pct_ci": [
-   0.55,
-   0.81
-  ],
-  "cost": 311898.11,
-  "payout": 187932.5,
-  "pnl_gross": -123965.61,
-  "pnl_with_fee": -145580.28,
-  "roi_gross_pct": -39.7,
-  "supported_filled": 14404,
-  "supported_wins": 96,
-  "supported_pnl_with_fee": -145580.28
- },
- "P0.01_S25_L1|early(<240s)": {
-  "entries": 2754,
-  "filled": 2700,
-  "unknown_size": 0,
-  "no_asks": 54,
+ "P0.01_S25_L0": {
+  "entries": 25062,
+  "filled": 24587,
+  "unknown_size": 25,
+  "no_asks": 450,
   "too_late": 0,
-  "wins": 18,
+  "wins": 643,
   "win_rate_95pct_ci": [
-   0.42,
-   1.05
+   2.42,
+   2.82
   ],
-  "cost": 59313.01,
-  "payout": 33361.8,
-  "pnl_gross": -25951.21,
-  "pnl_with_fee": -30061.61,
-  "roi_gross_pct": -43.8,
-  "supported_filled": 2700,
-  "supported_wins": 18,
-  "supported_pnl_with_fee": -30061.61
+  "cost": 224246.17,
+  "payout": 683930.4,
+  "pnl_gross": 459684.23,
+  "pnl_with_fee": 444143.94,
+  "roi_gross_pct": 205.0,
+  "supported_filled": 24587,
+  "supported_wins": 643,
+  "supported_pnl_with_fee": 444143.94
  },
- "P0.01_S25_L1|last15s": {
-  "entries": 8085,
-  "filled": 6344,
-  "unknown_size": 0,
-  "no_asks": 413,
-  "too_late": 1328,
-  "wins": 35,
+ "P0.01_S25_L0.25": {
+  "entries": 25062,
+  "filled": 23949,
+  "unknown_size": 4,
+  "no_asks": 863,
+  "too_late": 246,
+  "wins": 328,
   "win_rate_95pct_ci": [
-   0.4,
-   0.77
+   1.23,
+   1.52
   ],
-  "cost": 140680.1,
-  "payout": 66703.65,
-  "pnl_gross": -73976.45,
-  "pnl_with_fee": -83725.68,
-  "roi_gross_pct": -52.6,
-  "supported_filled": 6344,
-  "supported_wins": 35,
-  "supported_pnl_with_fee": -83725.68
+  "cost": 475582.01,
+  "payout": 551352.86,
+  "pnl_gross": 75770.85,
+  "pnl_with_fee": 42812.96,
+  "roi_gross_pct": 15.9,
+  "supported_filled": 23949,
+  "supported_wins": 328,
+  "supported_pnl_with_fee": 42812.96
  },
- "P0.01_S25_L1|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5360,
+ "P0.01_S25_L0.25|early(<240s)": {
+  "entries": 4194,
+  "filled": 4155,
   "unknown_size": 0,
-  "no_asks": 218,
+  "no_asks": 39,
   "too_late": 0,
-  "wins": 43,
+  "wins": 25,
   "win_rate_95pct_ci": [
-   0.6,
-   1.08
-  ],
-  "cost": 111905.0,
-  "payout": 87867.05,
-  "pnl_gross": -24037.95,
-  "pnl_with_fee": -31792.98,
-  "roi_gross_pct": -21.5,
-  "supported_filled": 5360,
-  "supported_wins": 43,
-  "supported_pnl_with_fee": -31792.98
- },
- "P0.01_S25_L3": {
-  "entries": 16417,
-  "filled": 12136,
-  "unknown_size": 2,
-  "no_asks": 800,
-  "too_late": 3479,
-  "wins": 68,
-  "win_rate_95pct_ci": [
-   0.44,
-   0.71
-  ],
-  "cost": 269453.12,
-  "payout": 139608.33,
-  "pnl_gross": -129844.79,
-  "pnl_with_fee": -148518.08,
-  "roi_gross_pct": -48.2,
-  "supported_filled": 12136,
-  "supported_wins": 68,
-  "supported_pnl_with_fee": -148518.08
- },
- "P0.01_S25_L3|early(<240s)": {
-  "entries": 2754,
-  "filled": 2633,
-  "unknown_size": 0,
-  "no_asks": 121,
-  "too_late": 0,
-  "wins": 14,
-  "win_rate_95pct_ci": [
-   0.32,
+   0.41,
    0.89
   ],
-  "cost": 58904.03,
-  "payout": 26306.3,
-  "pnl_gross": -32597.73,
-  "pnl_with_fee": -36679.8,
-  "roi_gross_pct": -55.3,
-  "supported_filled": 2633,
-  "supported_wins": 14,
-  "supported_pnl_with_fee": -36679.8
+  "cost": 82518.79,
+  "payout": 46181.99,
+  "pnl_gross": -36336.8,
+  "pnl_with_fee": -42055.36,
+  "roi_gross_pct": -44.0,
+  "supported_filled": 4155,
+  "supported_wins": 25,
+  "supported_pnl_with_fee": -42055.36
+ },
+ "P0.01_S25_L0.25|last15s": {
+  "entries": 12413,
+  "filled": 11418,
+  "unknown_size": 4,
+  "no_asks": 745,
+  "too_late": 246,
+  "wins": 238,
+  "win_rate_95pct_ci": [
+   1.84,
+   2.36
+  ],
+  "cost": 231415.73,
+  "payout": 378693.74,
+  "pnl_gross": 147278.01,
+  "pnl_with_fee": 131240.88,
+  "roi_gross_pct": 63.6,
+  "supported_filled": 11418,
+  "supported_wins": 238,
+  "supported_pnl_with_fee": 131240.88
+ },
+ "P0.01_S25_L0.25|late(240-285s)": {
+  "entries": 8455,
+  "filled": 8376,
+  "unknown_size": 0,
+  "no_asks": 79,
+  "too_late": 0,
+  "wins": 65,
+  "win_rate_95pct_ci": [
+   0.61,
+   0.99
+  ],
+  "cost": 161647.48,
+  "payout": 126477.13,
+  "pnl_gross": -35170.35,
+  "pnl_with_fee": -46372.55,
+  "roi_gross_pct": -21.8,
+  "supported_filled": 8376,
+  "supported_wins": 65,
+  "supported_pnl_with_fee": -46372.55
+ },
+ "P0.01_S25_L0.5": {
+  "entries": 25062,
+  "filled": 22915,
+  "unknown_size": 2,
+  "no_asks": 1587,
+  "too_late": 558,
+  "wins": 225,
+  "win_rate_95pct_ci": [
+   0.86,
+   1.12
+  ],
+  "cost": 471859.28,
+  "payout": 389732.96,
+  "pnl_gross": -82126.32,
+  "pnl_with_fee": -114826.26,
+  "roi_gross_pct": -17.4,
+  "supported_filled": 22915,
+  "supported_wins": 225,
+  "supported_pnl_with_fee": -114826.26
+ },
+ "P0.01_S25_L0.5|early(<240s)": {
+  "entries": 4194,
+  "filled": 4100,
+  "unknown_size": 1,
+  "no_asks": 93,
+  "too_late": 0,
+  "wins": 24,
+  "win_rate_95pct_ci": [
+   0.39,
+   0.87
+  ],
+  "cost": 84895.96,
+  "payout": 45655.35,
+  "pnl_gross": -39240.61,
+  "pnl_with_fee": -45123.91,
+  "roi_gross_pct": -46.2,
+  "supported_filled": 4100,
+  "supported_wins": 24,
+  "supported_pnl_with_fee": -45123.91
+ },
+ "P0.01_S25_L0.5|last15s": {
+  "entries": 12413,
+  "filled": 10622,
+  "unknown_size": 1,
+  "no_asks": 1232,
+  "too_late": 558,
+  "wins": 139,
+  "win_rate_95pct_ci": [
+   1.11,
+   1.54
+  ],
+  "cost": 223843.48,
+  "payout": 222293.13,
+  "pnl_gross": -1550.35,
+  "pnl_with_fee": -17062.74,
+  "roi_gross_pct": -0.7,
+  "supported_filled": 10622,
+  "supported_wins": 139,
+  "supported_pnl_with_fee": -17062.74
+ },
+ "P0.01_S25_L0.5|late(240-285s)": {
+  "entries": 8455,
+  "filled": 8193,
+  "unknown_size": 0,
+  "no_asks": 262,
+  "too_late": 0,
+  "wins": 62,
+  "win_rate_95pct_ci": [
+   0.59,
+   0.97
+  ],
+  "cost": 163119.84,
+  "payout": 121784.48,
+  "pnl_gross": -41335.37,
+  "pnl_with_fee": -52639.6,
+  "roi_gross_pct": -25.3,
+  "supported_filled": 8193,
+  "supported_wins": 62,
+  "supported_pnl_with_fee": -52639.6
+ },
+ "P0.01_S25_L0|early(<240s)": {
+  "entries": 4194,
+  "filled": 4127,
+  "unknown_size": 7,
+  "no_asks": 60,
+  "too_late": 0,
+  "wins": 27,
+  "win_rate_95pct_ci": [
+   0.45,
+   0.95
+  ],
+  "cost": 44474.79,
+  "payout": 32001.83,
+  "pnl_gross": -12472.96,
+  "pnl_with_fee": -15555.07,
+  "roi_gross_pct": -28.0,
+  "supported_filled": 4127,
+  "supported_wins": 27,
+  "supported_pnl_with_fee": -15555.07
+ },
+ "P0.01_S25_L0|last15s": {
+  "entries": 12413,
+  "filled": 12167,
+  "unknown_size": 9,
+  "no_asks": 237,
+  "too_late": 0,
+  "wins": 548,
+  "win_rate_95pct_ci": [
+   4.15,
+   4.89
+  ],
+  "cost": 99837.7,
+  "payout": 586472.62,
+  "pnl_gross": 486634.92,
+  "pnl_with_fee": 479716.16,
+  "roi_gross_pct": 487.4,
+  "supported_filled": 12167,
+  "supported_wins": 548,
+  "supported_pnl_with_fee": 479716.16
+ },
+ "P0.01_S25_L0|late(240-285s)": {
+  "entries": 8455,
+  "filled": 8293,
+  "unknown_size": 9,
+  "no_asks": 153,
+  "too_late": 0,
+  "wins": 68,
+  "win_rate_95pct_ci": [
+   0.65,
+   1.04
+  ],
+  "cost": 79933.69,
+  "payout": 65455.95,
+  "pnl_gross": -14477.74,
+  "pnl_with_fee": -20017.15,
+  "roi_gross_pct": -18.1,
+  "supported_filled": 8293,
+  "supported_wins": 68,
+  "supported_pnl_with_fee": -20017.15
+ },
+ "P0.01_S25_L1": {
+  "entries": 25062,
+  "filled": 21444,
+  "unknown_size": 1,
+  "no_asks": 1752,
+  "too_late": 1865,
+  "wins": 161,
+  "win_rate_95pct_ci": [
+   0.64,
+   0.88
+  ],
+  "cost": 452952.58,
+  "payout": 299407.46,
+  "pnl_gross": -153545.12,
+  "pnl_with_fee": -184934.89,
+  "roi_gross_pct": -33.9,
+  "supported_filled": 21444,
+  "supported_wins": 161,
+  "supported_pnl_with_fee": -184934.89
+ },
+ "P0.01_S25_L1|early(<240s)": {
+  "entries": 4194,
+  "filled": 4069,
+  "unknown_size": 0,
+  "no_asks": 125,
+  "too_late": 0,
+  "wins": 25,
+  "win_rate_95pct_ci": [
+   0.42,
+   0.91
+  ],
+  "cost": 87393.55,
+  "payout": 47495.94,
+  "pnl_gross": -39897.61,
+  "pnl_with_fee": -45953.99,
+  "roi_gross_pct": -45.7,
+  "supported_filled": 4069,
+  "supported_wins": 25,
+  "supported_pnl_with_fee": -45953.99
+ },
+ "P0.01_S25_L1|last15s": {
+  "entries": 12413,
+  "filled": 9328,
+  "unknown_size": 1,
+  "no_asks": 1219,
+  "too_late": 1865,
+  "wins": 79,
+  "win_rate_95pct_ci": [
+   0.68,
+   1.05
+  ],
+  "cost": 202450.59,
+  "payout": 138017.07,
+  "pnl_gross": -64433.52,
+  "pnl_with_fee": -78463.47,
+  "roi_gross_pct": -31.8,
+  "supported_filled": 9328,
+  "supported_wins": 79,
+  "supported_pnl_with_fee": -78463.47
+ },
+ "P0.01_S25_L1|late(240-285s)": {
+  "entries": 8455,
+  "filled": 8047,
+  "unknown_size": 0,
+  "no_asks": 408,
+  "too_late": 0,
+  "wins": 57,
+  "win_rate_95pct_ci": [
+   0.55,
+   0.92
+  ],
+  "cost": 163108.44,
+  "payout": 113894.45,
+  "pnl_gross": -49213.99,
+  "pnl_with_fee": -60517.43,
+  "roi_gross_pct": -30.2,
+  "supported_filled": 8047,
+  "supported_wins": 57,
+  "supported_pnl_with_fee": -60517.43
+ },
+ "P0.01_S25_L3": {
+  "entries": 25062,
+  "filled": 18047,
+  "unknown_size": 3,
+  "no_asks": 1878,
+  "too_late": 5134,
+  "wins": 98,
+  "win_rate_95pct_ci": [
+   0.45,
+   0.66
+  ],
+  "cost": 392162.92,
+  "payout": 191691.33,
+  "pnl_gross": -200471.59,
+  "pnl_with_fee": -227648.71,
+  "roi_gross_pct": -51.1,
+  "supported_filled": 18047,
+  "supported_wins": 98,
+  "supported_pnl_with_fee": -227648.71
+ },
+ "P0.01_S25_L3|early(<240s)": {
+  "entries": 4194,
+  "filled": 3938,
+  "unknown_size": 0,
+  "no_asks": 256,
+  "too_late": 0,
+  "wins": 20,
+  "win_rate_95pct_ci": [
+   0.33,
+   0.78
+  ],
+  "cost": 86902.94,
+  "payout": 39165.5,
+  "pnl_gross": -47737.44,
+  "pnl_with_fee": -53759.84,
+  "roi_gross_pct": -54.9,
+  "supported_filled": 3938,
+  "supported_wins": 20,
+  "supported_pnl_with_fee": -53759.84
  },
  "P0.01_S25_L3|last15s": {
-  "entries": 8085,
-  "filled": 4239,
-  "unknown_size": 2,
-  "no_asks": 365,
-  "too_late": 3479,
-  "wins": 14,
+  "entries": 12413,
+  "filled": 6174,
+  "unknown_size": 3,
+  "no_asks": 1102,
+  "too_late": 5134,
+  "wins": 25,
   "win_rate_95pct_ci": [
-   0.2,
-   0.55
+   0.27,
+   0.6
   ],
-  "cost": 97828.8,
-  "payout": 32234.62,
-  "pnl_gross": -65594.18,
-  "pnl_with_fee": -72373.85,
-  "roi_gross_pct": -67.0,
-  "supported_filled": 4239,
-  "supported_wins": 14,
-  "supported_pnl_with_fee": -72373.85
+  "cost": 139483.47,
+  "payout": 44830.19,
+  "pnl_gross": -94653.28,
+  "pnl_with_fee": -104319.63,
+  "roi_gross_pct": -67.9,
+  "supported_filled": 6174,
+  "supported_wins": 25,
+  "supported_pnl_with_fee": -104319.63
  },
  "P0.01_S25_L3|late(240-285s)": {
-  "entries": 5578,
-  "filled": 5264,
+  "entries": 8455,
+  "filled": 7935,
   "unknown_size": 0,
-  "no_asks": 314,
+  "no_asks": 520,
   "too_late": 0,
-  "wins": 40,
+  "wins": 53,
   "win_rate_95pct_ci": [
-   0.56,
-   1.03
+   0.51,
+   0.87
   ],
-  "cost": 112720.29,
-  "payout": 81067.41,
-  "pnl_gross": -31652.88,
-  "pnl_with_fee": -39464.43,
-  "roi_gross_pct": -28.1,
-  "supported_filled": 5264,
-  "supported_wins": 40,
-  "supported_pnl_with_fee": -39464.43
+  "cost": 165776.51,
+  "payout": 107695.64,
+  "pnl_gross": -58080.87,
+  "pnl_with_fee": -69569.24,
+  "roi_gross_pct": -35.0,
+  "supported_filled": 7935,
+  "supported_wins": 53,
+  "supported_pnl_with_fee": -69569.24
  },
  "P0.02_S100_L0": {
-  "entries": 16861,
-  "filled": 16030,
-  "unknown_size": 31,
-  "no_asks": 800,
+  "entries": 25729,
+  "filled": 24660,
+  "unknown_size": 47,
+  "no_asks": 1022,
   "too_late": 0,
-  "wins": 359,
+  "wins": 866,
   "win_rate_95pct_ci": [
-   2.02,
-   2.48
+   3.29,
+   3.75
   ],
-  "cost": 58472.49,
-  "payout": 590553.41,
-  "pnl_gross": 532080.92,
-  "pnl_with_fee": 528053.59,
-  "roi_gross_pct": 910.0,
-  "supported_filled": 16030,
-  "supported_wins": 359,
-  "supported_pnl_with_fee": 528053.59
+  "cost": 87626.22,
+  "payout": 1056852.05,
+  "pnl_gross": 969225.83,
+  "pnl_with_fee": 963189.85,
+  "roi_gross_pct": 1106.1,
+  "supported_filled": 24660,
+  "supported_wins": 866,
+  "supported_pnl_with_fee": 963189.85
  },
  "P0.02_S100_L0.25": {
-  "entries": 16861,
-  "filled": 15939,
-  "unknown_size": 6,
-  "no_asks": 828,
-  "too_late": 88,
-  "wins": 302,
+  "entries": 25729,
+  "filled": 23804,
+  "unknown_size": 11,
+  "no_asks": 1777,
+  "too_late": 137,
+  "wins": 527,
   "win_rate_95pct_ci": [
-   1.69,
-   2.12
+   2.03,
+   2.41
   ],
-  "cost": 243570.26,
-  "payout": 518853.59,
-  "pnl_gross": 275283.33,
-  "pnl_with_fee": 258538.15,
-  "roi_gross_pct": 113.0,
-  "supported_filled": 15939,
-  "supported_wins": 302,
-  "supported_pnl_with_fee": 258538.15
+  "cost": 388719.45,
+  "payout": 847628.77,
+  "pnl_gross": 458909.32,
+  "pnl_with_fee": 432192.56,
+  "roi_gross_pct": 118.1,
+  "supported_filled": 23804,
+  "supported_wins": 527,
+  "supported_pnl_with_fee": 432192.56
  },
  "P0.02_S100_L0.25|early(<240s)": {
-  "entries": 4452,
-  "filled": 4361,
+  "entries": 6951,
+  "filled": 6778,
   "unknown_size": 0,
-  "no_asks": 91,
+  "no_asks": 173,
   "too_late": 0,
-  "wins": 72,
+  "wins": 101,
   "win_rate_95pct_ci": [
-   1.31,
-   2.07
+   1.23,
+   1.81
   ],
-  "cost": 72316.05,
-  "payout": 56831.09,
-  "pnl_gross": -15484.96,
-  "pnl_with_fee": -20446.69,
-  "roi_gross_pct": -21.4,
-  "supported_filled": 4361,
-  "supported_wins": 72,
-  "supported_pnl_with_fee": -20446.69
+  "cost": 127292.75,
+  "payout": 92599.59,
+  "pnl_gross": -34693.16,
+  "pnl_with_fee": -43426.35,
+  "roi_gross_pct": -27.3,
+  "supported_filled": 6778,
+  "supported_wins": 101,
+  "supported_pnl_with_fee": -43426.35
  },
  "P0.02_S100_L0.25|last15s": {
-  "entries": 6358,
-  "filled": 5677,
-  "unknown_size": 5,
-  "no_asks": 588,
-  "too_late": 88,
-  "wins": 133,
+  "entries": 9653,
+  "filled": 8152,
+  "unknown_size": 10,
+  "no_asks": 1354,
+  "too_late": 137,
+  "wins": 282,
   "win_rate_95pct_ci": [
-   1.98,
-   2.77
+   3.08,
+   3.88
   ],
-  "cost": 87830.89,
-  "payout": 392122.34,
-  "pnl_gross": 304291.45,
-  "pnl_with_fee": 298233.22,
-  "roi_gross_pct": 346.5,
-  "supported_filled": 5677,
-  "supported_wins": 133,
-  "supported_pnl_with_fee": 298233.22
+  "cost": 121633.76,
+  "payout": 642910.5,
+  "pnl_gross": 521276.74,
+  "pnl_with_fee": 512886.01,
+  "roi_gross_pct": 428.6,
+  "supported_filled": 8152,
+  "supported_wins": 282,
+  "supported_pnl_with_fee": 512886.01
  },
  "P0.02_S100_L0.25|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5901,
+  "entries": 9125,
+  "filled": 8874,
   "unknown_size": 1,
-  "no_asks": 149,
+  "no_asks": 250,
   "too_late": 0,
-  "wins": 97,
+  "wins": 144,
   "win_rate_95pct_ci": [
-   1.35,
-   2.0
+   1.38,
+   1.91
   ],
-  "cost": 83423.31,
-  "payout": 69900.16,
-  "pnl_gross": -13523.15,
-  "pnl_with_fee": -19248.39,
-  "roi_gross_pct": -16.2,
-  "supported_filled": 5901,
-  "supported_wins": 97,
-  "supported_pnl_with_fee": -19248.39
+  "cost": 139792.94,
+  "payout": 112118.68,
+  "pnl_gross": -27674.26,
+  "pnl_with_fee": -37267.1,
+  "roi_gross_pct": -19.8,
+  "supported_filled": 8874,
+  "supported_wins": 144,
+  "supported_pnl_with_fee": -37267.1
  },
  "P0.02_S100_L0.5": {
-  "entries": 16861,
-  "filled": 15362,
-  "unknown_size": 6,
-  "no_asks": 1223,
-  "too_late": 270,
-  "wins": 249,
+  "entries": 25729,
+  "filled": 22764,
+  "unknown_size": 9,
+  "no_asks": 2590,
+  "too_late": 366,
+  "wins": 406,
   "win_rate_95pct_ci": [
-   1.43,
-   1.83
+   1.62,
+   1.96
   ],
-  "cost": 278794.5,
-  "payout": 341554.43,
-  "pnl_gross": 62759.93,
-  "pnl_with_fee": 43582.22,
-  "roi_gross_pct": 22.5,
-  "supported_filled": 15362,
-  "supported_wins": 249,
-  "supported_pnl_with_fee": 43582.22
+  "cost": 443021.26,
+  "payout": 581137.77,
+  "pnl_gross": 138116.51,
+  "pnl_with_fee": 107654.2,
+  "roi_gross_pct": 31.2,
+  "supported_filled": 22764,
+  "supported_wins": 406,
+  "supported_pnl_with_fee": 107654.2
  },
  "P0.02_S100_L0.5|early(<240s)": {
-  "entries": 4452,
-  "filled": 4300,
+  "entries": 6951,
+  "filled": 6681,
   "unknown_size": 2,
-  "no_asks": 150,
+  "no_asks": 268,
   "too_late": 0,
-  "wins": 72,
+  "wins": 99,
   "win_rate_95pct_ci": [
-   1.33,
-   2.1
+   1.22,
+   1.8
   ],
-  "cost": 80352.23,
-  "payout": 62883.45,
-  "pnl_gross": -17468.78,
-  "pnl_with_fee": -22982.38,
-  "roi_gross_pct": -21.7,
-  "supported_filled": 4300,
-  "supported_wins": 72,
-  "supported_pnl_with_fee": -22982.38
+  "cost": 144365.17,
+  "payout": 103612.15,
+  "pnl_gross": -40753.02,
+  "pnl_with_fee": -50658.0,
+  "roi_gross_pct": -28.2,
+  "supported_filled": 6681,
+  "supported_wins": 99,
+  "supported_pnl_with_fee": -50658.0
  },
  "P0.02_S100_L0.5|last15s": {
-  "entries": 6358,
-  "filled": 5269,
-  "unknown_size": 4,
-  "no_asks": 815,
-  "too_late": 270,
-  "wins": 82,
+  "entries": 9653,
+  "filled": 7441,
+  "unknown_size": 6,
+  "no_asks": 1840,
+  "too_late": 366,
+  "wins": 167,
   "win_rate_95pct_ci": [
-   1.26,
-   1.93
+   1.93,
+   2.61
   ],
-  "cost": 106389.43,
-  "payout": 206575.9,
-  "pnl_gross": 100186.47,
-  "pnl_with_fee": 92841.26,
-  "roi_gross_pct": 94.2,
-  "supported_filled": 5269,
-  "supported_wins": 82,
-  "supported_pnl_with_fee": 92841.26
+  "cost": 145137.06,
+  "payout": 365329.93,
+  "pnl_gross": 220192.87,
+  "pnl_with_fee": 210172.06,
+  "roi_gross_pct": 151.7,
+  "supported_filled": 7441,
+  "supported_wins": 167,
+  "supported_pnl_with_fee": 210172.06
  },
  "P0.02_S100_L0.5|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5793,
-  "unknown_size": 0,
-  "no_asks": 258,
+  "entries": 9125,
+  "filled": 8642,
+  "unknown_size": 1,
+  "no_asks": 482,
   "too_late": 0,
-  "wins": 95,
+  "wins": 140,
   "win_rate_95pct_ci": [
-   1.34,
-   2.0
+   1.37,
+   1.91
   ],
-  "cost": 92052.84,
-  "payout": 72095.08,
-  "pnl_gross": -19957.76,
-  "pnl_with_fee": -26276.66,
-  "roi_gross_pct": -21.7,
-  "supported_filled": 5793,
-  "supported_wins": 95,
-  "supported_pnl_with_fee": -26276.66
+  "cost": 153519.03,
+  "payout": 112195.69,
+  "pnl_gross": -41323.34,
+  "pnl_with_fee": -51859.85,
+  "roi_gross_pct": -26.9,
+  "supported_filled": 8642,
+  "supported_wins": 140,
+  "supported_pnl_with_fee": -51859.85
  },
  "P0.02_S100_L0|early(<240s)": {
-  "entries": 4452,
-  "filled": 4243,
-  "unknown_size": 14,
-  "no_asks": 195,
+  "entries": 6951,
+  "filled": 6709,
+  "unknown_size": 20,
+  "no_asks": 222,
   "too_late": 0,
-  "wins": 70,
+  "wins": 100,
   "win_rate_95pct_ci": [
-   1.31,
-   2.08
+   1.23,
+   1.81
   ],
-  "cost": 12646.62,
-  "payout": 9497.86,
-  "pnl_gross": -3148.76,
-  "pnl_with_fee": -4016.64,
-  "roi_gross_pct": -24.9,
-  "supported_filled": 4243,
-  "supported_wins": 70,
-  "supported_pnl_with_fee": -4016.64
+  "cost": 18969.9,
+  "payout": 13443.28,
+  "pnl_gross": -5526.62,
+  "pnl_with_fee": -6828.3,
+  "roi_gross_pct": -29.1,
+  "supported_filled": 6709,
+  "supported_wins": 100,
+  "supported_pnl_with_fee": -6828.3
  },
  "P0.02_S100_L0|last15s": {
-  "entries": 6358,
-  "filled": 6006,
-  "unknown_size": 4,
-  "no_asks": 348,
+  "entries": 9653,
+  "filled": 9159,
+  "unknown_size": 5,
+  "no_asks": 489,
   "too_late": 0,
-  "wins": 196,
+  "wins": 624,
   "win_rate_95pct_ci": [
-   2.84,
-   3.74
+   6.31,
+   7.35
   ],
-  "cost": 29883.53,
-  "payout": 565293.53,
-  "pnl_gross": 535410.0,
-  "pnl_with_fee": 533345.38,
-  "roi_gross_pct": 1791.7,
-  "supported_filled": 6006,
-  "supported_wins": 196,
-  "supported_pnl_with_fee": 533345.38
+  "cost": 45292.57,
+  "payout": 1023086.92,
+  "pnl_gross": 977794.35,
+  "pnl_with_fee": 974664.36,
+  "roi_gross_pct": 2158.8,
+  "supported_filled": 9159,
+  "supported_wins": 624,
+  "supported_pnl_with_fee": 974664.36
  },
  "P0.02_S100_L0|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5781,
-  "unknown_size": 13,
-  "no_asks": 257,
+  "entries": 9125,
+  "filled": 8792,
+  "unknown_size": 22,
+  "no_asks": 311,
   "too_late": 0,
-  "wins": 93,
+  "wins": 142,
   "win_rate_95pct_ci": [
-   1.32,
-   1.97
+   1.37,
+   1.9
   ],
-  "cost": 15942.33,
-  "payout": 15762.02,
-  "pnl_gross": -180.31,
-  "pnl_with_fee": -1275.14,
-  "roi_gross_pct": -1.1,
-  "supported_filled": 5781,
-  "supported_wins": 93,
-  "supported_pnl_with_fee": -1275.14
+  "cost": 23363.75,
+  "payout": 20321.85,
+  "pnl_gross": -3041.9,
+  "pnl_with_fee": -4646.22,
+  "roi_gross_pct": -13.0,
+  "supported_filled": 8792,
+  "supported_wins": 142,
+  "supported_pnl_with_fee": -4646.22
  },
  "P0.02_S100_L1": {
-  "entries": 16861,
-  "filled": 14630,
-  "unknown_size": 2,
-  "no_asks": 1507,
-  "too_late": 722,
-  "wins": 216,
+  "entries": 25729,
+  "filled": 21660,
+  "unknown_size": 8,
+  "no_asks": 3030,
+  "too_late": 1031,
+  "wins": 334,
   "win_rate_95pct_ci": [
-   1.29,
-   1.68
+   1.39,
+   1.71
   ],
-  "cost": 338602.57,
-  "payout": 238357.71,
-  "pnl_gross": -100244.86,
-  "pnl_with_fee": -123559.27,
-  "roi_gross_pct": -29.6,
-  "supported_filled": 14630,
-  "supported_wins": 216,
-  "supported_pnl_with_fee": -123559.27
+  "cost": 523264.24,
+  "payout": 440704.98,
+  "pnl_gross": -82559.26,
+  "pnl_with_fee": -118570.01,
+  "roi_gross_pct": -15.8,
+  "supported_filled": 21660,
+  "supported_wins": 334,
+  "supported_pnl_with_fee": -118570.01
  },
  "P0.02_S100_L1|early(<240s)": {
-  "entries": 4452,
-  "filled": 4225,
+  "entries": 6951,
+  "filled": 6544,
   "unknown_size": 0,
-  "no_asks": 227,
+  "no_asks": 407,
   "too_late": 0,
-  "wins": 69,
+  "wins": 96,
   "win_rate_95pct_ci": [
-   1.29,
-   2.06
+   1.2,
+   1.79
   ],
-  "cost": 92796.82,
-  "payout": 68728.14,
-  "pnl_gross": -24068.68,
-  "pnl_with_fee": -30438.16,
-  "roi_gross_pct": -25.9,
-  "supported_filled": 4225,
-  "supported_wins": 69,
-  "supported_pnl_with_fee": -30438.16
+  "cost": 162152.26,
+  "payout": 115189.27,
+  "pnl_gross": -46962.99,
+  "pnl_with_fee": -58090.52,
+  "roi_gross_pct": -29.0,
+  "supported_filled": 6544,
+  "supported_wins": 96,
+  "supported_pnl_with_fee": -58090.52
  },
  "P0.02_S100_L1|last15s": {
-  "entries": 6358,
-  "filled": 4780,
-  "unknown_size": 1,
-  "no_asks": 855,
-  "too_late": 722,
-  "wins": 58,
-  "win_rate_95pct_ci": [
-   0.94,
-   1.57
-  ],
-  "cost": 140029.11,
-  "payout": 98458.64,
-  "pnl_gross": -41570.47,
-  "pnl_with_fee": -51249.79,
-  "roi_gross_pct": -29.7,
-  "supported_filled": 4780,
-  "supported_wins": 58,
-  "supported_pnl_with_fee": -51249.79
- },
- "P0.02_S100_L1|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5625,
-  "unknown_size": 1,
-  "no_asks": 425,
-  "too_late": 0,
-  "wins": 89,
-  "win_rate_95pct_ci": [
-   1.29,
-   1.94
-  ],
-  "cost": 105776.64,
-  "payout": 71170.93,
-  "pnl_gross": -34605.71,
-  "pnl_with_fee": -41871.31,
-  "roi_gross_pct": -32.7,
-  "supported_filled": 5625,
-  "supported_wins": 89,
-  "supported_pnl_with_fee": -41871.31
- },
- "P0.02_S100_L3": {
-  "entries": 16861,
-  "filled": 12866,
-  "unknown_size": 2,
-  "no_asks": 1751,
-  "too_late": 2242,
-  "wins": 154,
-  "win_rate_95pct_ci": [
-   1.02,
-   1.4
-  ],
-  "cost": 441409.3,
-  "payout": 266600.93,
-  "pnl_gross": -174808.37,
-  "pnl_with_fee": -205249.41,
-  "roi_gross_pct": -39.6,
-  "supported_filled": 12866,
-  "supported_wins": 154,
-  "supported_pnl_with_fee": -205249.41
- },
- "P0.02_S100_L3|early(<240s)": {
-  "entries": 4452,
-  "filled": 3948,
-  "unknown_size": 2,
-  "no_asks": 502,
-  "too_late": 0,
-  "wins": 57,
-  "win_rate_95pct_ci": [
-   1.12,
-   1.87
-  ],
-  "cost": 112622.66,
-  "payout": 74302.18,
-  "pnl_gross": -38320.48,
-  "pnl_with_fee": -46059.96,
-  "roi_gross_pct": -34.0,
-  "supported_filled": 3948,
-  "supported_wins": 57,
-  "supported_pnl_with_fee": -46059.96
- },
- "P0.02_S100_L3|last15s": {
-  "entries": 6358,
-  "filled": 3569,
-  "unknown_size": 0,
-  "no_asks": 547,
-  "too_late": 2242,
-  "wins": 25,
-  "win_rate_95pct_ci": [
-   0.47,
-   1.03
-  ],
-  "cost": 184018.83,
-  "payout": 92803.39,
-  "pnl_gross": -91215.44,
-  "pnl_with_fee": -103952.46,
-  "roi_gross_pct": -49.6,
-  "supported_filled": 3569,
-  "supported_wins": 25,
-  "supported_pnl_with_fee": -103952.46
- },
- "P0.02_S100_L3|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5349,
-  "unknown_size": 0,
-  "no_asks": 702,
-  "too_late": 0,
-  "wins": 72,
-  "win_rate_95pct_ci": [
-   1.07,
-   1.69
-  ],
-  "cost": 144767.8,
-  "payout": 99495.36,
-  "pnl_gross": -45272.44,
-  "pnl_with_fee": -55236.98,
-  "roi_gross_pct": -31.3,
-  "supported_filled": 5349,
-  "supported_wins": 72,
-  "supported_pnl_with_fee": -55236.98
- },
- "P0.02_S25_L0": {
-  "entries": 16861,
-  "filled": 16030,
-  "unknown_size": 31,
-  "no_asks": 800,
-  "too_late": 0,
-  "wins": 359,
-  "win_rate_95pct_ci": [
-   2.02,
-   2.48
-  ],
-  "cost": 43446.47,
-  "payout": 244308.99,
-  "pnl_gross": 200862.52,
-  "pnl_with_fee": 197874.49,
-  "roi_gross_pct": 462.3,
-  "supported_filled": 16030,
-  "supported_wins": 359,
-  "supported_pnl_with_fee": 197874.49
- },
- "P0.02_S25_L0.25": {
-  "entries": 16861,
-  "filled": 15939,
-  "unknown_size": 6,
-  "no_asks": 828,
-  "too_late": 88,
-  "wins": 302,
-  "win_rate_95pct_ci": [
-   1.69,
-   2.12
-  ],
-  "cost": 192567.58,
-  "payout": 281178.7,
-  "pnl_gross": 88611.12,
-  "pnl_with_fee": 75386.67,
-  "roi_gross_pct": 46.0,
-  "supported_filled": 15939,
-  "supported_wins": 302,
-  "supported_pnl_with_fee": 75386.67
- },
- "P0.02_S25_L0.25|early(<240s)": {
-  "entries": 4452,
-  "filled": 4361,
-  "unknown_size": 0,
-  "no_asks": 91,
-  "too_late": 0,
-  "wins": 72,
-  "win_rate_95pct_ci": [
-   1.31,
-   2.07
-  ],
-  "cost": 63262.14,
-  "payout": 52609.73,
-  "pnl_gross": -10652.41,
-  "pnl_with_fee": -14992.58,
-  "roi_gross_pct": -16.8,
-  "supported_filled": 4361,
-  "supported_wins": 72,
-  "supported_pnl_with_fee": -14992.58
- },
- "P0.02_S25_L0.25|last15s": {
-  "entries": 6358,
-  "filled": 5677,
+  "entries": 9653,
+  "filled": 6734,
   "unknown_size": 5,
-  "no_asks": 588,
-  "too_late": 88,
-  "wins": 133,
-  "win_rate_95pct_ci": [
-   1.98,
-   2.77
-  ],
-  "cost": 54669.13,
-  "payout": 166152.44,
-  "pnl_gross": 111483.31,
-  "pnl_with_fee": 107720.09,
-  "roi_gross_pct": 203.9,
-  "supported_filled": 5677,
-  "supported_wins": 133,
-  "supported_pnl_with_fee": 107720.09
- },
- "P0.02_S25_L0.25|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5901,
-  "unknown_size": 1,
-  "no_asks": 149,
-  "too_late": 0,
-  "wins": 97,
-  "win_rate_95pct_ci": [
-   1.35,
-   2.0
-  ],
-  "cost": 74636.31,
-  "payout": 62416.53,
-  "pnl_gross": -12219.78,
-  "pnl_with_fee": -17340.85,
-  "roi_gross_pct": -16.4,
-  "supported_filled": 5901,
-  "supported_wins": 97,
-  "supported_pnl_with_fee": -17340.85
- },
- "P0.02_S25_L0.5": {
-  "entries": 16861,
-  "filled": 15362,
-  "unknown_size": 6,
-  "no_asks": 1223,
-  "too_late": 270,
-  "wins": 249,
-  "win_rate_95pct_ci": [
-   1.43,
-   1.83
-  ],
-  "cost": 204933.85,
-  "payout": 207535.27,
-  "pnl_gross": 2601.42,
-  "pnl_with_fee": -11476.97,
-  "roi_gross_pct": 1.3,
-  "supported_filled": 15362,
-  "supported_wins": 249,
-  "supported_pnl_with_fee": -11476.97
- },
- "P0.02_S25_L0.5|early(<240s)": {
-  "entries": 4452,
-  "filled": 4300,
-  "unknown_size": 2,
-  "no_asks": 150,
-  "too_late": 0,
-  "wins": 72,
-  "win_rate_95pct_ci": [
-   1.33,
-   2.1
-  ],
-  "cost": 67408.99,
-  "payout": 56664.81,
-  "pnl_gross": -10744.18,
-  "pnl_with_fee": -15369.15,
-  "roi_gross_pct": -15.9,
-  "supported_filled": 4300,
-  "supported_wins": 72,
-  "supported_pnl_with_fee": -15369.15
- },
- "P0.02_S25_L0.5|last15s": {
-  "entries": 6358,
-  "filled": 5269,
-  "unknown_size": 4,
-  "no_asks": 815,
-  "too_late": 270,
-  "wins": 82,
-  "win_rate_95pct_ci": [
-   1.26,
-   1.93
-  ],
-  "cost": 58707.19,
-  "payout": 87206.74,
-  "pnl_gross": 28499.55,
-  "pnl_with_fee": 24454.82,
-  "roi_gross_pct": 48.5,
-  "supported_filled": 5269,
-  "supported_wins": 82,
-  "supported_pnl_with_fee": 24454.82
- },
- "P0.02_S25_L0.5|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5793,
-  "unknown_size": 0,
-  "no_asks": 258,
-  "too_late": 0,
-  "wins": 95,
+  "no_asks": 1883,
+  "too_late": 1031,
+  "wins": 109,
   "win_rate_95pct_ci": [
    1.34,
-   2.0
+   1.95
   ],
-  "cost": 78817.67,
-  "payout": 63663.73,
-  "pnl_gross": -15153.94,
-  "pnl_with_fee": -20562.64,
-  "roi_gross_pct": -19.2,
-  "supported_filled": 5793,
-  "supported_wins": 95,
-  "supported_pnl_with_fee": -20562.64
+  "cost": 190293.64,
+  "payout": 214557.81,
+  "pnl_gross": 24264.17,
+  "pnl_with_fee": 11110.52,
+  "roi_gross_pct": 12.8,
+  "supported_filled": 6734,
+  "supported_wins": 109,
+  "supported_pnl_with_fee": 11110.52
+ },
+ "P0.02_S100_L1|late(240-285s)": {
+  "entries": 9125,
+  "filled": 8382,
+  "unknown_size": 3,
+  "no_asks": 740,
+  "too_late": 0,
+  "wins": 129,
+  "win_rate_95pct_ci": [
+   1.3,
+   1.83
+  ],
+  "cost": 170818.35,
+  "payout": 110957.9,
+  "pnl_gross": -59860.45,
+  "pnl_with_fee": -71590.0,
+  "roi_gross_pct": -35.0,
+  "supported_filled": 8382,
+  "supported_wins": 129,
+  "supported_pnl_with_fee": -71590.0
+ },
+ "P0.02_S100_L3": {
+  "entries": 25729,
+  "filled": 19257,
+  "unknown_size": 3,
+  "no_asks": 3222,
+  "too_late": 3247,
+  "wins": 229,
+  "win_rate_95pct_ci": [
+   1.05,
+   1.35
+  ],
+  "cost": 672015.85,
+  "payout": 390824.76,
+  "pnl_gross": -281191.09,
+  "pnl_with_fee": -327510.1,
+  "roi_gross_pct": -41.8,
+  "supported_filled": 19257,
+  "supported_wins": 229,
+  "supported_pnl_with_fee": -327510.1
+ },
+ "P0.02_S100_L3|early(<240s)": {
+  "entries": 6951,
+  "filled": 6173,
+  "unknown_size": 2,
+  "no_asks": 776,
+  "too_late": 0,
+  "wins": 83,
+  "win_rate_95pct_ci": [
+   1.09,
+   1.66
+  ],
+  "cost": 189927.5,
+  "payout": 125361.61,
+  "pnl_gross": -64565.89,
+  "pnl_with_fee": -77611.4,
+  "roi_gross_pct": -34.0,
+  "supported_filled": 6173,
+  "supported_wins": 83,
+  "supported_pnl_with_fee": -77611.4
+ },
+ "P0.02_S100_L3|last15s": {
+  "entries": 9653,
+  "filled": 5057,
+  "unknown_size": 0,
+  "no_asks": 1349,
+  "too_late": 3247,
+  "wins": 41,
+  "win_rate_95pct_ci": [
+   0.6,
+   1.1
+  ],
+  "cost": 258211.16,
+  "payout": 114347.29,
+  "pnl_gross": -143863.87,
+  "pnl_with_fee": -161736.38,
+  "roi_gross_pct": -55.7,
+  "supported_filled": 5057,
+  "supported_wins": 41,
+  "supported_pnl_with_fee": -161736.38
+ },
+ "P0.02_S100_L3|late(240-285s)": {
+  "entries": 9125,
+  "filled": 8027,
+  "unknown_size": 1,
+  "no_asks": 1097,
+  "too_late": 0,
+  "wins": 105,
+  "win_rate_95pct_ci": [
+   1.08,
+   1.58
+  ],
+  "cost": 223877.19,
+  "payout": 151115.86,
+  "pnl_gross": -72761.33,
+  "pnl_with_fee": -88162.32,
+  "roi_gross_pct": -32.5,
+  "supported_filled": 8027,
+  "supported_wins": 105,
+  "supported_pnl_with_fee": -88162.32
+ },
+ "P0.02_S25_L0": {
+  "entries": 25729,
+  "filled": 24660,
+  "unknown_size": 47,
+  "no_asks": 1022,
+  "too_late": 0,
+  "wins": 866,
+  "win_rate_95pct_ci": [
+   3.29,
+   3.75
+  ],
+  "cost": 66951.61,
+  "payout": 572944.61,
+  "pnl_gross": 505993.0,
+  "pnl_with_fee": 501386.82,
+  "roi_gross_pct": 755.8,
+  "supported_filled": 24660,
+  "supported_wins": 866,
+  "supported_pnl_with_fee": 501386.82
+ },
+ "P0.02_S25_L0.25": {
+  "entries": 25729,
+  "filled": 23804,
+  "unknown_size": 11,
+  "no_asks": 1777,
+  "too_late": 137,
+  "wins": 527,
+  "win_rate_95pct_ci": [
+   2.03,
+   2.41
+  ],
+  "cost": 301572.73,
+  "payout": 491667.01,
+  "pnl_gross": 190094.28,
+  "pnl_with_fee": 169385.31,
+  "roi_gross_pct": 63.0,
+  "supported_filled": 23804,
+  "supported_wins": 527,
+  "supported_pnl_with_fee": 169385.31
+ },
+ "P0.02_S25_L0.25|early(<240s)": {
+  "entries": 6951,
+  "filled": 6778,
+  "unknown_size": 0,
+  "no_asks": 173,
+  "too_late": 0,
+  "wins": 101,
+  "win_rate_95pct_ci": [
+   1.23,
+   1.81
+  ],
+  "cost": 105075.46,
+  "payout": 78703.42,
+  "pnl_gross": -26372.04,
+  "pnl_with_fee": -33580.64,
+  "roi_gross_pct": -25.1,
+  "supported_filled": 6778,
+  "supported_wins": 101,
+  "supported_pnl_with_fee": -33580.64
+ },
+ "P0.02_S25_L0.25|last15s": {
+  "entries": 9653,
+  "filled": 8152,
+  "unknown_size": 10,
+  "no_asks": 1354,
+  "too_late": 137,
+  "wins": 282,
+  "win_rate_95pct_ci": [
+   3.08,
+   3.88
+  ],
+  "cost": 76929.57,
+  "payout": 316997.94,
+  "pnl_gross": 240068.38,
+  "pnl_with_fee": 234771.71,
+  "roi_gross_pct": 312.1,
+  "supported_filled": 8152,
+  "supported_wins": 282,
+  "supported_pnl_with_fee": 234771.71
+ },
+ "P0.02_S25_L0.25|late(240-285s)": {
+  "entries": 9125,
+  "filled": 8874,
+  "unknown_size": 1,
+  "no_asks": 250,
+  "too_late": 0,
+  "wins": 144,
+  "win_rate_95pct_ci": [
+   1.38,
+   1.91
+  ],
+  "cost": 119567.71,
+  "payout": 95965.65,
+  "pnl_gross": -23602.06,
+  "pnl_with_fee": -31805.76,
+  "roi_gross_pct": -19.7,
+  "supported_filled": 8874,
+  "supported_wins": 144,
+  "supported_pnl_with_fee": -31805.76
+ },
+ "P0.02_S25_L0.5": {
+  "entries": 25729,
+  "filled": 22764,
+  "unknown_size": 9,
+  "no_asks": 2590,
+  "too_late": 366,
+  "wins": 406,
+  "win_rate_95pct_ci": [
+   1.62,
+   1.96
+  ],
+  "cost": 318060.73,
+  "payout": 353176.48,
+  "pnl_gross": 35115.75,
+  "pnl_with_fee": 13268.9,
+  "roi_gross_pct": 11.0,
+  "supported_filled": 22764,
+  "supported_wins": 406,
+  "supported_pnl_with_fee": 13268.9
+ },
+ "P0.02_S25_L0.5|early(<240s)": {
+  "entries": 6951,
+  "filled": 6681,
+  "unknown_size": 2,
+  "no_asks": 268,
+  "too_late": 0,
+  "wins": 99,
+  "win_rate_95pct_ci": [
+   1.22,
+   1.8
+  ],
+  "cost": 112341.17,
+  "payout": 82950.1,
+  "pnl_gross": -29391.07,
+  "pnl_with_fee": -37098.44,
+  "roi_gross_pct": -26.2,
+  "supported_filled": 6681,
+  "supported_wins": 99,
+  "supported_pnl_with_fee": -37098.44
+ },
+ "P0.02_S25_L0.5|last15s": {
+  "entries": 9653,
+  "filled": 7441,
+  "unknown_size": 6,
+  "no_asks": 1840,
+  "too_late": 366,
+  "wins": 167,
+  "win_rate_95pct_ci": [
+   1.93,
+   2.61
+  ],
+  "cost": 81202.64,
+  "payout": 175733.21,
+  "pnl_gross": 94530.57,
+  "pnl_with_fee": 88935.33,
+  "roi_gross_pct": 116.4,
+  "supported_filled": 7441,
+  "supported_wins": 167,
+  "supported_pnl_with_fee": 88935.33
+ },
+ "P0.02_S25_L0.5|late(240-285s)": {
+  "entries": 9125,
+  "filled": 8642,
+  "unknown_size": 1,
+  "no_asks": 482,
+  "too_late": 0,
+  "wins": 140,
+  "win_rate_95pct_ci": [
+   1.37,
+   1.91
+  ],
+  "cost": 124516.93,
+  "payout": 94493.17,
+  "pnl_gross": -30023.75,
+  "pnl_with_fee": -38568.0,
+  "roi_gross_pct": -24.1,
+  "supported_filled": 8642,
+  "supported_wins": 140,
+  "supported_pnl_with_fee": -38568.0
  },
  "P0.02_S25_L0|early(<240s)": {
-  "entries": 4452,
-  "filled": 4243,
-  "unknown_size": 14,
-  "no_asks": 195,
+  "entries": 6951,
+  "filled": 6709,
+  "unknown_size": 20,
+  "no_asks": 222,
   "too_late": 0,
-  "wins": 70,
+  "wins": 100,
   "win_rate_95pct_ci": [
-   1.31,
-   2.08
+   1.23,
+   1.81
   ],
-  "cost": 11142.95,
-  "payout": 8849.56,
-  "pnl_gross": -2293.39,
-  "pnl_with_fee": -3057.94,
-  "roi_gross_pct": -20.6,
-  "supported_filled": 4243,
-  "supported_wins": 70,
-  "supported_pnl_with_fee": -3057.94
+  "cost": 16430.81,
+  "payout": 12794.98,
+  "pnl_gross": -3635.83,
+  "pnl_with_fee": -4763.16,
+  "roi_gross_pct": -22.1,
+  "supported_filled": 6709,
+  "supported_wins": 100,
+  "supported_pnl_with_fee": -4763.16
  },
  "P0.02_S25_L0|last15s": {
-  "entries": 6358,
-  "filled": 6006,
-  "unknown_size": 4,
-  "no_asks": 348,
+  "entries": 9653,
+  "filled": 9159,
+  "unknown_size": 5,
+  "no_asks": 489,
   "too_late": 0,
-  "wins": 196,
+  "wins": 624,
   "win_rate_95pct_ci": [
-   2.84,
-   3.74
+   6.31,
+   7.35
   ],
-  "cost": 18237.82,
-  "payout": 221437.35,
-  "pnl_gross": 203199.53,
-  "pnl_with_fee": 201941.46,
-  "roi_gross_pct": 1114.2,
-  "supported_filled": 6006,
-  "supported_wins": 196,
-  "supported_pnl_with_fee": 201941.46
+  "cost": 29514.47,
+  "payout": 541567.72,
+  "pnl_gross": 512053.25,
+  "pnl_with_fee": 510016.17,
+  "roi_gross_pct": 1734.9,
+  "supported_filled": 9159,
+  "supported_wins": 624,
+  "supported_pnl_with_fee": 510016.17
  },
  "P0.02_S25_L0|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5781,
-  "unknown_size": 13,
-  "no_asks": 257,
+  "entries": 9125,
+  "filled": 8792,
+  "unknown_size": 22,
+  "no_asks": 311,
   "too_late": 0,
-  "wins": 93,
+  "wins": 142,
   "win_rate_95pct_ci": [
-   1.32,
-   1.97
+   1.37,
+   1.9
   ],
-  "cost": 14065.7,
-  "payout": 14022.08,
-  "pnl_gross": -43.62,
-  "pnl_with_fee": -1009.03,
-  "roi_gross_pct": -0.3,
-  "supported_filled": 5781,
-  "supported_wins": 93,
-  "supported_pnl_with_fee": -1009.03
+  "cost": 21006.33,
+  "payout": 18581.91,
+  "pnl_gross": -2424.42,
+  "pnl_with_fee": -3866.2,
+  "roi_gross_pct": -11.5,
+  "supported_filled": 8792,
+  "supported_wins": 142,
+  "supported_pnl_with_fee": -3866.2
  },
  "P0.02_S25_L1": {
-  "entries": 16861,
-  "filled": 14630,
-  "unknown_size": 2,
-  "no_asks": 1507,
-  "too_late": 722,
-  "wins": 216,
+  "entries": 25729,
+  "filled": 21660,
+  "unknown_size": 8,
+  "no_asks": 3030,
+  "too_late": 1031,
+  "wins": 334,
   "win_rate_95pct_ci": [
-   1.29,
-   1.68
+   1.39,
+   1.71
   ],
-  "cost": 218835.62,
-  "payout": 172670.47,
-  "pnl_gross": -46165.14,
-  "pnl_with_fee": -61208.14,
-  "roi_gross_pct": -21.1,
-  "supported_filled": 14630,
-  "supported_wins": 216,
-  "supported_pnl_with_fee": -61208.14
+  "cost": 334766.02,
+  "payout": 296537.3,
+  "pnl_gross": -38228.71,
+  "pnl_with_fee": -61235.81,
+  "roi_gross_pct": -11.4,
+  "supported_filled": 21660,
+  "supported_wins": 334,
+  "supported_pnl_with_fee": -61235.81
  },
  "P0.02_S25_L1|early(<240s)": {
-  "entries": 4452,
-  "filled": 4225,
+  "entries": 6951,
+  "filled": 6544,
   "unknown_size": 0,
-  "no_asks": 227,
+  "no_asks": 407,
   "too_late": 0,
-  "wins": 69,
+  "wins": 96,
   "win_rate_95pct_ci": [
-   1.29,
-   2.06
+   1.2,
+   1.79
   ],
-  "cost": 71357.57,
-  "payout": 57639.72,
-  "pnl_gross": -13717.85,
-  "pnl_with_fee": -18614.68,
-  "roi_gross_pct": -19.2,
-  "supported_filled": 4225,
-  "supported_wins": 69,
-  "supported_pnl_with_fee": -18614.68
+  "cost": 117133.96,
+  "payout": 85660.55,
+  "pnl_gross": -31473.41,
+  "pnl_with_fee": -39510.66,
+  "roi_gross_pct": -26.9,
+  "supported_filled": 6544,
+  "supported_wins": 96,
+  "supported_pnl_with_fee": -39510.66
  },
  "P0.02_S25_L1|last15s": {
-  "entries": 6358,
-  "filled": 4780,
-  "unknown_size": 1,
-  "no_asks": 855,
-  "too_late": 722,
-  "wins": 58,
+  "entries": 9653,
+  "filled": 6734,
+  "unknown_size": 5,
+  "no_asks": 1883,
+  "too_late": 1031,
+  "wins": 109,
   "win_rate_95pct_ci": [
-   0.94,
-   1.57
+   1.34,
+   1.95
   ],
-  "cost": 64355.34,
-  "payout": 52913.89,
-  "pnl_gross": -11441.45,
-  "pnl_with_fee": -15881.45,
-  "roi_gross_pct": -17.8,
-  "supported_filled": 4780,
-  "supported_wins": 58,
-  "supported_pnl_with_fee": -15881.45
+  "cost": 88971.11,
+  "payout": 117486.47,
+  "pnl_gross": 28515.36,
+  "pnl_with_fee": 22376.65,
+  "roi_gross_pct": 32.1,
+  "supported_filled": 6734,
+  "supported_wins": 109,
+  "supported_pnl_with_fee": 22376.65
  },
  "P0.02_S25_L1|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5625,
-  "unknown_size": 1,
-  "no_asks": 425,
+  "entries": 9125,
+  "filled": 8382,
+  "unknown_size": 3,
+  "no_asks": 740,
   "too_late": 0,
-  "wins": 89,
+  "wins": 129,
   "win_rate_95pct_ci": [
-   1.29,
-   1.94
+   1.3,
+   1.83
   ],
-  "cost": 83122.71,
-  "payout": 62116.87,
-  "pnl_gross": -21005.84,
-  "pnl_with_fee": -26712.01,
-  "roi_gross_pct": -25.3,
-  "supported_filled": 5625,
-  "supported_wins": 89,
-  "supported_pnl_with_fee": -26712.01
+  "cost": 128660.94,
+  "payout": 93390.29,
+  "pnl_gross": -35270.66,
+  "pnl_with_fee": -44101.8,
+  "roi_gross_pct": -27.4,
+  "supported_filled": 8382,
+  "supported_wins": 129,
+  "supported_pnl_with_fee": -44101.8
  },
  "P0.02_S25_L3": {
-  "entries": 16861,
-  "filled": 12866,
-  "unknown_size": 2,
-  "no_asks": 1751,
-  "too_late": 2242,
-  "wins": 154,
+  "entries": 25729,
+  "filled": 19257,
+  "unknown_size": 3,
+  "no_asks": 3222,
+  "too_late": 3247,
+  "wins": 229,
   "win_rate_95pct_ci": [
-   1.02,
-   1.4
+   1.05,
+   1.35
   ],
-  "cost": 225617.15,
-  "payout": 160449.05,
-  "pnl_gross": -65168.1,
-  "pnl_with_fee": -80700.84,
-  "roi_gross_pct": -28.9,
-  "supported_filled": 12866,
-  "supported_wins": 154,
-  "supported_pnl_with_fee": -80700.84
+  "cost": 343859.17,
+  "payout": 234427.31,
+  "pnl_gross": -109431.86,
+  "pnl_with_fee": -133097.03,
+  "roi_gross_pct": -31.8,
+  "supported_filled": 19257,
+  "supported_wins": 229,
+  "supported_pnl_with_fee": -133097.03
  },
  "P0.02_S25_L3|early(<240s)": {
-  "entries": 4452,
-  "filled": 3948,
+  "entries": 6951,
+  "filled": 6173,
   "unknown_size": 2,
-  "no_asks": 502,
+  "no_asks": 776,
   "too_late": 0,
-  "wins": 57,
+  "wins": 83,
   "win_rate_95pct_ci": [
-   1.12,
-   1.87
+   1.09,
+   1.66
   ],
-  "cost": 71441.62,
-  "payout": 55256.88,
-  "pnl_gross": -16184.74,
-  "pnl_with_fee": -21091.4,
-  "roi_gross_pct": -22.7,
-  "supported_filled": 3948,
-  "supported_wins": 57,
-  "supported_pnl_with_fee": -21091.4
+  "cost": 116359.68,
+  "payout": 83167.15,
+  "pnl_gross": -33192.54,
+  "pnl_with_fee": -41181.81,
+  "roi_gross_pct": -28.5,
+  "supported_filled": 6173,
+  "supported_wins": 83,
+  "supported_pnl_with_fee": -41181.81
  },
  "P0.02_S25_L3|last15s": {
-  "entries": 6358,
-  "filled": 3569,
+  "entries": 9653,
+  "filled": 5057,
   "unknown_size": 0,
-  "no_asks": 547,
-  "too_late": 2242,
-  "wins": 25,
+  "no_asks": 1349,
+  "too_late": 3247,
+  "wins": 41,
   "win_rate_95pct_ci": [
-   0.47,
-   1.03
+   0.6,
+   1.1
   ],
-  "cost": 65658.01,
-  "payout": 41071.17,
-  "pnl_gross": -24586.84,
-  "pnl_with_fee": -29127.41,
-  "roi_gross_pct": -37.4,
-  "supported_filled": 3569,
-  "supported_wins": 25,
-  "supported_pnl_with_fee": -29127.41
+  "cost": 92544.04,
+  "payout": 55357.13,
+  "pnl_gross": -37186.91,
+  "pnl_with_fee": -43587.1,
+  "roi_gross_pct": -40.2,
+  "supported_filled": 5057,
+  "supported_wins": 41,
+  "supported_pnl_with_fee": -43587.1
  },
  "P0.02_S25_L3|late(240-285s)": {
-  "entries": 6051,
-  "filled": 5349,
-  "unknown_size": 0,
-  "no_asks": 702,
+  "entries": 9125,
+  "filled": 8027,
+  "unknown_size": 1,
+  "no_asks": 1097,
   "too_late": 0,
-  "wins": 72,
+  "wins": 105,
   "win_rate_95pct_ci": [
-   1.07,
-   1.69
+   1.08,
+   1.58
   ],
-  "cost": 88517.51,
-  "payout": 64120.99,
-  "pnl_gross": -24396.52,
-  "pnl_with_fee": -30482.02,
-  "roi_gross_pct": -27.6,
-  "supported_filled": 5349,
-  "supported_wins": 72,
-  "supported_pnl_with_fee": -30482.02
+  "cost": 134955.45,
+  "payout": 95903.04,
+  "pnl_gross": -39052.41,
+  "pnl_with_fee": -48328.13,
+  "roi_gross_pct": -28.9,
+  "supported_filled": 8027,
+  "supported_wins": 105,
+  "supported_pnl_with_fee": -48328.13
  }
 }
 ```
 
-fee_rate_bps seen on trades: {'1000': 14398068, '0': 29648499}
+fee_rate_bps seen on trades: {'1000': 14967208, '0': 54159421}
