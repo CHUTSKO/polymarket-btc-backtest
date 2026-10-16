@@ -10,7 +10,7 @@ Runs only in GitHub Actions on public data. No trading, no accounts, no API keys
 - Workflows trigger only on push to main or manual dispatch. Never add pull_request / pull_request_target triggers.
 - Notifications: ntfy push only, never email.
 - Never commit raw parquet files or any file over ~5 MB.
-- Be polite to the free PMXT archive: at most 4 parallel downloads.
+- Be polite to the free PMXT archive: at most 6 parallel downloads across all workflows running at once.
 - Strategy prompts and private notes stay in Chris's private repo CHUTSKO/btc-bot (`grok/handoff/`), not here.
 
 ## Layout
@@ -18,6 +18,10 @@ Runs only in GitHub Actions on public data. No trading, no accounts, no API keys
   `requests/coverage`; finished hours are skipped, so re-running resumes. Output: `coverage/coverage_<chunk>.csv`
   (one row per hour; `windows_in_file` = 0-12) and `coverage/windows_<chunk>.jsonl` (one line per 5-minute window
   with tokens, outcomes, `outcome_prices` (winner = "1"), and `in_file`). Use these instead of re-querying Gamma.
+- `scripts/backtest.py HOUR OUTDIR`: one hour -> `OUTDIR/hour_HOUR.json` (additive sums, errors) and
+  `OUTDIR/entries_HOUR.csv`. `scripts/summarize.py OUTDIR` pools them -> `SUMMARY.md`, `pooled.json` (ratios and
+  Wilson 95% intervals are computed only after pooling). Core logic `run_token` is pure Python and unit-testable.
+- `.github/workflows/validate.yml`: the 8 fixed validation hours (commit to `requests/validate` to run).
 
 ## Verified data facts (from the private btc-bot probe, Oct 2026)
 - `price_change.size` = NEW total size at that price (0 removes the level); `side` BUY = bids, SELL = asks.
