@@ -1,0 +1,11 @@
+{
+ "hour": "2026-06-07T14",
+ "run_utc": "2026-10-16T13:13:02+00:00",
+ "errors": [
+  "Traceback (most recent call last):\n  File \"/home/runner/work/polymarket-btc-backtest/polymarket-btc-backtest/scripts/backtest.py\", line 363, in main\n    out[\"download_mb\"] = download(hour, tmp, progress)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/polymarket-btc-backtest/polymarket-btc-backtest/scripts/backtest.py\", line 281, in download\n    raise RuntimeError(f\"download too slow: {round(got / 1e6)} MB in {limit_s} s\")\nRuntimeError: download too slow: 259 MB in 900 s\n"
+ ],
+ "windows_on_gamma": 12,
+ "windows_with_winner": 12,
+ "seconds_total": 989.1,
+ "peak_mem_mb": 32.9
+}
