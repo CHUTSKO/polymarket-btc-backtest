@@ -8,7 +8,7 @@ Hours: 8 (with errors: 1), windows in archive: 84
 - 2026-04-26T14: windows 12, rows 2624590, 22.8 s, 1863.5 MB, errors: 0
 - 2026-05-08T14: windows 12, rows 3207241, 17.3 s, 1931.3 MB, errors: 0
 - 2026-05-29T14: windows 12, rows 3048241, 47.9 s, 2256.9 MB, errors: 0
-- 2026-06-07T14: windows None, rows None, 989.1 s, 32.9 MB, errors: 1
+- 2026-06-07T14: windows None, rows None, 930.7 s, 32.8 MB, errors: 1
 - 2026-07-19T14: windows 12, rows 2971433, 70.2 s, 2029.1 MB, errors: 0
 - 2026-07-31T14: windows 12, rows 5258550, 52.5 s, 2778.6 MB, errors: 0
 - 2026-08-09T14: windows 12, rows 1908124, 25.4 s, 1964.9 MB, errors: 0
