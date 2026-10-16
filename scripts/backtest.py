@@ -264,32 +264,13 @@ def window_info(ts):
         return {"slug": slug, "start": ts, "gamma": "error", "error": str(e)[:120]}
 
 
-def download(hour, path, progress=lambda **kw: None, limit_s=900):
-    url = f"https://r2v2.pmxt.dev/polymarket_orderbook_{hour}.parquet"
-    last, t0 = "", time.time()
-    for i in range(3):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r, \
-                    open(path, "wb") as f:
-                got = 0
-                while chunk := r.read(1 << 20):
-                    f.write(chunk)
-                    got += len(chunk)
-                    if got % (64 << 20) < (1 << 20):
-                        progress(stage="downloading", mb=round(got / 1e6))
-                    if time.time() - t0 > limit_s:
-                        raise RuntimeError(f"download too slow: {round(got / 1e6)} MB in {limit_s} s")
-            return round(os.path.getsize(path) / 1e6, 1)
-        except RuntimeError:
-            raise
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                raise RuntimeError(f"no archive file for {hour} (HTTP 404)")
-            last = f"HTTP {e.code}"
-        except Exception as e:  # noqa: BLE001
-            last = str(e)[:80]
-        time.sleep(5 * (i + 1))
-    raise RuntimeError("download failed: " + last)
+def download(hour, path, progress=None):
+    from pmxt_fetch import NotInArchive, fetch      # stall-proof download with byte-range resume
+    try:
+        n, reconnects = fetch(f"https://r2v2.pmxt.dev/polymarket_orderbook_{hour}.parquet", path, progress)
+    except NotInArchive:
+        raise RuntimeError(f"no archive file for {hour} (HTTP 404)") from None
+    return round(n / 1e6, 1), reconnects
 
 
 def read_tokens(path, tokens):
@@ -340,6 +321,12 @@ def main():
     out = {"hour": hour, "run_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "errors": []}
     entries, t0 = [], time.time()
     prog_path = os.path.join(outdir, f"progress_{hour}.json")
+    done_path = os.path.join(outdir, f"hour_{hour}.json")
+    if os.path.exists(done_path) and not os.environ.get("FORCE"):      # resume: skip hours already finished
+        with open(done_path) as f:
+            if not json.load(f).get("errors"):
+                print(f"{hour} already done without errors; skipping")
+                return
 
     def progress(**kw):        # survives a killed step: the workflow commits it with `if: always()`
         with open(prog_path, "w") as f:
@@ -360,7 +347,7 @@ def main():
         out["windows_on_gamma"] = sum(w["gamma"] == "ok" for w in wins)
         out["windows_with_winner"] = len(usable)
         progress(stage="download")
-        out["download_mb"] = download(hour, tmp, progress)
+        out["download_mb"], out["download_reconnects"] = download(hour, tmp, progress)
         out["download_seconds"] = round(time.time() - t0, 1)
         progress(stage="reading")
         tbl, out["file_rows"] = read_tokens(tmp, [t for w in usable for t in w["tokens"]])

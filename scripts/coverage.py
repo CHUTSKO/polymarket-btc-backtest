@@ -56,23 +56,14 @@ def window_info(ts):
 
 
 def download(hour):
-    url = f"https://r2v2.pmxt.dev/polymarket_orderbook_{hour}.parquet"
-    last = ""
-    for i in range(3):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=180) as r, \
-                    open(TMP, "wb") as f:
-                while chunk := r.read(1 << 20):
-                    f.write(chunk)
-            return round(os.path.getsize(TMP) / 1e6, 1), ""
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                return None, "HTTP 404"
-            last = f"HTTP {e.code}"
-        except Exception as e:  # noqa: BLE001
-            last = str(e)[:80]
-        time.sleep(5 * (i + 1))
-    return None, "download error: " + last
+    from pmxt_fetch import NotInArchive, fetch      # stall-proof download with byte-range resume
+    try:
+        n, reconnects = fetch(f"https://r2v2.pmxt.dev/polymarket_orderbook_{hour}.parquet", TMP)
+        return round(n / 1e6, 1), (f"{reconnects} reconnects" if reconnects else "")
+    except NotInArchive:
+        return None, "HTTP 404"
+    except Exception as e:  # noqa: BLE001
+        return None, "download error: " + str(e)[:80]
 
 
 # resume: keep finished hours, redo hours that ended in an error

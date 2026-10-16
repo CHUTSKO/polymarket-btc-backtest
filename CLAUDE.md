@@ -22,6 +22,9 @@ Runs only in GitHub Actions on public data. No trading, no accounts, no API keys
   `OUTDIR/entries_HOUR.csv`. `scripts/summarize.py OUTDIR` pools them -> `SUMMARY.md`, `pooled.json` (ratios and
   Wilson 95% intervals are computed only after pooling). Core logic `run_token` is pure Python and unit-testable.
 - `.github/workflows/validate.yml`: the 8 fixed validation hours (commit to `requests/validate` to run).
+  `backtest.py` skips hours whose `hour_*.json` already finished without errors (set FORCE=1 to redo).
+- `scripts/pmxt_fetch.py`: ALWAYS download archive files with `fetch()`. Downloads really do stall part-way
+  (2026-06-07T14: 201 MB in 3 s, then a trickle); `fetch` reconnects and resumes with HTTP Range and verifies size.
 
 ## Verified data facts (from the private btc-bot probe, Oct 2026)
 - `price_change.size` = NEW total size at that price (0 removes the level); `side` BUY = bids, SELL = asks.
