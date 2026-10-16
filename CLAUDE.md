@@ -7,7 +7,8 @@ Runs only in GitHub Actions on public data. No trading, no accounts, no API keys
 - This repo is PUBLIC. Never commit or print secrets. The ntfy topic lives ONLY in the Actions secret `NTFY_TOPIC`:
   workflows read `${{ secrets.NTFY_TOPIC }}` into an env var and never echo it. Never write the topic in any file,
   commit message, issue, or log line.
-- Workflows trigger only on push to main or manual dispatch. Never add pull_request / pull_request_target triggers.
+- Workflows trigger only on push to main, manual dispatch, or `workflow_run` of THIS repo's own workflows (the full
+  backtest starts itself when the coverage scan completes). Never add pull_request / pull_request_target triggers.
 - Notifications: ntfy push only, never email.
 - Never commit raw parquet files or any file over ~5 MB.
 - Be polite to the free PMXT archive: at most 6 parallel downloads across all workflows running at once.
@@ -23,6 +24,11 @@ Runs only in GitHub Actions on public data. No trading, no accounts, no API keys
   Wilson 95% intervals are computed only after pooling). Core logic `run_token` is pure Python and unit-testable.
 - `.github/workflows/validate.yml`: the 8 fixed validation hours (commit to `requests/validate` to run).
   `backtest.py` skips hours whose `hour_*.json` already finished without errors (set FORCE=1 to redo).
+- `.github/workflows/full.yml` + `scripts/run_batch.py`: every hour that `coverage/` lists with windows, in weekly
+  chunks (4 at a time), pushing results to `results/full/` every 20 hours; re-run (commit to `requests/full`) to
+  resume. Grid: P 1c/2c, S $25/$100, delay L 0/0.25/0.5/1/3 s, plus per-cell splits by trigger time in the window.
+- `results/validation/`: the 8 fixed validation hours (L 0/1/3 only; 2026-06-07T14 could not be downloaded: the
+  archive stalls at ~270 of 505 MB).
 - `scripts/pmxt_fetch.py`: ALWAYS download archive files with `fetch()`. Downloads really do stall part-way
   (2026-06-07T14: 201 MB in 3 s, then a trickle); `fetch` reconnects and resumes with HTTP Range and verifies size.
 

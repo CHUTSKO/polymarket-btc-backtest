@@ -31,12 +31,13 @@ from concurrent.futures import ThreadPoolExecutor
 
 PS = (0.01, 0.02)
 SS = (25.0, 100.0)
-LS = (0, 1, 3)
+LS = (0, 0.25, 0.5, 1, 3)   # seconds between seeing the 1c ask and the order reaching the book
 FEE_RATE = 0.07          # docs.polymarket.com/trading/fees, Crypto taker: fee = shares x 0.07 x p x (1-p)
 SUPPORT_MS = 10_000      # a consumed level is "supported" if a row set its size within the previous 10 s
 EPS = 1e-9
 UA = {"User-Agent": "polymarket-btc-backtest/1.0 (research; github.com/CHUTSKO/polymarket-btc-backtest)"}
-ENTRY_FIELDS = ["hour", "slug", "outcome", "won", "P", "S", "L", "trig_ms", "fill_ms", "status", "shares", "cost",
+ENTRY_FIELDS = ["hour", "slug", "outcome", "won", "P", "S", "L", "trig_ms", "sec_into_window", "fill_ms", "status",
+                "shares", "cost",
                 "fee", "payout", "supported", "unknown_levels", "levels"]
 
 
@@ -98,7 +99,8 @@ def run_token(r, T, won, deadline=None):
                 if fill_ms - at.get(q, -10 ** 18) > SUPPORT_MS:
                     supported = False
             status = "filled" if sh > 1e-9 else ("unknown_size" if unknown else "no_asks")
-            cells.append({"P": P, "S": S, "L": L, "trig_ms": trig_ms, "fill_ms": fill_ms, "status": status,
+            cells.append({"P": P, "S": S, "L": L, "trig_ms": trig_ms, "sec_into_window": (trig_ms - w0) / 1000,
+                          "fill_ms": fill_ms, "status": status,
                           "shares": round(sh, 4), "cost": round(cost, 4), "fee": round(fee, 5),
                           "payout": round(sh, 4) if (won and status == "filled") else 0.0,
                           "supported": bool(supported and status == "filled"), "unknown_levels": unknown,
@@ -185,7 +187,8 @@ def run_token(r, T, won, deadline=None):
                             f = t + L * 1000
                             if f >= w1:
                                 for S in SS:
-                                    cells.append({"P": P, "S": S, "L": L, "trig_ms": t, "fill_ms": f,
+                                    cells.append({"P": P, "S": S, "L": L, "trig_ms": t,
+                                                  "sec_into_window": (t - w0) / 1000, "fill_ms": f,
                                                   "status": "too_late", "shares": 0.0, "cost": 0.0, "fee": 0.0,
                                                   "payout": 0.0, "supported": False, "unknown_levels": 0,
                                                   "levels": []})
@@ -218,23 +221,29 @@ def grid_sums(cells):
     g = {}
     for c in cells:
         k = f"P{c['P']}_S{int(c['S'])}_L{c['L']}"
-        a = g.setdefault(k, Counter())
-        a["entries"] += 1
-        a[c["status"]] += 1
-        if c["status"] == "filled":
-            won = c["payout"] > 0
-            a["shares"] += c["shares"]
-            a["cost"] += c["cost"]
-            a["fee"] += c["fee"]
-            a["payout"] += c["payout"]
-            a["wins"] += won
-            if c["supported"]:
-                a["sup_filled"] += 1
-                a["sup_cost"] += c["cost"]
-                a["sup_fee"] += c["fee"]
-                a["sup_payout"] += c["payout"]
-                a["sup_wins"] += won
+        sec = c.get("sec_into_window", 0)
+        when = "early(<240s)" if sec < 240 else ("late(240-285s)" if sec < 285 else "last15s")
+        for a in (g.setdefault(k, Counter()), g.setdefault(k + "|" + when, Counter())):
+            _add(a, c)
     return {k: dict(v) for k, v in g.items()}
+
+
+def _add(a, c):
+    a["entries"] += 1
+    a[c["status"]] += 1
+    if c["status"] == "filled":
+        won = c["payout"] > 0
+        a["shares"] += c["shares"]
+        a["cost"] += c["cost"]
+        a["fee"] += c["fee"]
+        a["payout"] += c["payout"]
+        a["wins"] += won
+        if c["supported"]:
+            a["sup_filled"] += 1
+            a["sup_cost"] += c["cost"]
+            a["sup_fee"] += c["fee"]
+            a["sup_payout"] += c["payout"]
+            a["sup_wins"] += won
 
 
 def get_json(url, tries=4):
