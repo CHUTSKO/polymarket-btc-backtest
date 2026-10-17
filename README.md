@@ -9,3 +9,6 @@ realistic fills and fees?
 ## What's here
 - `coverage/`: which archive hours actually contain these markets (made by `scripts/coverage.py`).
 - Backtest code and results will be added after the validation step passes.
+
+**Result (Oct 16, 2026): shelved.** The only profit came from one unusual stretch (Apr 21 – May 4, 2026). Every other
+day lost money at realistic order delays. See [CONCLUSION.md](CONCLUSION.md).
