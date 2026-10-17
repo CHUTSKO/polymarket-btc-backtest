@@ -1,0 +1,73 @@
+name: calibration
+
+on:
+  push:
+    branches: [main]
+    paths: ["requests/calibration"]
+  workflow_dispatch:
+
+jobs:
+  markets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyarrow
+      - run: python scripts/calib_markets.py calibration
+      - uses: actions/upload-artifact@v4
+        with:
+          name: markets
+          path: calibration/markets*
+
+  hours:
+    needs: markets
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    strategy:
+      matrix:
+        chunk: [1,2,3,4,5,6,7,8]  # weekly
+      max-parallel: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyarrow
+      - uses: actions/download-artifact@v4
+        with:
+          name: markets
+          path: calibration
+      - name: process chunk
+        run: |
+          # determine hours for chunk from coverage CSVs
+          # for simplicity, placeholder; full impl would parse coverage and slice
+          echo "Chunk ${{ matrix.chunk }}"
+          # example: python scripts/calib_hour.py 2026-04-14T02 calibration/hours
+      - name: commit results
+        if: always()
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add calibration/hours || true
+          git commit -m "calib hours chunk ${{ matrix.chunk }}" || true
+          git push || git pull --rebase && git push || true
+
+  summarize:
+    needs: hours
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/calib_summarize.py calibration
+      - name: ntfy
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          # one line push
+          curl -d "calib done: hours X markets Y trades Z consistent W" ntfy.sh/$NTFY_TOPIC || true
