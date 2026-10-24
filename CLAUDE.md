@@ -108,3 +108,25 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+---
+
+## Chris's Working Rules (added 2026-10-24)
+
+Chris is not a programmer. Keep explanations plain and solutions simple.
+
+- **Verify before calling it done.** Run it (test, dry run, backtest, or compare output before vs. after) and say exactly how it was checked. Unverified = not done.
+- **If a fix feels hacky, scrap it** and write the simple, clean solution instead.
+- **If things go sideways, stop and re-plan.** Don't keep pushing a broken approach.
+- **Secrets stay secret.** The ntfy topic lives only in a GitHub secret — never in files, commits, or logs.
+- **Notifications are ntfy push only.** Never email.
+- **Everything runs in the cloud,** never on Chris's computer.
+- **Save GitHub Actions minutes** (2,000/month limit): no unneeded runs; put `[skip ci]` in docs-only commit messages.
+- **Keep this file short.** Delete rules that no longer matter.
+
+## Lessons Learned
+
+After any correction from Chris, add one line here so the mistake isn't repeated.
+Format: `- YYYY-MM-DD: what went wrong → the rule now`
+
+- (none yet)
